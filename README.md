@@ -1,8 +1,8 @@
-# 镭闪自动化 1.0 Beta 7
+# 镭闪自动化 1.0 Beta 8
 
 面向《镭明闪击》的 Windows 桌面自动化工具，提供日常任务、模组制作、肉鸽循环与维护结束提醒，减少固定流程中的重复操作。本项目基于 [OK 框架（ok-script）](https://github.com/ok-oldking/ok-script)进行二次开发，起步使用 [ok-script-app](https://github.com/ok-oldking/ok-script-app) 模板，锁定框架版本 `ok-script==2.0.0b7`，使用截图、模板匹配、OCR 与前台输入执行任务。
 
-当前版本为 **`v1.0.0-beta.7` 预发布版**。规范仓库为 [Auth3r/ok-leiming](https://github.com/Auth3r/ok-leiming)，此公开仓库从已脱敏最终源码快照开始，私人开发历史和旧发布保留在独立私有档案仓库。下载见 [Beta 7 Release](https://github.com/Auth3r/ok-leiming/releases/tag/v1.0.0-beta.7)；包内 `release-manifest.json` 的完整提交与哈希标识实际构建。详见 [Beta 7 说明](docs/releases/v1.0.0-beta.7.md) 和 [发布流程](docs/RELEASING.md)。
+当前版本为 **`v1.0.0-beta.8` 预发布版**。规范仓库为 [Auth3r/ok-leiming](https://github.com/Auth3r/ok-leiming)，此公开仓库从已脱敏最终源码快照开始，私人开发历史和旧发布保留在独立私有档案仓库。下载见 [Beta 8 Release](https://github.com/Auth3r/ok-leiming/releases/tag/v1.0.0-beta.8)；包内 `release-manifest.json` 的完整提交与哈希标识实际构建。详见 [Beta 8 说明](docs/releases/v1.0.0-beta.8.md) 和 [发布流程](docs/RELEASING.md)。
 
 公开源码与预发布下载无需 GitHub 登录或 Token。本仓库不导入私人开发历史、个人配置或验收采证目录，范围见[公开检查记录](docs/PUBLICATION_CHECK.md)。原创部分采用 [MIT License](LICENSE)，OK 框架及其他第三方保留原始版权、许可证和对应源码，详见[第三方声明](docs/THIRD_PARTY_NOTICES.md)。
 
@@ -18,7 +18,7 @@
 | 维护结束提醒 | 按间隔检查维护状态，确认进入主界面后提醒并停止 | 不自动接着运行日常；真实开服完整成功路径需相应场景验证 |
 | 控制与诊断 | F7 暂停／继续、F8 停止、本地问题报告、运行与构建身份记录 | 报告不自动上传；截图和日志可能含个人信息，发送前自行检查 |
 
-任务启动和每次输入仍核对当前页面、窗口及资源；不自动付费、购买次数或补充体力。历史源码、旧 EXE、离线回放、模拟响应和当前构建的实机结果分别记录，不能互相替代。详见[使用说明](docs/使用说明.md)、[本版发布说明](docs/releases/v1.0.0-beta.7.md)。
+任务启动和每次输入仍核对当前页面、窗口及资源；不自动付费、购买次数或补充体力。历史源码、旧 EXE、离线回放、模拟响应和当前构建的实机结果分别记录，不能互相替代。详见[使用说明](docs/使用说明.md)、[本版发布说明](docs/releases/v1.0.0-beta.8.md)。
 
 ## 环境
 
@@ -30,9 +30,9 @@
 
 ## 获取与启动
 
-从 [Beta 7 Release](https://github.com/Auth3r/ok-leiming/releases/tag/v1.0.0-beta.7) 下载 Windows x64 完整 ZIP、同名 `.sha256` 和 `release-manifest.json`。公开下载无需 Token。Beta 6 与历史 RC 保留在私有档案，不导入本仓库。
+从 [Beta 8 Release](https://github.com/Auth3r/ok-leiming/releases/tag/v1.0.0-beta.8) 下载 Windows x64 完整 ZIP、同名 `.sha256` 和 `release-manifest.json`。公开下载无需 Token。Beta 6 与历史 RC 保留在私有档案，不导入本仓库。
 
-1. 取得维护者明确指定的完整 `Leiming-Automation-v1.0.0-beta.7-win-x64.zip` 与同名 `.sha256`，核对 SHA256。
+1. 取得维护者明确指定的完整 `Leiming-Automation-v1.0.0-beta.8-win-x64.zip` 与同名 `.sha256`，核对 SHA256。
 2. 完整解压到一个新的可写目录，保留旧目录；不要在压缩包预览里运行，不要只复制 EXE。
 3. 双击 `Leiming-Automation.exe`，核对窗口版本和构建号与 `release-manifest.json` 一致。
 4. 手动登录游戏，在“截图方式 → 游戏连接与问题报告”检查预览、窗口和客户区，再核对任务开关、扫荡次数、制作配置及数量，手动开始。
@@ -41,11 +41,11 @@
 校验示例：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath .\Leiming-Automation-v1.0.0-beta.7-win-x64.zip
-Get-Content -LiteralPath .\Leiming-Automation-v1.0.0-beta.7-win-x64.zip.sha256
+Get-FileHash -Algorithm SHA256 -LiteralPath .\Leiming-Automation-v1.0.0-beta.8-win-x64.zip
+Get-Content -LiteralPath .\Leiming-Automation-v1.0.0-beta.8-win-x64.zip.sha256
 ```
 
-源码使用者应核对所取提交的 `src/version.py` 与构建记录，使用当前 Beta 7 代码。在现有项目根目录执行：
+源码使用者应核对所取提交的 `src/version.py` 与构建记录，使用当前 Beta 8 代码。在现有项目根目录执行：
 
 ```powershell
 .\Setup.cmd
@@ -76,15 +76,15 @@ Get-Content -LiteralPath .\Leiming-Automation-v1.0.0-beta.7-win-x64.zip.sha256
 
 ## 更新机制
 
-Beta 7 的“关于 → 检查更新”直接读取本项目 GitHub Releases，Beta 默认包含测试版本，排除草稿；只安装高于当前版本的 Windows x64 包。下载先校验 ZIP SHA-256、构建身份和全量运行文件，再由独立安装器等待原程序退出、保留个人数据、替换及重启；启动失败恢复原版本，完整旧目录保留为旁侧备份。
+Beta 8 的“关于 → 检查更新”直接读取本项目 GitHub Releases，Beta 默认包含测试版本，排除草稿；只安装高于当前版本的 Windows x64 包。下载先校验 ZIP SHA-256、构建身份和全量运行文件，再由独立安装器等待原程序退出、保留个人数据、替换及重启；启动失败恢复原版本，完整旧目录保留为旁侧备份。
 
 公开更新源为 `Auth3r/ok-leiming`，普通用户不需要 Token；程序默认匿名请求，不读取开发者 Git 登录或保存凭据。检查失败不阻止正常启动。只读安装目录不能直接自动替换，请继续使用手动独立解压与配置迁移。
 
-**Beta 6 不包含本次更新器，首次升级必须手动下载并完整解压 Beta 7。** 没有真实更高已发布版本时，不把本地或模拟测试宣称为线上升级通过。手动更新仍按[配置迁移步骤](docs/使用说明.md#手动更新与保留配置)执行。调用链、公开更新源及选择理由见[上游与更新说明](docs/UPSTREAM.md)。
+**Beta 6 不包含本次更新器，首次升级必须手动下载并完整解压 Beta 8。** 没有真实更高已发布版本时，不把本地或模拟测试宣称为线上升级通过。手动更新仍按[配置迁移步骤](docs/使用说明.md#手动更新与保留配置)执行。调用链、公开更新源及选择理由见[上游与更新说明](docs/UPSTREAM.md)。
 
 ## 常见问题与已知限制
 
-- **旧版提示找不到 Launcher：** 这是 Beta 6 的已确认断点，先手动安装包含新更新器的包。Beta 7 的 HTTP 401/403/404 表示访问失败，应检查网络、请求限额或发布状态，不是“已是最新”。
+- **旧版提示找不到 Launcher：** 这是 Beta 6 的已确认断点，先手动安装包含新更新器的包。Beta 8 的 HTTP 401/403/404 表示访问失败，应检查网络、请求限额或发布状态，不是“已是最新”。
 - **连接或输入失败：** 核对游戏进程、客户区、预览和权限，保持窗口未最小化；连接成功不等于所有页面已识别。
 - **中文路径、只读目录或缺版本标记：** 当前已有专门处理；完整有效配置可恢复缺失标记，缺失／冲突配置仍会停止并保留文件。不要复制其他人的配置解决。
 - **换号后任务结果异常：** 以当前画面核对，不沿用上一账号的完成状态；昵称读空不代表没有账号或已经完成。
