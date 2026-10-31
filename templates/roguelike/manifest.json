@@ -1,0 +1,2017 @@
+{
+  "source_document_sha256": "335b7c860037cf72fac571a41b9454c6189bb5d04d8ead3142330324cfc7bef9",
+  "templates": {
+    "blank_continue": {
+      "file": "blank_continue.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image10.png",
+      "source_sha256": "73bcb04b1b9ed607da681c48dbec92e3afb26a315d1900e57bcb3f061fa5a695",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        1706,
+        1898,
+        2134,
+        1972
+      ],
+      "roi": [
+        0.25,
+        0.82,
+        0.75,
+        0.98
+      ],
+      "threshold": 0.9
+    },
+    "blank_close": {
+      "file": "blank_close.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image5.png",
+      "source_sha256": "895a9cf3738a775f4b45285b19aaab7da7df36b7dcc15abd259ef86241b4d71f",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        1722,
+        1898,
+        2126,
+        1972
+      ],
+      "roi": [
+        0.25,
+        0.8,
+        0.75,
+        0.99
+      ],
+      "threshold": 0.9
+    },
+    "reward_heading": {
+      "file": "reward_heading.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image16.png",
+      "source_sha256": "1287aa03c939cc9888928b0e0b801ab9c5d6b9f1ec35c71e469a72844e59dded",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        1670,
+        254,
+        2162,
+        406
+      ],
+      "roi": [
+        0.25,
+        0.08,
+        0.75,
+        0.3
+      ],
+      "threshold": 0.9
+    },
+    "intro_heading": {
+      "file": "intro_heading.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image5.png",
+      "source_sha256": "895a9cf3738a775f4b45285b19aaab7da7df36b7dcc15abd259ef86241b4d71f",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        1766,
+        1046,
+        2070,
+        1136
+      ],
+      "roi": [
+        0.25,
+        0.4,
+        0.75,
+        0.6
+      ],
+      "threshold": 0.9
+    },
+    "reward_currency": {
+      "file": "reward_currency.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image29.png",
+      "source_sha256": "7f656f2c9b780b5642b559dc315b7d6d33684c86d4ba180f6901319ce26e7243",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        1810,
+        828,
+        2000,
+        1016
+      ],
+      "roi": [
+        0.25,
+        0.3,
+        0.75,
+        0.65
+      ],
+      "threshold": 0.9
+    },
+    "result_title": {
+      "file": "result_title.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image43.png",
+      "source_sha256": "eb7c920f410359c424bb7258abd3dc242ee837806fb5b50242e69a81c13ee8ae",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        1698,
+        234,
+        2134,
+        364
+      ],
+      "roi": [
+        0.3,
+        0.05,
+        0.7,
+        0.22
+      ],
+      "threshold": 0.9
+    },
+    "result_map": {
+      "file": "result_map.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image45.png",
+      "source_sha256": "2842f8ca87aceb48994e5a9bbb4bc8d566c98a36a5952c3eb19fef457f8e39aa",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        1382,
+        1650,
+        1658,
+        1740
+      ],
+      "roi": [
+        0.25,
+        0.73,
+        0.5,
+        0.9
+      ],
+      "threshold": 0.9
+    },
+    "result_loot": {
+      "file": "result_loot.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image45.png",
+      "source_sha256": "2842f8ca87aceb48994e5a9bbb4bc8d566c98a36a5952c3eb19fef457f8e39aa",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2200,
+        1640,
+        2424,
+        1740
+      ],
+      "roi": [
+        0.5,
+        0.73,
+        0.75,
+        0.9
+      ],
+      "threshold": 0.9
+    },
+    "result_collectibles": {
+      "file": "result_collectibles.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image44.png",
+      "source_sha256": "07e9dd2fdc52c44c6acd41cc792e26bf07dd0da9922cd736978acf4ce99caa2b",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        946,
+        1596,
+        1214,
+        1698
+      ],
+      "roi": [
+        0.15,
+        0.69,
+        0.4,
+        0.87
+      ],
+      "threshold": 0.9
+    },
+    "result_final": {
+      "file": "result_final.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image44.png",
+      "source_sha256": "07e9dd2fdc52c44c6acd41cc792e26bf07dd0da9922cd736978acf4ce99caa2b",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        954,
+        776,
+        1210,
+        862
+      ],
+      "roi": [
+        0.15,
+        0.3,
+        0.4,
+        0.73
+      ],
+      "threshold": 0.9
+    },
+    "result_battles": {
+      "file": "result_battles.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image43.png",
+      "source_sha256": "eb7c920f410359c424bb7258abd3dc242ee837806fb5b50242e69a81c13ee8ae",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        1490,
+        1454,
+        1750,
+        1540
+      ],
+      "roi": [
+        0.3,
+        0.6,
+        0.55,
+        0.82
+      ],
+      "threshold": 0.9
+    },
+    "result_steps": {
+      "file": "result_steps.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image43.png",
+      "source_sha256": "eb7c920f410359c424bb7258abd3dc242ee837806fb5b50242e69a81c13ee8ae",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        3302,
+        1448,
+        3562,
+        1536
+      ],
+      "roi": [
+        0.7,
+        0.6,
+        0.95,
+        0.82
+      ],
+      "threshold": 0.9
+    },
+    "choice_heading": {
+      "file": "choice_heading.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image14.png",
+      "source_sha256": "af82e150e2d5629c09dc3e7c1c8f9072f67140879b4e35595cbfd93cb9178343",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        1678,
+        258,
+        2166,
+        402
+      ],
+      "roi": [
+        0.3,
+        0.06,
+        0.7,
+        0.24
+      ],
+      "threshold": 0.9
+    },
+    "confirm_label": {
+      "file": "confirm_label.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image14.png",
+      "source_sha256": "af82e150e2d5629c09dc3e7c1c8f9072f67140879b4e35595cbfd93cb9178343",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        3446,
+        1898,
+        3678,
+        1976
+      ],
+      "roi": [
+        0.8,
+        0.83,
+        0.99,
+        0.98
+      ],
+      "threshold": 0.9
+    },
+    "event_outpost": {
+      "file": "event_outpost.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image11.png",
+      "source_sha256": "ee040e9c9077d45947bf418389f5d957fd5e9cee42a462f04c89fd54e6e46865",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2818,
+        360,
+        3298,
+        492
+      ],
+      "roi": [
+        0.67,
+        0.1,
+        0.99,
+        0.28
+      ],
+      "threshold": 0.9
+    },
+    "event_choice": {
+      "file": "event_choice.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image13.png",
+      "source_sha256": "19596b130a0b9b19b5c390898fb0d969dcc262057a67e4b9fcdaa4bec723fb2e",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2814,
+        352,
+        3298,
+        496
+      ],
+      "roi": [
+        0.67,
+        0.1,
+        0.99,
+        0.28
+      ],
+      "threshold": 0.9
+    },
+    "event_order": {
+      "file": "event_order.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image18.png",
+      "source_sha256": "d4cc6713d054742272b3ca0f2f0de5eb78eda54f1d9d1524a002999206c1cc96",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2806,
+        356,
+        3066,
+        500
+      ],
+      "roi": [
+        0.67,
+        0.1,
+        0.99,
+        0.28
+      ],
+      "threshold": 0.9
+    },
+    "event_encounter": {
+      "file": "event_encounter.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image22.png",
+      "source_sha256": "d0c0132fbe89d4158326deae6f072ad850721588128cc3bcd79f948ced31eeb1",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2818,
+        356,
+        3186,
+        492
+      ],
+      "roi": [
+        0.67,
+        0.1,
+        0.99,
+        0.28
+      ],
+      "threshold": 0.9
+    },
+    "event_rule_choice": {
+      "file": "event_rule_choice.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image8.png",
+      "source_sha256": "a6badc467fd85997173c6356ffa50c00cd0303296369773b5901e7d228570614",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "crop": [
+        2570,
+        708,
+        2760,
+        778
+      ],
+      "roi": [
+        0.65,
+        0.29,
+        0.99,
+        0.45
+      ],
+      "threshold": 0.9
+    },
+    "event_rule_outpost": {
+      "file": "event_rule_outpost.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image11.png",
+      "source_sha256": "ee040e9c9077d45947bf418389f5d957fd5e9cee42a462f04c89fd54e6e46865",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2566,
+        704,
+        3498,
+        782
+      ],
+      "roi": [
+        0.65,
+        0.29,
+        0.99,
+        0.45
+      ],
+      "threshold": 0.9
+    },
+    "event_rule_order": {
+      "file": "event_rule_order.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image18.png",
+      "source_sha256": "d4cc6713d054742272b3ca0f2f0de5eb78eda54f1d9d1524a002999206c1cc96",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2570,
+        708,
+        3634,
+        780
+      ],
+      "roi": [
+        0.65,
+        0.29,
+        0.99,
+        0.45
+      ],
+      "threshold": 0.9
+    },
+    "event_rule_encounter": {
+      "file": "event_rule_encounter.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image22.png",
+      "source_sha256": "d0c0132fbe89d4158326deae6f072ad850721588128cc3bcd79f948ced31eeb1",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2566,
+        896,
+        2814,
+        980
+      ],
+      "roi": [
+        0.65,
+        0.35,
+        0.99,
+        0.54
+      ],
+      "threshold": 0.9
+    },
+    "fire_order": {
+      "file": "fire_order.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image18.png",
+      "source_sha256": "d4cc6713d054742272b3ca0f2f0de5eb78eda54f1d9d1524a002999206c1cc96",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2610,
+        1494,
+        2882,
+        1580
+      ],
+      "roi": [
+        0.65,
+        0.6,
+        0.97,
+        0.8
+      ],
+      "threshold": 0.9
+    },
+    "search_title": {
+      "file": "search_title.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image38.png",
+      "source_sha256": "aa31921d1d96635202e3390125ae320ffd43bf37af3a63c7eacb4f24add94375",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "crop": [
+        182,
+        1162,
+        330,
+        1256
+      ],
+      "roi": [
+        0.02,
+        0.47,
+        0.25,
+        0.7
+      ],
+      "threshold": 0.9
+    },
+    "trap_label": {
+      "file": "trap_label.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image38.png",
+      "source_sha256": "aa31921d1d96635202e3390125ae320ffd43bf37af3a63c7eacb4f24add94375",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "crop": [
+        2606,
+        1448,
+        2886,
+        1534
+      ],
+      "roi": [
+        0.65,
+        0.6,
+        0.99,
+        0.82
+      ],
+      "threshold": 0.9
+    },
+    "bounty_title": {
+      "file": "bounty_title.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image40.png",
+      "source_sha256": "02add95dd67a72b7646f33583f520cd16b5b5c18102836ad9480c96be70f0d2e",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        186,
+        1246,
+        458,
+        1336
+      ],
+      "roi": [
+        0.02,
+        0.5,
+        0.28,
+        0.72
+      ],
+      "threshold": 0.9
+    },
+    "training_label": {
+      "file": "training_label.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image40.png",
+      "source_sha256": "02add95dd67a72b7646f33583f520cd16b5b5c18102836ad9480c96be70f0d2e",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2606,
+        1144,
+        2882,
+        1234
+      ],
+      "roi": [
+        0.65,
+        0.47,
+        0.99,
+        0.7
+      ],
+      "threshold": 0.9
+    },
+    "shop_sell": {
+      "file": "shop_sell.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image30.png",
+      "source_sha256": "d29d6b89c319efb0d8418c262d14ce6d222f34d246ac78043f1cf141ca0d84dd",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        966,
+        348,
+        1222,
+        466
+      ],
+      "roi": [
+        0.2,
+        0.1,
+        0.5,
+        0.26
+      ],
+      "threshold": 0.9
+    },
+    "shop_refresh": {
+      "file": "shop_refresh.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image30.png",
+      "source_sha256": "d29d6b89c319efb0d8418c262d14ce6d222f34d246ac78043f1cf141ca0d84dd",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        3438,
+        360,
+        3694,
+        462
+      ],
+      "roi": [
+        0.8,
+        0.1,
+        0.99,
+        0.26
+      ],
+      "threshold": 0.9
+    },
+    "battle_view": {
+      "file": "battle_view.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image24.png",
+      "source_sha256": "2189cd09b6efc891f5afb4c56886e6b8441051960161d86ffc3bb80f08673059",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        406,
+        84,
+        658,
+        174
+      ],
+      "roi": [
+        0.03,
+        0.01,
+        0.25,
+        0.15
+      ],
+      "threshold": 0.9
+    },
+    "deploy_prompt": {
+      "file": "deploy_prompt.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image24.png",
+      "source_sha256": "2189cd09b6efc891f5afb4c56886e6b8441051960161d86ffc3bb80f08673059",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        1560,
+        1530,
+        2290,
+        1610
+      ],
+      "roi": [
+        0.25,
+        0.6,
+        0.75,
+        0.82
+      ],
+      "threshold": 0.9
+    },
+    "battle_prep": {
+      "file": "battle_prep.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image23.png",
+      "source_sha256": "3d5c38126ac9f472ff2f7141226b731aa48d2ed85bf2d837f4c10b1fc3afa53d",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        498,
+        88,
+        854,
+        174
+      ],
+      "roi": [
+        0.03,
+        0.01,
+        0.25,
+        0.15
+      ],
+      "threshold": 0.9
+    },
+    "battle_start": {
+      "file": "battle_start.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image23.png",
+      "source_sha256": "3d5c38126ac9f472ff2f7141226b731aa48d2ed85bf2d837f4c10b1fc3afa53d",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        3326,
+        1894,
+        3682,
+        1980
+      ],
+      "roi": [
+        0.8,
+        0.82,
+        0.99,
+        0.98
+      ],
+      "threshold": 0.9
+    },
+    "map_floor": {
+      "file": "map_floor.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image17.png",
+      "source_sha256": "5ce556ab80be015d6a309c0fb63b1e4f93bd85f410c58208b0642bdb78ade8ce",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "crop": [
+        407,
+        1846,
+        640,
+        1941
+      ],
+      "roi": [
+        0.01,
+        0.8,
+        0.25,
+        0.98
+      ],
+      "threshold": 0.9
+    },
+    "map_team": {
+      "file": "map_team.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image17.png",
+      "source_sha256": "5ce556ab80be015d6a309c0fb63b1e4f93bd85f410c58208b0642bdb78ade8ce",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "crop": [
+        3210,
+        1796,
+        3462,
+        1880
+      ],
+      "roi": [
+        0.77,
+        0.8,
+        0.99,
+        0.98
+      ],
+      "threshold": 0.9
+    },
+    "action_arrow": {
+      "file": "action_arrow.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image38.png",
+      "source_sha256": "aa31921d1d96635202e3390125ae320ffd43bf37af3a63c7eacb4f24add94375",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "crop": [
+        3595,
+        1470,
+        3665,
+        1537
+      ],
+      "roi": [
+        0.9,
+        0.5,
+        0.98,
+        0.97
+      ],
+      "threshold": 0.9
+    },
+    "start_title": {
+      "file": "start_title.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image4.png",
+      "source_sha256": "ddd424d056e5397d59b8e3b56fa6884c71509bbc52f35d8ae614534b92e25ca5",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        3176,
+        322,
+        3680,
+        498
+      ],
+      "roi": [
+        0.6,
+        0.03,
+        0.99,
+        0.3
+      ],
+      "threshold": 0.9
+    },
+    "difficulty": {
+      "file": "difficulty.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image4.png",
+      "source_sha256": "ddd424d056e5397d59b8e3b56fa6884c71509bbc52f35d8ae614534b92e25ca5",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        3324,
+        682,
+        3640,
+        794
+      ],
+      "roi": [
+        0.6,
+        0.23,
+        0.99,
+        0.42
+      ],
+      "threshold": 0.9
+    },
+    "entry_title": {
+      "file": "entry_title.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image3.png",
+      "source_sha256": "421a3d39ce46cb3dd05afd000b137c5c70f5fd3ba955c57dc8fbec8ccbc62b7f",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        1010,
+        348,
+        1686,
+        488
+      ],
+      "roi": [
+        0.2,
+        0.1,
+        0.6,
+        0.3
+      ],
+      "threshold": 0.9
+    },
+    "entry_description": {
+      "file": "entry_description.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image3.png",
+      "source_sha256": "421a3d39ce46cb3dd05afd000b137c5c70f5fd3ba955c57dc8fbec8ccbc62b7f",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        1006,
+        666,
+        1282,
+        752
+      ],
+      "roi": [
+        0.2,
+        0.2,
+        0.55,
+        0.5
+      ],
+      "threshold": 0.9
+    },
+    "nav_tab": {
+      "file": "nav_tab.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image2.png",
+      "source_sha256": "200d6713acdd3502f4def3d979a095f7bb2a4045ccc6113a810ed6745517fa99",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2975,
+        1890,
+        3075,
+        1980
+      ],
+      "roi": [
+        0.74,
+        0.84,
+        0.83,
+        0.98
+      ],
+      "threshold": 0.9
+    },
+    "ready_card": {
+      "file": "ready_card.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image25.png",
+      "source_sha256": "e90db38bc3533b6ad00e2c6715fa0c04e841b948abbbdb221a7357f3141426a6",
+      "source_size": [
+        276,
+        410
+      ],
+      "crop": [
+        67,
+        176,
+        248,
+        302
+      ],
+      "roi": [
+        0.08,
+        0.77,
+        0.7,
+        0.99
+      ],
+      "threshold": 0.9
+    },
+    "deployment_texture": {
+      "file": "deployment_texture.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image26.png",
+      "source_sha256": "e31f1733667f704fd4d410f5643549681366a8db8012277dbbe5d703e102aa44",
+      "source_size": [
+        407,
+        268
+      ],
+      "crop": [
+        0,
+        0,
+        407,
+        268
+      ],
+      "roi": [
+        0.12,
+        0.2,
+        0.55,
+        0.68
+      ],
+      "threshold": 0.9
+    },
+    "choice_outpost": {
+      "file": "choice_outpost.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image12.png",
+      "source_sha256": "19a3240c9e69d3a152d273e35f61fcd1bbb2a8afb09d812803397d339d14f1b3",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2802,
+        340,
+        3306,
+        508
+      ],
+      "roi": [
+        0.65,
+        0.1,
+        0.99,
+        0.28
+      ],
+      "threshold": 0.9
+    },
+    "choice_order": {
+      "file": "choice_order.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image20.png",
+      "source_sha256": "81828ceca25e0da28dcc406dcadc51b4b7e3445fad8f0ef83205b0e6a7f65905",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2794,
+        334,
+        3070,
+        506
+      ],
+      "roi": [
+        0.65,
+        0.1,
+        0.99,
+        0.28
+      ],
+      "threshold": 0.9
+    },
+    "choice_event": {
+      "file": "choice_event.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image15.png",
+      "source_sha256": "99d7d9f7e45b1af33d9872490cea2c4df5b20eddbf50f1be46034288bf16823c",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        2798,
+        340,
+        3310,
+        508
+      ],
+      "roi": [
+        0.65,
+        0.1,
+        0.99,
+        0.28
+      ],
+      "threshold": 0.9
+    },
+    "confirm_enabled": {
+      "file": "confirm_enabled.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image15.png",
+      "source_sha256": "99d7d9f7e45b1af33d9872490cea2c4df5b20eddbf50f1be46034288bf16823c",
+      "source_size": [
+        3840,
+        2087
+      ],
+      "crop": [
+        3450,
+        1894,
+        3686,
+        1984
+      ],
+      "roi": [
+        0.8,
+        0.83,
+        0.99,
+        0.98
+      ],
+      "threshold": 0.9
+    },
+    "reward_confirm": {
+      "file": "reward_confirm.png",
+      "source": "重复刷肉鸽功能.docx:word/media/image35.png",
+      "source_sha256": "4502309882e0f51f1c4b3658e0d1250a6afe2ed027fcc0ce11fb5d056a1a60ff",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "crop": [
+        3450,
+        1892,
+        3686,
+        1980
+      ],
+      "roi": [
+        0.8,
+        0.83,
+        0.99,
+        0.98
+      ],
+      "threshold": 0.9
+    },
+    "v_settlement_question": {
+      "file": "v_settlement_question.png",
+      "source": "settlement_confirm.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "6e3dfac3c79856a1d2babebae155c73d65f509343882a5233e7f065ef943a969",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 421.0,
+      "frame_index": 25260,
+      "crop": [
+        980,
+        810,
+        1616,
+        878
+      ],
+      "roi": [
+        0.23,
+        0.3,
+        0.7,
+        0.48
+      ],
+      "threshold": 0.9
+    },
+    "v_battle_result_title": {
+      "file": "v_battle_result_title.png",
+      "source": "battle_result.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "bf754117607bc9fc3f1f335cfdf6ffa6352c4030df11a023fbc9ae053e2addc6",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 122.0,
+      "frame_index": 7320,
+      "crop": [
+        2556,
+        468,
+        3476,
+        710
+      ],
+      "roi": [
+        0.55,
+        0.13,
+        0.95,
+        0.37
+      ],
+      "threshold": 0.9
+    },
+    "v_battle_statistics": {
+      "file": "v_battle_statistics.png",
+      "source": "battle_result.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "bf754117607bc9fc3f1f335cfdf6ffa6352c4030df11a023fbc9ae053e2addc6",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 122.0,
+      "frame_index": 7320,
+      "crop": [
+        2548,
+        1898,
+        2900,
+        1982
+      ],
+      "roi": [
+        0.55,
+        0.82,
+        0.8,
+        0.97
+      ],
+      "threshold": 0.9
+    },
+    "v_event_accident": {
+      "file": "v_event_accident.png",
+      "source": "accident.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "72ffa278d28bfae9e44aa8fae2311cd410e0d979fe5f0ad526accd4f21e672de",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 139.0,
+      "frame_index": 8340,
+      "crop": [
+        2816,
+        348,
+        3304,
+        498
+      ],
+      "roi": [
+        0.65,
+        0.1,
+        0.99,
+        0.28
+      ],
+      "threshold": 0.9
+    },
+    "v_rule_accident": {
+      "file": "v_rule_accident.png",
+      "source": "accident.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "72ffa278d28bfae9e44aa8fae2311cd410e0d979fe5f0ad526accd4f21e672de",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 139.0,
+      "frame_index": 8340,
+      "crop": [
+        2572,
+        710,
+        3156,
+        778
+      ],
+      "roi": [
+        0.65,
+        0.29,
+        0.99,
+        0.4
+      ],
+      "threshold": 0.9
+    },
+    "v_event_search": {
+      "file": "v_event_search.png",
+      "source": "search1.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "10ff12612485ace7aaaac87c06765c9579fc0fb4ebc9b48bda01e4e253560eee",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 276.0,
+      "frame_index": 16560,
+      "crop": [
+        2798,
+        340,
+        3070,
+        502
+      ],
+      "roi": [
+        0.65,
+        0.1,
+        0.99,
+        0.28
+      ],
+      "threshold": 0.9
+    },
+    "v_rule_search": {
+      "file": "v_rule_search.png",
+      "source": "search1.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "10ff12612485ace7aaaac87c06765c9579fc0fb4ebc9b48bda01e4e253560eee",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 276.0,
+      "frame_index": 16560,
+      "crop": [
+        2572,
+        702,
+        3056,
+        782
+      ],
+      "roi": [
+        0.65,
+        0.29,
+        0.99,
+        0.4
+      ],
+      "threshold": 0.9
+    },
+    "v_event_special": {
+      "file": "v_event_special.png",
+      "source": "special_operation.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "b32ca0c085390ba07975c66e981a706023e08490c9200d2dd266540ab63936d1",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 280.7,
+      "frame_index": 16842,
+      "crop": [
+        2812,
+        358,
+        3300,
+        492
+      ],
+      "roi": [
+        0.65,
+        0.1,
+        0.99,
+        0.28
+      ],
+      "threshold": 0.9
+    },
+    "v_rule_special": {
+      "file": "v_rule_special.png",
+      "source": "special_operation.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "b32ca0c085390ba07975c66e981a706023e08490c9200d2dd266540ab63936d1",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 280.7,
+      "frame_index": 16842,
+      "crop": [
+        2568,
+        898,
+        2812,
+        980
+      ],
+      "roi": [
+        0.65,
+        0.35,
+        0.99,
+        0.5
+      ],
+      "threshold": 0.9
+    },
+    "v_intro_2": {
+      "file": "v_intro_2.png",
+      "source": "intro_2.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "a4bb0a4f4e2089257f70af65ea783548cb4d99a6d24cffcc37986e3602bb8281",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 404.0,
+      "frame_index": 24240,
+      "crop": [
+        1760,
+        1040,
+        2072,
+        1136
+      ],
+      "roi": [
+        0.3,
+        0.4,
+        0.7,
+        0.62
+      ],
+      "threshold": 0.9
+    },
+    "v_blank_close": {
+      "file": "v_blank_close.png",
+      "source": "intro_1.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "1e9f95940fc9b548026d998fe301b89140ff6bba5dc07dbebdb56222dec9c5d9",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 6.5,
+      "frame_index": 390,
+      "crop": [
+        1720,
+        1898,
+        2124,
+        1966
+      ],
+      "roi": [
+        0.3,
+        0.82,
+        0.7,
+        0.97
+      ],
+      "threshold": 0.9
+    },
+    "v_battle_view": {
+      "file": "v_battle_view.png",
+      "source": "deployment_member_selected.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "c5e4a6e4ff64ab70e4ef0525ca1626222fe97dce4ce5afb63bf309035f16cffd",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 54.7,
+      "frame_index": 3282,
+      "crop": [
+        408,
+        92,
+        664,
+        170
+      ],
+      "roi": [
+        0.03,
+        0,
+        0.25,
+        0.12
+      ],
+      "threshold": 0.9
+    },
+    "v_battle_auto": {
+      "file": "v_battle_auto.png",
+      "source": "deployment_member_selected.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "c5e4a6e4ff64ab70e4ef0525ca1626222fe97dce4ce5afb63bf309035f16cffd",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 54.7,
+      "frame_index": 3282,
+      "crop": [
+        2740,
+        104,
+        2992,
+        170
+      ],
+      "roi": [
+        0.65,
+        0,
+        0.85,
+        0.13
+      ],
+      "threshold": 0.9
+    },
+    "v_battle_prep": {
+      "file": "v_battle_prep.png",
+      "source": "special_battle_prep.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "119856942402dff0d332162b0346b668e65c7fa9c6801d9482d33aa7e31a5a98",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 285.0,
+      "frame_index": 17100,
+      "crop": [
+        500,
+        92,
+        848,
+        170
+      ],
+      "roi": [
+        0.05,
+        0,
+        0.3,
+        0.13
+      ],
+      "threshold": 0.9
+    },
+    "v_settlement_warning": {
+      "file": "v_settlement_warning.png",
+      "source": "settlement_confirm.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "6e3dfac3c79856a1d2babebae155c73d65f509343882a5233e7f065ef943a969",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 421.0,
+      "frame_index": 25260,
+      "crop": [
+        400,
+        800,
+        700,
+        1170
+      ],
+      "roi": [
+        0.03,
+        0.3,
+        0.24,
+        0.6
+      ],
+      "threshold": 0.9
+    },
+    "v_weapon_rifle": {
+      "file": "v_weapon_rifle.png",
+      "source": "battle_before.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "8c9a459ad1bcd460992ef7d26608b30bd8a2104febb4791fd3de1c9b975b7b89",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 50.8,
+      "frame_index": 3048,
+      "crop": [
+        938,
+        1955,
+        1030,
+        1985
+      ],
+      "roi": [
+        0.12,
+        0.88,
+        0.91,
+        0.95
+      ],
+      "threshold": 0.9,
+      "card_left_offset": 170
+    },
+    "v_weapon_sword": {
+      "file": "v_weapon_sword.png",
+      "source": "battle_before.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "8c9a459ad1bcd460992ef7d26608b30bd8a2104febb4791fd3de1c9b975b7b89",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 50.8,
+      "frame_index": 3048,
+      "crop": [
+        581,
+        1960,
+        734,
+        1995
+      ],
+      "roi": [
+        0.12,
+        0.86,
+        0.91,
+        0.96
+      ],
+      "threshold": 0.9,
+      "card_left_offset": 101
+    },
+    "v_weapon_pistol": {
+      "file": "v_weapon_pistol.png",
+      "source": "battle_before.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "8c9a459ad1bcd460992ef7d26608b30bd8a2104febb4791fd3de1c9b975b7b89",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 50.8,
+      "frame_index": 3048,
+      "crop": [
+        1775,
+        1955,
+        1900,
+        2000
+      ],
+      "roi": [
+        0.12,
+        0.86,
+        0.91,
+        0.96
+      ],
+      "threshold": 0.9,
+      "card_left_offset": 143
+    },
+    "v_deployment_tile": {
+      "file": "v_deployment_tile.png",
+      "source": "deployment_direction_2.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "a8e3cfddf713d90a34304d3cd545f216d14ceb3657a2969d803a1f9de01964b9",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 61.8,
+      "frame_index": 3708,
+      "crop": [
+        1880,
+        1040,
+        2050,
+        1140
+      ],
+      "roi": [
+        0.15,
+        0.12,
+        0.91,
+        0.75
+      ],
+      "threshold": 0.9
+    },
+    "v_direction_check": {
+      "file": "v_direction_check.png",
+      "source": "deployment_direction_2.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "a8e3cfddf713d90a34304d3cd545f216d14ceb3657a2969d803a1f9de01964b9",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 61.8,
+      "frame_index": 3708,
+      "crop": [
+        2357,
+        909,
+        2498,
+        1035
+      ],
+      "roi": [
+        0.15,
+        0.12,
+        0.91,
+        0.75
+      ],
+      "threshold": 0.9
+    },
+    "v_deployment_tile_selected": {
+      "file": "v_deployment_tile_selected.png",
+      "source": "deployment_card_selected.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "d98ac4e4eae0e21a5b9d371a84e205393e2b0384720f7360c05be89425e5891c",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 61.1,
+      "frame_index": 3666,
+      "crop": [
+        1880,
+        1040,
+        2050,
+        1140
+      ],
+      "roi": [
+        0.15,
+        0.12,
+        0.91,
+        0.75
+      ],
+      "threshold": 0.9
+    },
+    "v_exchange_label": {
+      "file": "v_exchange_label.png",
+      "source": "shop2_after_exchange1.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "12e447ec49c3d0d69b2f1b687ed55ba5f82234cdce0053b2d286e1fc4f349b68",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 259.0,
+      "frame_index": 15540,
+      "crop": [
+        2446,
+        1054,
+        2604,
+        1156
+      ],
+      "roi": [
+        0.33,
+        0.47,
+        0.41,
+        0.57
+      ],
+      "threshold": 0.9
+    },
+    "v_refresh_free": {
+      "file": "v_refresh_free.png",
+      "source": "normal_shop_before_refresh.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "e7d3f8fa26dea41b81412e16268d551d5414b531f235f9ab253d2b0019b713d6",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 135.0,
+      "frame_index": 8100,
+      "crop": [
+        3110,
+        380,
+        3160,
+        446
+      ],
+      "roi": [
+        0.78,
+        0.15,
+        0.84,
+        0.23
+      ],
+      "threshold": 0.9
+    },
+    "v_choice_back": {
+      "file": "v_choice_back.png",
+      "source": "outpost_selected.png",
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "source_sha256": "35b612ecf8ecec8de31dfe2289ea8bc85df9194710ac3cf301838c4a584fa986",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "timestamp_seconds": 16.0,
+      "frame_index": 960,
+      "crop": [
+        190,
+        76,
+        360,
+        170
+      ],
+      "roi": [
+        0,
+        0,
+        0.15,
+        0.12
+      ],
+      "threshold": 0.9
+    },
+    "v_weapon_rifle_ready": {
+      "file": "v_weapon_rifle_ready.png",
+      "source": "deployment_card_before.png",
+      "source_sha256": "0c164f37b13d1eef9d901aa2a095ffc3824ff43fb49ba897bf0b338de28fbeab",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "timestamp_seconds": 60.6,
+      "frame_index": 3636,
+      "crop": [
+        900,
+        1938,
+        1010,
+        1996
+      ],
+      "roi": [
+        0.12,
+        0.88,
+        0.91,
+        0.95
+      ],
+      "threshold": 0.9,
+      "note": "Generic weapon glyph in available cyan UI; no avatar or character-quality inference",
+      "card_left_offset": 132
+    },
+    "v_weapon_sword_ready": {
+      "file": "v_weapon_sword_ready.png",
+      "source": "deployment_card_before.png",
+      "source_sha256": "0c164f37b13d1eef9d901aa2a095ffc3824ff43fb49ba897bf0b338de28fbeab",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "timestamp_seconds": 60.6,
+      "frame_index": 3636,
+      "crop": [
+        614,
+        1952,
+        723,
+        1984
+      ],
+      "roi": [
+        0.12,
+        0.88,
+        0.91,
+        0.95
+      ],
+      "threshold": 0.9,
+      "note": "Generic weapon glyph in available cyan UI; no avatar or character-quality inference",
+      "card_left_offset": 134
+    },
+    "v_weapon_pistol_ready": {
+      "file": "v_weapon_pistol_ready.png",
+      "source": "deployment_card_before.png",
+      "source_sha256": "0c164f37b13d1eef9d901aa2a095ffc3824ff43fb49ba897bf0b338de28fbeab",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "timestamp_seconds": 60.6,
+      "frame_index": 3636,
+      "crop": [
+        1198,
+        1946,
+        1284,
+        1996
+      ],
+      "roi": [
+        0.12,
+        0.88,
+        0.91,
+        0.95
+      ],
+      "threshold": 0.9,
+      "note": "Generic weapon glyph in available cyan UI; no avatar or character-quality inference",
+      "card_left_offset": 142
+    },
+    "v_fast_blue": {
+      "file": "v_fast_blue.png",
+      "source": "battle_before.png",
+      "source_sha256": "8c9a459ad1bcd460992ef7d26608b30bd8a2104febb4791fd3de1c9b975b7b89",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "frame_index": 3048,
+      "timestamp_seconds": 50.8,
+      "crop": [
+        1998,
+        1784,
+        2194,
+        1930
+      ],
+      "roi": [
+        0.12,
+        0.69,
+        0.65,
+        0.94
+      ],
+      "threshold": 0.9
+    },
+    "v_fast_floor2": {
+      "file": "v_fast_floor2.png",
+      "source": "floor2_map.png",
+      "source_sha256": "0aae57800d7fab3cf6456473b797d53412f589b88b2368a833801221e1fdb8d1",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "frame_index": 24480,
+      "timestamp_seconds": 408.0,
+      "crop": [
+        680,
+        1860,
+        735,
+        1925
+      ],
+      "roi": [
+        0.16,
+        0.83,
+        0.21,
+        0.91
+      ],
+      "threshold": 0.9
+    },
+    "v_fast_terminate": {
+      "file": "v_fast_terminate.png",
+      "source": "terminate_start.png",
+      "source_sha256": "40056b7c79ad935491b8d6457cc16e9491290c41b34b35482d4fc2cf17cdb562",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "frame_index": 25200,
+      "timestamp_seconds": 420.0,
+      "crop": [
+        2698,
+        1804,
+        3090,
+        1868
+      ],
+      "roi": [
+        0.68,
+        0.81,
+        0.83,
+        0.88
+      ],
+      "threshold": 0.9
+    },
+    "v_fast_details": {
+      "file": "v_fast_details.png",
+      "source": "deployment_grid_2.png",
+      "source_sha256": "7e247e2e37869489fd810bdeee461b42308e2e95a1ef2005272554826eb3ec0f",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "frame_index": 3090,
+      "timestamp_seconds": 51.5,
+      "crop": [
+        166,
+        1530,
+        423,
+        1610
+      ],
+      "roi": [
+        0,
+        0.66,
+        0.23,
+        0.78
+      ],
+      "threshold": 0.9
+    },
+    "v_fast_continue": {
+      "file": "v_fast_continue.png",
+      "source": "deployment_grid_2.png",
+      "source_sha256": "7e247e2e37869489fd810bdeee461b42308e2e95a1ef2005272554826eb3ec0f",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "frame_index": 3090,
+      "timestamp_seconds": 51.5,
+      "crop": [
+        3450,
+        1530,
+        3650,
+        1610
+      ],
+      "roi": [
+        0.85,
+        0.67,
+        0.99,
+        0.78
+      ],
+      "threshold": 0.9
+    },
+    "v_fast_blank_continue": {
+      "file": "v_fast_blank_continue.png",
+      "source": "choice_reward.png",
+      "source_sha256": "9a56600c796d88f631215c1454873926db2a716394509782bf7b0c4fdcaf3d10",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "frame_index": 780,
+      "timestamp_seconds": 13.0,
+      "crop": [
+        1820,
+        1905,
+        2125,
+        1970
+      ],
+      "roi": [
+        0.44,
+        0.86,
+        0.57,
+        0.94
+      ],
+      "threshold": 0.9
+    },
+    "v_fast_blank_close": {
+      "file": "v_fast_blank_close.png",
+      "source": "battle_currency.png",
+      "source_sha256": "31717401bdab8ebc408e333f0711330604996b41728bdc00e6b9ebd65bb4e140",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "frame_index": 7980,
+      "timestamp_seconds": 133.0,
+      "crop": [
+        1810,
+        1900,
+        2128,
+        1966
+      ],
+      "roi": [
+        0.44,
+        0.86,
+        0.57,
+        0.94
+      ],
+      "threshold": 0.9
+    },
+    "v_fast_reward_continue": {
+      "file": "v_fast_reward_continue.png",
+      "source": "special_reward_overlay.png",
+      "source_sha256": "fb7d337cf6b3d1ffdf01852b846144dcff2b2a329966450092c51793c91b2070",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "frame_index": 24150,
+      "timestamp_seconds": 402.5,
+      "crop": [
+        1715,
+        1910,
+        2090,
+        1958
+      ],
+      "roi": [
+        0.44,
+        0.86,
+        0.57,
+        0.94
+      ],
+      "threshold": 0.9
+    },
+    "v_fast_blue_direction": {
+      "file": "v_fast_blue_direction.png",
+      "source": "deployment_direction_1.png",
+      "source_sha256": "6e62602cc9782b8bbbce5db07fd20288e9c96c1966a8fe38babed8fcb30ae30b",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "frame_index": 3480,
+      "timestamp_seconds": 58.0,
+      "crop": [
+        2710,
+        1360,
+        2785,
+        1420
+      ],
+      "roi": [
+        0.15,
+        0.15,
+        0.85,
+        0.75
+      ],
+      "threshold": 0.9
+    },
+    "v_bounty_complete": {
+      "file": "v_bounty_complete.png",
+      "source": "bounty_completed_map.png",
+      "source_sha256": "3525c88f55104c09a2f9550f3257c5588a67842351796b79bc48dcc9284d3460",
+      "source_size": [
+        3840,
+        2160
+      ],
+      "source_video_sha256": "43483b77a6cb1630aae0af2b47aa013cd60075080223e2de281b2d46dedaad15",
+      "frame_index": 24960,
+      "timestamp_seconds": 416.0,
+      "crop": [
+        1775,
+        705,
+        2140,
+        1065
+      ],
+      "roi": [
+        0.43,
+        0.3,
+        0.59,
+        0.52
+      ],
+      "threshold": 0.9,
+      "score_mode": "pixel_difference"
+    },
+    "entry_current": {
+      "file": "entry_current.png",
+      "crop": [
+        3197,
+        343,
+        3671,
+        480
+      ],
+      "threshold": 0.9,
+      "source": "tests/fixtures/roguelike-entry/entry-native-failed.png",
+      "source_sha256": "6992a515789f773ddd2c309ba279c895dddea1ad7632ba08a015a2c6a10ca70e",
+      "source_size": [
+        3840,
+        2160
+      ]
+    }
+  },
+  "missing_evidence": [
+    "联合前哨无目标点击返回的实际后续帧",
+    "资源不足或灰色禁用兑换按钮的真实完整页",
+    "本轮录像未覆盖的随机多选事件"
+  ]
+}

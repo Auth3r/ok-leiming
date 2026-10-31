@@ -1,0 +1,14 @@
+{
+  "configs/DailyTask.json": {
+    "resolution_width": 3840,
+    "resolution_height": 2160,
+    "recognition_timeout": 15.0,
+    "max_retries": 2
+  },
+  "configs/DarkTideTask.json": {
+    "resolution_width": 2560,
+    "resolution_height": 1440,
+    "recognition_timeout": 8.0,
+    "max_retries": 1
+  }
+}

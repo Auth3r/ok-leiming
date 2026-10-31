@@ -1,0 +1,416 @@
+{
+  "professions": {
+    "重盾": {
+      "file": "professions-0.png",
+      "crop": [
+        1057,
+        213,
+        1083,
+        241
+      ],
+      "source": "0026_MAIN_MENU_dispatch_profession_legend.png",
+      "source_sha256": "1a22035c71fcd2487a155b62d29c0addce7de0b80007a829a4ec450bf85b8789",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 44,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064084234175,
+        "system_relative_time": 1064084500190,
+        "acquired_at": 1791681068.424494,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    },
+    "突击": {
+      "file": "professions-1.png",
+      "crop": [
+        1057,
+        263,
+        1083,
+        291
+      ],
+      "source": "0026_MAIN_MENU_dispatch_profession_legend.png",
+      "source_sha256": "1a22035c71fcd2487a155b62d29c0addce7de0b80007a829a4ec450bf85b8789",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 44,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064084234175,
+        "system_relative_time": 1064084500190,
+        "acquired_at": 1791681068.424494,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    },
+    "火力": {
+      "file": "professions-2.png",
+      "crop": [
+        1057,
+        313,
+        1083,
+        341
+      ],
+      "source": "0026_MAIN_MENU_dispatch_profession_legend.png",
+      "source_sha256": "1a22035c71fcd2487a155b62d29c0addce7de0b80007a829a4ec450bf85b8789",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 44,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064084234175,
+        "system_relative_time": 1064084500190,
+        "acquired_at": 1791681068.424494,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    },
+    "狙击": {
+      "file": "professions-3.png",
+      "crop": [
+        1057,
+        362,
+        1083,
+        390
+      ],
+      "source": "0026_MAIN_MENU_dispatch_profession_legend.png",
+      "source_sha256": "1a22035c71fcd2487a155b62d29c0addce7de0b80007a829a4ec450bf85b8789",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 44,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064084234175,
+        "system_relative_time": 1064084500190,
+        "acquired_at": 1791681068.424494,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    },
+    "医疗": {
+      "file": "professions-4.png",
+      "crop": [
+        1057,
+        411,
+        1083,
+        439
+      ],
+      "source": "0026_MAIN_MENU_dispatch_profession_legend.png",
+      "source_sha256": "1a22035c71fcd2487a155b62d29c0addce7de0b80007a829a4ec450bf85b8789",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 44,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064084234175,
+        "system_relative_time": 1064084500190,
+        "acquired_at": 1791681068.424494,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    },
+    "工程": {
+      "file": "professions-5.png",
+      "crop": [
+        1057,
+        461,
+        1083,
+        489
+      ],
+      "source": "0026_MAIN_MENU_dispatch_profession_legend.png",
+      "source_sha256": "1a22035c71fcd2487a155b62d29c0addce7de0b80007a829a4ec450bf85b8789",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 44,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064084234175,
+        "system_relative_time": 1064084500190,
+        "acquired_at": 1791681068.424494,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    },
+    "隐刃": {
+      "file": "professions-6.png",
+      "crop": [
+        1057,
+        510,
+        1083,
+        538
+      ],
+      "source": "0026_MAIN_MENU_dispatch_profession_legend.png",
+      "source_sha256": "1a22035c71fcd2487a155b62d29c0addce7de0b80007a829a4ec450bf85b8789",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 44,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064084234175,
+        "system_relative_time": 1064084500190,
+        "acquired_at": 1791681068.424494,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    }
+  },
+  "tactics": {
+    "一致战线": {
+      "file": "tactics-0.png",
+      "crop": [
+        1057,
+        213,
+        1083,
+        241
+      ],
+      "source": "0036_MAIN_MENU_dispatch_tactic_legend.png",
+      "source_sha256": "1181c7b97b55305ccc3766a946e1b20c5682a7ef9ae00b6b0496d49f7a4dbaff",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 59,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064132931590,
+        "system_relative_time": 1064133164097,
+        "acquired_at": 1791681073.291024,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    },
+    "尖端造物": {
+      "file": "tactics-1.png",
+      "crop": [
+        1057,
+        263,
+        1083,
+        291
+      ],
+      "source": "0036_MAIN_MENU_dispatch_tactic_legend.png",
+      "source_sha256": "1181c7b97b55305ccc3766a946e1b20c5682a7ef9ae00b6b0496d49f7a4dbaff",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 59,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064132931590,
+        "system_relative_time": 1064133164097,
+        "acquired_at": 1791681073.291024,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    },
+    "军工武装": {
+      "file": "tactics-2.png",
+      "crop": [
+        1057,
+        313,
+        1083,
+        341
+      ],
+      "source": "0036_MAIN_MENU_dispatch_tactic_legend.png",
+      "source_sha256": "1181c7b97b55305ccc3766a946e1b20c5682a7ef9ae00b6b0496d49f7a4dbaff",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 59,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064132931590,
+        "system_relative_time": 1064133164097,
+        "acquired_at": 1791681073.291024,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    },
+    "沙鹰本色": {
+      "file": "tactics-3.png",
+      "crop": [
+        1057,
+        362,
+        1083,
+        390
+      ],
+      "source": "0036_MAIN_MENU_dispatch_tactic_legend.png",
+      "source_sha256": "1181c7b97b55305ccc3766a946e1b20c5682a7ef9ae00b6b0496d49f7a4dbaff",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 59,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064132931590,
+        "system_relative_time": 1064133164097,
+        "acquired_at": 1791681073.291024,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    },
+    "先攻小组": {
+      "file": "tactics-4.png",
+      "crop": [
+        1057,
+        411,
+        1083,
+        439
+      ],
+      "source": "0036_MAIN_MENU_dispatch_tactic_legend.png",
+      "source_sha256": "1181c7b97b55305ccc3766a946e1b20c5682a7ef9ae00b6b0496d49f7a4dbaff",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 59,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064132931590,
+        "system_relative_time": 1064133164097,
+        "acquired_at": 1791681073.291024,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    },
+    "乌斯怀亚": {
+      "file": "tactics-5.png",
+      "crop": [
+        1057,
+        461,
+        1083,
+        489
+      ],
+      "source": "0036_MAIN_MENU_dispatch_tactic_legend.png",
+      "source_sha256": "1181c7b97b55305ccc3766a946e1b20c5682a7ef9ae00b6b0496d49f7a4dbaff",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 59,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064132931590,
+        "system_relative_time": 1064133164097,
+        "acquired_at": 1791681073.291024,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    },
+    "旧地联合": {
+      "file": "tactics-6.png",
+      "crop": [
+        1057,
+        510,
+        1083,
+        538
+      ],
+      "source": "0036_MAIN_MENU_dispatch_tactic_legend.png",
+      "source_sha256": "1181c7b97b55305ccc3766a946e1b20c5682a7ef9ae00b6b0496d49f7a4dbaff",
+      "metadata": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 59,
+        "session_id": "3edc9b18-0496-406e-869e-ca900474bf0e",
+        "request_qpc": 1064132931590,
+        "system_relative_time": 1064133164097,
+        "acquired_at": 1791681073.291024,
+        "owner_thread_id": 28840,
+        "owner_apartment": 1,
+        "callback_thread_id": 28028,
+        "callback_apartment": 1
+      }
+    }
+  },
+  "digits": {
+    "1": {
+      "file": "digit-1.png",
+      "crop": [
+        853,
+        266,
+        865,
+        288
+      ],
+      "source": "0009_MAIN_MENU_dispatch_details_readonly.png",
+      "source_sha256": "322041c1d8a29621d8918eef3b763badf87befd0b96b2608b651a1fac9920db0",
+      "metadata": {
+        "meaning": "visible second requirement count 1"
+      }
+    },
+    "2": {
+      "file": "digit-2.png",
+      "crop": [
+        847,
+        196,
+        868,
+        220
+      ],
+      "source": "0009_MAIN_MENU_dispatch_details_readonly.png",
+      "source_sha256": "322041c1d8a29621d8918eef3b763badf87befd0b96b2608b651a1fac9920db0",
+      "metadata": {
+        "meaning": "visible first requirement count 2"
+      }
+    }
+  },
+  "slots": {
+    "empty": {
+      "file": "slot-empty.png",
+      "crop": [
+        749,
+        590,
+        780,
+        625
+      ],
+      "source": "0009_MAIN_MENU_dispatch_details_readonly.png",
+      "source_sha256": "322041c1d8a29621d8918eef3b763badf87befd0b96b2608b651a1fac9920db0",
+      "metadata": {
+        "meaning": "observed empty slot plus symbol"
+      }
+    }
+  }
+}

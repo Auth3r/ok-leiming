@@ -1,0 +1,10 @@
+{
+  "configs/DailyTask.json": {
+    "max_retries": 2,
+    "retired_runtime_option": "retain before migration"
+  },
+  "configs/ModuleCraftTask.json": {
+    "属性刷新方式": "自动",
+    "refresh_mode": "prefer"
+  }
+}

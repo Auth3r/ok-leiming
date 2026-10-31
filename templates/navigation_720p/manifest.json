@@ -1,0 +1,1209 @@
+{
+  "client_size": [
+    1280,
+    720
+  ],
+  "scope": "720p read-only public recognition and two explicit diagnostic navigation steps; production 4K guard unchanged",
+  "templates": {
+    "main_black": {
+      "file": "main_black.png",
+      "role": "home",
+      "threshold": 0.93,
+      "reference_size": [
+        3840,
+        2160
+      ],
+      "reference_roi": [
+        2888,
+        390,
+        3338,
+        562
+      ],
+      "source": {
+        "image": "feature-home-01.png",
+        "image_sha256": "d0c5c00783e7ad355d3714508ada94f43d3876cd74398c8900dead5567924dad",
+        "backend": "WGC",
+        "client_size": [
+          1280,
+          720
+        ],
+        "page": "unobstructed homepage",
+        "crop": [
+          1005,
+          148,
+          1090,
+          174
+        ],
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "c3e23765ad79c1983361ac07864d56521c6248c6"
+        },
+        "frame_provenance": {
+          "hwnd": 199150,
+          "pid": 2768,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 1,
+          "session_id": "475e8ecf-919f-4004-8ff8-1bfacad50b32",
+          "request_qpc": 1800423069341,
+          "system_relative_time": 1800423426807,
+          "acquired_at": 1791460750.071791,
+          "owner_thread_id": 19556,
+          "owner_apartment": 1,
+          "callback_thread_id": 18904,
+          "callback_apartment": 1
+        }
+      },
+      "calibration": {
+        "scores": {
+          "home": {
+            "count": 40,
+            "min": 0.9962896108627319,
+            "max": 0.9999986886978149
+          },
+          "non_home_alliance": {
+            "count": 40,
+            "min": 0.34718042612075806,
+            "max": 0.34718042612075806
+          },
+          "overlay_hot_recommendations": {
+            "count": 40,
+            "min": 0.42930635809898376,
+            "max": 0.42934277653694153
+          }
+        },
+        "limitation": "Finite recorded pages/backgrounds; transition animation can be UNKNOWN; unknown popups are not universally covered",
+        "restored_home": {
+          "count": 20,
+          "min": 0.9435727596282959,
+          "max": 0.9435727596282959,
+          "capture_evidence": "feature-restored-home.json",
+          "session_id": "28bc684c-8f0a-401a-abfc-c500acda1f86",
+          "reason": "Transparent labels vary with actual home character/background; negative scores remain separated."
+        },
+        "status": "PASS for recorded pages",
+        "positive": {
+          "groups": [
+            "feature-home",
+            "integration-home",
+            "feature-restored-home",
+            "feature-pre-nav-refresh",
+            "readonly"
+          ],
+          "count": 100,
+          "score_min": 0.9435727596282959,
+          "score_max": 0.9999291300773621
+        },
+        "negative": {
+          "groups": [
+            "feature-current",
+            "integration-current",
+            "feature-resume-home",
+            "feature-access-resumed",
+            "confirmed-main_nav",
+            "feature-hot-overlay",
+            "integration-hot-overlay",
+            "normal-confirmed-main_nav",
+            "normal-confirmed-nav_tab"
+          ],
+          "count": 180,
+          "score_max": 0.5057562589645386
+        },
+        "evidence": "phase2b1-diagnostics/feature-route-replay.json"
+      }
+    },
+    "main_daily": {
+      "file": "main_daily.png",
+      "role": "home",
+      "threshold": 0.95,
+      "reference_size": [
+        3840,
+        2160
+      ],
+      "reference_roi": [
+        3450,
+        272,
+        3788,
+        431
+      ],
+      "source": {
+        "image": "feature-home-01.png",
+        "image_sha256": "d0c5c00783e7ad355d3714508ada94f43d3876cd74398c8900dead5567924dad",
+        "backend": "WGC",
+        "client_size": [
+          1280,
+          720
+        ],
+        "page": "unobstructed homepage",
+        "crop": [
+          1189,
+          107,
+          1244,
+          131
+        ],
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "c3e23765ad79c1983361ac07864d56521c6248c6"
+        },
+        "frame_provenance": {
+          "hwnd": 199150,
+          "pid": 2768,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 1,
+          "session_id": "475e8ecf-919f-4004-8ff8-1bfacad50b32",
+          "request_qpc": 1800423069341,
+          "system_relative_time": 1800423426807,
+          "acquired_at": 1791460750.071791,
+          "owner_thread_id": 19556,
+          "owner_apartment": 1,
+          "callback_thread_id": 18904,
+          "callback_apartment": 1
+        }
+      },
+      "calibration": {
+        "scores": {
+          "home": {
+            "count": 40,
+            "min": 0.9999079704284668,
+            "max": 1.0
+          },
+          "non_home_alliance": {
+            "count": 40,
+            "min": 0.3728827238082886,
+            "max": 0.3728827238082886
+          },
+          "overlay_hot_recommendations": {
+            "count": 40,
+            "min": 0.7192566394805908,
+            "max": 0.7210493683815002
+          }
+        },
+        "limitation": "Finite recorded pages/backgrounds; transition animation can be UNKNOWN; unknown popups are not universally covered",
+        "restored_home": {
+          "count": 20,
+          "min": 0.9687923789024353,
+          "max": 0.9687923789024353,
+          "capture_evidence": "feature-restored-home.json",
+          "session_id": "28bc684c-8f0a-401a-abfc-c500acda1f86",
+          "reason": "Transparent labels vary with actual home character/background; negative scores remain separated."
+        },
+        "status": "PASS for recorded pages",
+        "positive": {
+          "groups": [
+            "feature-home",
+            "integration-home",
+            "feature-restored-home",
+            "feature-pre-nav-refresh",
+            "readonly"
+          ],
+          "count": 100,
+          "score_min": 0.9687923789024353,
+          "score_max": 0.9999321103096008
+        },
+        "negative": {
+          "groups": [
+            "feature-current",
+            "integration-current",
+            "feature-resume-home",
+            "feature-access-resumed",
+            "confirmed-main_nav",
+            "feature-hot-overlay",
+            "integration-hot-overlay",
+            "normal-confirmed-main_nav",
+            "normal-confirmed-nav_tab"
+          ],
+          "count": 180,
+          "score_max": 0.72121661901474
+        },
+        "evidence": "phase2b1-diagnostics/feature-route-replay.json"
+      }
+    },
+    "main_nav": {
+      "file": "main_nav.png",
+      "role": "home",
+      "threshold": 0.98,
+      "reference_size": [
+        3840,
+        2160
+      ],
+      "reference_roi": [
+        3412,
+        750,
+        3788,
+        1041
+      ],
+      "source": {
+        "image": "feature-home-01.png",
+        "image_sha256": "d0c5c00783e7ad355d3714508ada94f43d3876cd74398c8900dead5567924dad",
+        "backend": "WGC",
+        "client_size": [
+          1280,
+          720
+        ],
+        "page": "unobstructed homepage",
+        "crop": [
+          1162,
+          277,
+          1244,
+          306
+        ],
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "c3e23765ad79c1983361ac07864d56521c6248c6"
+        },
+        "frame_provenance": {
+          "hwnd": 199150,
+          "pid": 2768,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 1,
+          "session_id": "475e8ecf-919f-4004-8ff8-1bfacad50b32",
+          "request_qpc": 1800423069341,
+          "system_relative_time": 1800423426807,
+          "acquired_at": 1791460750.071791,
+          "owner_thread_id": 19556,
+          "owner_apartment": 1,
+          "callback_thread_id": 18904,
+          "callback_apartment": 1
+        }
+      },
+      "calibration": {
+        "scores": {
+          "home": {
+            "count": 40,
+            "min": 0.9998774528503418,
+            "max": 0.9999997615814209
+          },
+          "non_home_alliance": {
+            "count": 40,
+            "min": 0.11297336220741272,
+            "max": 0.11297336220741272
+          },
+          "overlay_hot_recommendations": {
+            "count": 40,
+            "min": 0.4084343910217285,
+            "max": 0.4096558392047882
+          }
+        },
+        "limitation": "Finite recorded pages/backgrounds; transition animation can be UNKNOWN; unknown popups are not universally covered",
+        "status": "PASS for recorded pages",
+        "positive": {
+          "groups": [
+            "feature-home",
+            "integration-home",
+            "feature-restored-home",
+            "feature-pre-nav-refresh",
+            "feature-entered-home",
+            "readonly",
+            "normal-readonly"
+          ],
+          "count": 140,
+          "score_min": 0.999821126461029,
+          "score_max": 0.9999814033508301
+        },
+        "negative": {
+          "groups": [
+            "feature-current",
+            "integration-current",
+            "feature-resume-home",
+            "feature-access-resumed",
+            "confirmed-main_nav",
+            "feature-hot-overlay",
+            "integration-hot-overlay",
+            "normal-confirmed-main_nav",
+            "normal-confirmed-nav_tab"
+          ],
+          "count": 180,
+          "score_max": 0.40980586409568787
+        },
+        "evidence": "phase2b1-diagnostics/feature-route-replay.json"
+      }
+    },
+    "login_conflict": {
+      "file": "login_conflict.png",
+      "role": "overlay",
+      "threshold": 0.98,
+      "reference_size": [
+        1280,
+        720
+      ],
+      "reference_roi": [
+        300,
+        245,
+        650,
+        325
+      ],
+      "source": {
+        "image": "feature-resume-home-01.png",
+        "image_sha256": "d5bc4a91f2cff230aaa1ed57a9622b3da2a68c8f799d4798ab2d80d7324bc711",
+        "backend": "WGC",
+        "client_size": [
+          1280,
+          720
+        ],
+        "page": "account logged in on another device",
+        "crop": [
+          324,
+          269,
+          578,
+          300
+        ],
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "c3e23765ad79c1983361ac07864d56521c6248c6"
+        },
+        "frame_provenance": {
+          "hwnd": 199150,
+          "pid": 2768,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 1,
+          "session_id": "89408845-3578-4eda-9d5d-2bcc8f3af408",
+          "request_qpc": 1814758507083,
+          "system_relative_time": 1814758872822,
+          "acquired_at": 1791462183.6133206,
+          "owner_thread_id": 19528,
+          "owner_apartment": 1,
+          "callback_thread_id": 19500,
+          "callback_apartment": 1
+        }
+      },
+      "calibration": {
+        "limitation": "Finite recorded pages/backgrounds; transition animation can be UNKNOWN; unknown popups are not universally covered",
+        "status": "PASS for recorded pages",
+        "positive": {
+          "groups": [
+            "feature-resume-home"
+          ],
+          "count": 20,
+          "score_min": 0.9862580299377441,
+          "score_max": 0.9999600052833557
+        },
+        "negative": {
+          "groups": [
+            "feature-home",
+            "integration-home",
+            "feature-current",
+            "integration-current",
+            "feature-restored-home",
+            "feature-pre-nav-refresh",
+            "feature-access-resumed",
+            "feature-entered-home",
+            "readonly",
+            "confirmed-main_nav",
+            "feature-hot-overlay",
+            "integration-hot-overlay",
+            "normal-readonly",
+            "normal-confirmed-main_nav",
+            "normal-confirmed-nav_tab"
+          ],
+          "count": 300,
+          "score_max": 0.4912267327308655
+        },
+        "evidence": "phase2b1-diagnostics/feature-route-replay.json"
+      }
+    },
+    "nav_title": {
+      "file": "nav_title.png",
+      "role": "nav",
+      "threshold": 0.96,
+      "reference_size": [
+        3840,
+        2160
+      ],
+      "reference_roi": [
+        2831,
+        403,
+        3375,
+        544
+      ],
+      "source": {
+        "image": "live-route/main_nav-20.png",
+        "image_sha256": "3548e796542fbe68f530d388cc037a2a4e179e5a4bdf3ac32096b4a6719f10b5",
+        "backend": "WGC",
+        "client_size": [
+          1280,
+          720
+        ],
+        "page": "navigation - focus/recommended tab",
+        "crop": [
+          965,
+          150,
+          1050,
+          173
+        ],
+        "frame_provenance": {
+          "hwnd": 920144,
+          "pid": 23136,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 22,
+          "session_id": "15aab53b-23a6-42a1-bb36-dad2b2b2afbf",
+          "request_qpc": 1851799416896,
+          "system_relative_time": 1851799673762,
+          "acquired_at": 1791465887.693406,
+          "owner_thread_id": 6168,
+          "owner_apartment": 1,
+          "callback_thread_id": 20180,
+          "callback_apartment": 1
+        },
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "c3e23765ad79c1983361ac07864d56521c6248c6",
+          "dirty": true
+        }
+      },
+      "calibration": {
+        "status": "PASS for recorded pages",
+        "legacy_probe": "legacy-navigation-live-probe.json",
+        "positive": {
+          "groups": [
+            "confirmed-main_nav",
+            "normal-confirmed-main_nav"
+          ],
+          "count": 40,
+          "score_min": 0.9997286200523376,
+          "score_max": 0.9997517466545105
+        },
+        "negative": {
+          "groups": [
+            "feature-home",
+            "integration-home",
+            "feature-current",
+            "integration-current",
+            "feature-restored-home",
+            "feature-pre-nav-refresh",
+            "feature-resume-home",
+            "feature-access-resumed",
+            "feature-entered-home",
+            "readonly",
+            "feature-hot-overlay",
+            "integration-hot-overlay",
+            "normal-readonly",
+            "normal-confirmed-nav_tab"
+          ],
+          "count": 280,
+          "score_max": 0.47900277376174927
+        },
+        "evidence": "phase2b1-diagnostics/feature-route-replay.json",
+        "limitation": "Finite recorded pages/backgrounds; transition animation can be UNKNOWN; unknown popups are not universally covered"
+      }
+    },
+    "nav_recommend": {
+      "file": "nav_recommend.png",
+      "role": "nav",
+      "threshold": 0.97,
+      "reference_size": [
+        3840,
+        2160
+      ],
+      "reference_roi": [
+        1912,
+        403,
+        2475,
+        544
+      ],
+      "source": {
+        "image": "live-route/main_nav-20.png",
+        "image_sha256": "3548e796542fbe68f530d388cc037a2a4e179e5a4bdf3ac32096b4a6719f10b5",
+        "backend": "WGC",
+        "client_size": [
+          1280,
+          720
+        ],
+        "page": "navigation - focus/recommended tab",
+        "crop": [
+          654,
+          148,
+          750,
+          173
+        ],
+        "frame_provenance": {
+          "hwnd": 920144,
+          "pid": 23136,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 22,
+          "session_id": "15aab53b-23a6-42a1-bb36-dad2b2b2afbf",
+          "request_qpc": 1851799416896,
+          "system_relative_time": 1851799673762,
+          "acquired_at": 1791465887.693406,
+          "owner_thread_id": 6168,
+          "owner_apartment": 1,
+          "callback_thread_id": 20180,
+          "callback_apartment": 1
+        },
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "c3e23765ad79c1983361ac07864d56521c6248c6",
+          "dirty": true
+        }
+      },
+      "calibration": {
+        "status": "PASS for recorded pages",
+        "legacy_probe": "legacy-navigation-live-probe.json",
+        "positive": {
+          "groups": [
+            "confirmed-main_nav",
+            "normal-confirmed-main_nav"
+          ],
+          "count": 40,
+          "score_min": 0.9999383091926575,
+          "score_max": 0.9999406933784485
+        },
+        "negative": {
+          "groups": [
+            "feature-home",
+            "integration-home",
+            "feature-current",
+            "integration-current",
+            "feature-restored-home",
+            "feature-pre-nav-refresh",
+            "feature-resume-home",
+            "feature-access-resumed",
+            "feature-entered-home",
+            "readonly",
+            "feature-hot-overlay",
+            "integration-hot-overlay",
+            "normal-readonly",
+            "normal-confirmed-nav_tab"
+          ],
+          "count": 280,
+          "score_max": 0.4002785384654999
+        },
+        "evidence": "phase2b1-diagnostics/feature-route-replay.json",
+        "limitation": "Finite recorded pages/backgrounds; transition animation can be UNKNOWN; unknown popups are not universally covered"
+      }
+    },
+    "nav_tab": {
+      "file": "nav_tab.png",
+      "role": "nav",
+      "threshold": 0.97,
+      "reference_size": [
+        3840,
+        2087
+      ],
+      "reference_roi": [
+        2935,
+        1805,
+        3115,
+        2065
+      ],
+      "source": {
+        "image": "live-route/main_nav-20.png",
+        "image_sha256": "3548e796542fbe68f530d388cc037a2a4e179e5a4bdf3ac32096b4a6719f10b5",
+        "backend": "WGC",
+        "client_size": [
+          1280,
+          720
+        ],
+        "page": "navigation - focus/recommended tab",
+        "crop": [
+          992,
+          630,
+          1026,
+          661
+        ],
+        "frame_provenance": {
+          "hwnd": 920144,
+          "pid": 23136,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 22,
+          "session_id": "15aab53b-23a6-42a1-bb36-dad2b2b2afbf",
+          "request_qpc": 1851799416896,
+          "system_relative_time": 1851799673762,
+          "acquired_at": 1791465887.693406,
+          "owner_thread_id": 6168,
+          "owner_apartment": 1,
+          "callback_thread_id": 20180,
+          "callback_apartment": 1
+        },
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "c3e23765ad79c1983361ac07864d56521c6248c6",
+          "dirty": true
+        }
+      },
+      "calibration": {
+        "status": "PASS for recorded pages",
+        "legacy_probe": "legacy-navigation-live-probe.json",
+        "positive": {
+          "groups": [
+            "confirmed-main_nav",
+            "normal-confirmed-main_nav"
+          ],
+          "count": 40,
+          "score_min": 0.999963104724884,
+          "score_max": 0.9999637007713318
+        },
+        "negative": {
+          "groups": [
+            "feature-home",
+            "integration-home",
+            "feature-current",
+            "integration-current",
+            "feature-restored-home",
+            "feature-pre-nav-refresh",
+            "feature-resume-home",
+            "feature-access-resumed",
+            "feature-entered-home",
+            "readonly",
+            "feature-hot-overlay",
+            "integration-hot-overlay",
+            "normal-readonly",
+            "normal-confirmed-nav_tab"
+          ],
+          "count": 280,
+          "score_max": 0.4532347023487091
+        },
+        "evidence": "phase2b1-diagnostics/feature-route-replay.json",
+        "limitation": "Finite recorded pages/backgrounds; transition animation can be UNKNOWN; unknown popups are not universally covered"
+      }
+    },
+    "main_black_airship": {
+      "file": "main_black_airship.png",
+      "role": "home",
+      "threshold": 0.98,
+      "reference_size": [
+        3840,
+        2160
+      ],
+      "reference_roi": [
+        2888,
+        390,
+        3338,
+        562
+      ],
+      "source": {
+        "image": "feature-entered-home-01.png",
+        "image_sha256": "9e51b5515a7a6920208c567f33d00f12bff7e71c5fa59a0365013357dc67045a",
+        "backend": "WGC",
+        "client_size": [
+          1280,
+          720
+        ],
+        "page": "unobstructed homepage, airship background",
+        "crop": [
+          1005,
+          148,
+          1090,
+          174
+        ],
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "c3e23765ad79c1983361ac07864d56521c6248c6"
+        },
+        "frame_provenance": {
+          "hwnd": 1117564,
+          "pid": 10116,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 1,
+          "session_id": "35a7bce1-6a7b-4091-8b07-b9cc3be07e5e",
+          "request_qpc": 1920189106751,
+          "system_relative_time": 1920189562288,
+          "acquired_at": 1791472726.685245,
+          "owner_thread_id": 22416,
+          "owner_apartment": 1,
+          "callback_thread_id": 22592,
+          "callback_apartment": 1
+        }
+      },
+      "calibration": {
+        "status": "PASS for recorded pages",
+        "limitation": "Finite recorded pages/backgrounds; transition animation can be UNKNOWN; unknown popups are not universally covered",
+        "positive": {
+          "groups": [
+            "feature-entered-home",
+            "normal-readonly"
+          ],
+          "count": 40,
+          "score_min": 0.9907364249229431,
+          "score_max": 0.999928891658783
+        },
+        "negative": {
+          "groups": [
+            "feature-current",
+            "integration-current",
+            "feature-resume-home",
+            "feature-access-resumed",
+            "confirmed-main_nav",
+            "feature-hot-overlay",
+            "integration-hot-overlay",
+            "normal-confirmed-main_nav",
+            "normal-confirmed-nav_tab"
+          ],
+          "count": 180,
+          "score_max": 0.5373948812484741
+        },
+        "evidence": "phase2b1-diagnostics/feature-route-replay.json"
+      },
+      "target": "main_black"
+    },
+    "main_daily_airship": {
+      "file": "main_daily_airship.png",
+      "role": "home",
+      "threshold": 0.98,
+      "reference_size": [
+        3840,
+        2160
+      ],
+      "reference_roi": [
+        3450,
+        272,
+        3788,
+        431
+      ],
+      "source": {
+        "image": "feature-entered-home-01.png",
+        "image_sha256": "9e51b5515a7a6920208c567f33d00f12bff7e71c5fa59a0365013357dc67045a",
+        "backend": "WGC",
+        "client_size": [
+          1280,
+          720
+        ],
+        "page": "unobstructed homepage, airship background",
+        "crop": [
+          1189,
+          107,
+          1244,
+          131
+        ],
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "c3e23765ad79c1983361ac07864d56521c6248c6"
+        },
+        "frame_provenance": {
+          "hwnd": 1117564,
+          "pid": 10116,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 1,
+          "session_id": "35a7bce1-6a7b-4091-8b07-b9cc3be07e5e",
+          "request_qpc": 1920189106751,
+          "system_relative_time": 1920189562288,
+          "acquired_at": 1791472726.685245,
+          "owner_thread_id": 22416,
+          "owner_apartment": 1,
+          "callback_thread_id": 22592,
+          "callback_apartment": 1
+        }
+      },
+      "calibration": {
+        "status": "PASS for recorded pages",
+        "limitation": "Finite recorded pages/backgrounds; transition animation can be UNKNOWN; unknown popups are not universally covered",
+        "positive": {
+          "groups": [
+            "feature-entered-home",
+            "normal-readonly"
+          ],
+          "count": 40,
+          "score_min": 0.9999487996101379,
+          "score_max": 0.9999487996101379
+        },
+        "negative": {
+          "groups": [
+            "feature-current",
+            "integration-current",
+            "feature-resume-home",
+            "feature-access-resumed",
+            "confirmed-main_nav",
+            "feature-hot-overlay",
+            "integration-hot-overlay",
+            "normal-confirmed-main_nav",
+            "normal-confirmed-nav_tab"
+          ],
+          "count": 180,
+          "score_max": 0.6948149800300598
+        },
+        "evidence": "phase2b1-diagnostics/feature-route-replay.json"
+      },
+      "target": "main_daily"
+    },
+    "entry_title": {
+      "score_mode": "antialias_luma",
+      "file": "entry_title.png",
+      "role": "entry",
+      "threshold": 0.97,
+      "reference_size": [
+        3840,
+        2087
+      ],
+      "reference_roi": [
+        970,
+        263,
+        1726,
+        573
+      ],
+      "roi_note": "Legacy entry_title reference ROI; 03 断层防线 is the current observed title",
+      "source": {
+        "image": "live-route-normal/nav_tab-20.png",
+        "image_sha256": "97ef403c097c9681362d767d1d0fbb3a94c215450956f8f118b41961669b555b",
+        "backend": "WGC",
+        "client_size": [
+          1280,
+          720
+        ],
+        "page": "局域模拟 - 03 断层防线",
+        "crop": [
+          340,
+          118,
+          565,
+          164
+        ],
+        "frame_provenance": {
+          "hwnd": 1117564,
+          "pid": 10116,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 22,
+          "session_id": "a1e8b41e-20c0-4c89-b338-55cf1aad9539",
+          "request_qpc": 1921449726161,
+          "system_relative_time": 1921449997911,
+          "acquired_at": 1791472852.723488,
+          "owner_thread_id": 10248,
+          "owner_apartment": 1,
+          "callback_thread_id": 432,
+          "callback_apartment": 1
+        },
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "c3e23765ad79c1983361ac07864d56521c6248c6",
+          "dirty": true
+        }
+      },
+      "calibration": {
+        "status": "PASS for recorded pages",
+        "limitation": "Finite recorded pages/backgrounds; transition animation can be UNKNOWN; unknown popups are not universally covered",
+        "positive": {
+          "groups": [
+            "normal-confirmed-nav_tab"
+          ],
+          "count": 20,
+          "score_min": 0.9999699592590332,
+          "score_max": 0.9999715089797974
+        },
+        "negative": {
+          "groups": [
+            "feature-home",
+            "integration-home",
+            "feature-current",
+            "integration-current",
+            "feature-restored-home",
+            "feature-pre-nav-refresh",
+            "feature-resume-home",
+            "feature-access-resumed",
+            "feature-entered-home",
+            "readonly",
+            "confirmed-main_nav",
+            "feature-hot-overlay",
+            "integration-hot-overlay",
+            "normal-readonly",
+            "normal-confirmed-main_nav"
+          ],
+          "count": 300,
+          "score_max": 0.21885176002979279
+        },
+        "evidence": "phase2b1-diagnostics/feature-route-replay.json"
+      }
+    },
+    "entry_tab": {
+      "score_mode": "antialias_luma",
+      "file": "entry_tab.png",
+      "role": "entry",
+      "threshold": 0.98,
+      "reference_size": [
+        3840,
+        2087
+      ],
+      "reference_roi": [
+        2790,
+        1805,
+        3300,
+        2065
+      ],
+      "roi_note": "Selected 局域模拟 label needs a wider ROI than the unselected legacy icon",
+      "source": {
+        "image": "live-route-normal/nav_tab-20.png",
+        "image_sha256": "97ef403c097c9681362d767d1d0fbb3a94c215450956f8f118b41961669b555b",
+        "backend": "WGC",
+        "client_size": [
+          1280,
+          720
+        ],
+        "page": "局域模拟 - 03 断层防线",
+        "crop": [
+          969,
+          633,
+          1090,
+          662
+        ],
+        "frame_provenance": {
+          "hwnd": 1117564,
+          "pid": 10116,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 22,
+          "session_id": "a1e8b41e-20c0-4c89-b338-55cf1aad9539",
+          "request_qpc": 1921449726161,
+          "system_relative_time": 1921449997911,
+          "acquired_at": 1791472852.723488,
+          "owner_thread_id": 10248,
+          "owner_apartment": 1,
+          "callback_thread_id": 432,
+          "callback_apartment": 1
+        },
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "c3e23765ad79c1983361ac07864d56521c6248c6",
+          "dirty": true
+        }
+      },
+      "calibration": {
+        "status": "PASS for recorded pages",
+        "limitation": "Finite recorded pages/backgrounds; transition animation can be UNKNOWN; unknown popups are not universally covered",
+        "positive": {
+          "groups": [
+            "normal-confirmed-nav_tab"
+          ],
+          "count": 20,
+          "score_min": 0.999978244304657,
+          "score_max": 0.9999793767929077
+        },
+        "negative": {
+          "groups": [
+            "feature-home",
+            "integration-home",
+            "feature-current",
+            "integration-current",
+            "feature-restored-home",
+            "feature-pre-nav-refresh",
+            "feature-resume-home",
+            "feature-access-resumed",
+            "feature-entered-home",
+            "readonly",
+            "confirmed-main_nav",
+            "feature-hot-overlay",
+            "integration-hot-overlay",
+            "normal-readonly",
+            "normal-confirmed-main_nav"
+          ],
+          "count": 300,
+          "score_max": 0.3416162431240082
+        },
+        "evidence": "phase2b1-diagnostics/feature-route-replay.json"
+      }
+    },
+    "entry_button": {
+      "score_mode": "antialias_luma",
+      "file": "entry_button.png",
+      "role": "entry",
+      "threshold": 0.99,
+      "reference_size": [
+        1280,
+        720
+      ],
+      "reference_roi": [
+        1000,
+        505,
+        1250,
+        580
+      ],
+      "roi_note": "Native correction of the existing lower-right entry_button region; read-only, never dispatched",
+      "source": {
+        "image": "live-route-normal/nav_tab-20.png",
+        "image_sha256": "97ef403c097c9681362d767d1d0fbb3a94c215450956f8f118b41961669b555b",
+        "backend": "WGC",
+        "client_size": [
+          1280,
+          720
+        ],
+        "page": "局域模拟 - 03 断层防线",
+        "crop": [
+          1013,
+          520,
+          1240,
+          562
+        ],
+        "frame_provenance": {
+          "hwnd": 1117564,
+          "pid": 10116,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 22,
+          "session_id": "a1e8b41e-20c0-4c89-b338-55cf1aad9539",
+          "request_qpc": 1921449726161,
+          "system_relative_time": 1921449997911,
+          "acquired_at": 1791472852.723488,
+          "owner_thread_id": 10248,
+          "owner_apartment": 1,
+          "callback_thread_id": 432,
+          "callback_apartment": 1
+        },
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "c3e23765ad79c1983361ac07864d56521c6248c6",
+          "dirty": true
+        }
+      },
+      "calibration": {
+        "status": "PASS for recorded pages",
+        "limitation": "Finite recorded pages/backgrounds; transition animation can be UNKNOWN; unknown popups are not universally covered",
+        "positive": {
+          "groups": [
+            "normal-confirmed-nav_tab"
+          ],
+          "count": 20,
+          "score_min": 0.999976396560669,
+          "score_max": 0.999983549118042
+        },
+        "negative": {
+          "groups": [
+            "feature-home",
+            "integration-home",
+            "feature-current",
+            "integration-current",
+            "feature-restored-home",
+            "feature-pre-nav-refresh",
+            "feature-resume-home",
+            "feature-access-resumed",
+            "feature-entered-home",
+            "readonly",
+            "confirmed-main_nav",
+            "feature-hot-overlay",
+            "integration-hot-overlay",
+            "normal-readonly",
+            "normal-confirmed-main_nav"
+          ],
+          "count": 300,
+          "score_max": 0.26746103167533875
+        },
+        "evidence": "phase2b1-diagnostics/feature-route-replay.json"
+      },
+      "label": "进入副本"
+    },
+    "entry_button_label": {
+      "score_mode": "antialias_luma",
+      "native_client_size": [
+        1280,
+        720
+      ],
+      "reference_size": [
+        1280,
+        720
+      ],
+      "reference_roi": [
+        1000,
+        505,
+        1250,
+        580
+      ],
+      "threshold": 0.985,
+      "label": "进入副本",
+      "source": {
+        "image": "phase2b1-diagnostics\\feature-round-entry-01.png",
+        "image_sha256": "f9a8db01994be38e70ca06645bda75377449e807bdd15d113bcb3328de39573a",
+        "client_size": [
+          1280,
+          720
+        ],
+        "backend": "WGC",
+        "crop": [
+          1107,
+          529,
+          1205,
+          556
+        ],
+        "page": "ENTRY / 断层防线; notification badge visible",
+        "frame_provenance": {
+          "hwnd": 1117564,
+          "pid": 10116,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 1,
+          "session_id": "46f57fbf-45c0-47a7-9569-3ee2be1f2cc6",
+          "request_qpc": 2029117411090,
+          "system_relative_time": 2029117810705,
+          "acquired_at": 1791483619.5088704,
+          "owner_thread_id": 1300,
+          "owner_apartment": 1,
+          "callback_thread_id": 10024,
+          "callback_apartment": 1,
+          "size": [
+            1280,
+            720
+          ],
+          "sha256": "856095105bfa2984145fded0a47acc9ecbece4c07613db9c83c238e35318f776",
+          "file": "D:\\codex\\镭闪自动化720P通用运行环境适配\\phase2b1-diagnostics\\feature-round-entry-01.png"
+        }
+      },
+      "legacy_reference": null,
+      "file": "entry_button_label.png",
+      "target": "entry_button",
+      "role": "entry"
+    },
+    "main_black_rooftop": {
+      "file": "main_black_rooftop.png",
+      "role": "home",
+      "threshold": 0.98,
+      "reference_size": [
+        3840,
+        2160
+      ],
+      "reference_roi": [
+        2888,
+        390,
+        3338,
+        562
+      ],
+      "source": {
+        "image": "tests/fixtures/runtime-720p/home-rooftop.png",
+        "image_sha256": "b2d049419f9c6b1e91951fe548f54d4f5a2b99f32b04d445a5d059d6d9ebc5f0",
+        "backend": "WGC",
+        "client_size": [
+          1280,
+          720
+        ],
+        "page": "unobstructed rooftop homepage",
+        "crop": [
+          1005,
+          148,
+          1090,
+          174
+        ],
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "ca6c2ae6539b470b8ddf2c77ec61b8db04740c88"
+        },
+        "frame_provenance": {
+          "hwnd": 1313830,
+          "pid": 9632,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 3,
+          "session_id": "7a20e47f-509e-46be-9976-85bc58e86982",
+          "request_qpc": 2440417342711,
+          "system_relative_time": 2440417542070,
+          "acquired_at": 1791524749.4787884,
+          "owner_thread_id": 5360,
+          "owner_apartment": 1,
+          "callback_thread_id": 4100,
+          "callback_apartment": 1
+        },
+        "capture_evidence": "20261009-134549-080261/first-stage.json"
+      },
+      "target": "main_black",
+      "calibration": {
+        "positive_count": 20,
+        "positive_min": 0.9996957182884216,
+        "positive_max": 0.9999552369117737,
+        "negative_count": 87,
+        "negative_max": 0.302627295255661,
+        "home_false_positive": 0,
+        "limitation": "Recorded rooftop background and listed negatives only; requires all three home anchors"
+      }
+    }
+  }
+}

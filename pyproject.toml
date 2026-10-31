@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leiming-daily"
+dynamic = ["version"]
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[tool.setuptools.dynamic]
+version = {attr = "src.version.APP_VERSION"}
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+# Local framework/upstream checkouts and tools/live_test.py are not this project's suite.
+testpaths = ["tests"]
+
+[project.optional-dependencies]
+# Keep the full PySide6 dependency declared by Fluent Widgets in the lock.
+# The portable build still collects only the modules used by this application.
+qt = [
+    "ok-script[adb,default,ocr,qt]==2.0.0b7",
+    "openvino",
+    "opencv-python",
+]
+web = [
+    "ok-script[adb,default,ocr,web]==2.0.0b7",
+    "openvino",
+    "opencv-python",
+]
+docs = [
+    "mkdocs==1.6.1",
+]

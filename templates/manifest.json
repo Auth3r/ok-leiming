@@ -1,0 +1,1329 @@
+{
+  "resolution": [
+    3840,
+    2160
+  ],
+  "templates": {
+    "main_black": {
+      "file": "main_black.png",
+      "source": "17AA6884D15FA65DD3895832DE49B2DB.png",
+      "crop": [
+        3015,
+        442,
+        3259,
+        514
+      ],
+      "roi": [
+        2888,
+        390,
+        3338,
+        562
+      ]
+    },
+    "main_nav": {
+      "file": "main_nav.png",
+      "source": "17AA6884D15FA65DD3895832DE49B2DB.png",
+      "crop": [
+        3559,
+        823,
+        3731,
+        915
+      ],
+      "roi": [
+        3412,
+        750,
+        3788,
+        1041
+      ]
+    },
+    "main_team": {
+      "file": "main_team.png",
+      "source": "17AA6884D15FA65DD3895832DE49B2DB.png",
+      "crop": [
+        3506,
+        1350,
+        3638,
+        1421
+      ],
+      "roi": [
+        3412,
+        1181,
+        3712,
+        1462
+      ]
+    },
+    "main_dark": {
+      "file": "main_dark.png",
+      "source": "17AA6884D15FA65DD3895832DE49B2DB.png",
+      "crop": [
+        2756,
+        812,
+        3060,
+        896
+      ],
+      "roi": [
+        2438,
+        756,
+        3366,
+        1003
+      ]
+    },
+    "main_fund": {
+      "file": "main_fund.png",
+      "source": "17AA6884D15FA65DD3895832DE49B2DB.png",
+      "crop": [
+        2466,
+        913,
+        2691,
+        979
+      ],
+      "roi": [
+        2438,
+        759,
+        2719,
+        1012
+      ]
+    },
+    "main_daily": {
+      "file": "main_daily.png",
+      "source": "17AA6884D15FA65DD3895832DE49B2DB.png",
+      "crop": [
+        3585,
+        322,
+        3720,
+        396
+      ],
+      "roi": [
+        3450,
+        272,
+        3788,
+        431
+      ]
+    },
+    "back": {
+      "file": "back.png",
+      "source": "2EA44A12BD1F40228009B45FDD8BC250.png",
+      "crop": [
+        120,
+        90,
+        351,
+        172
+      ],
+      "roi": [
+        75,
+        47,
+        412,
+        206
+      ]
+    },
+    "home": {
+      "file": "home.png",
+      "source": "2EA44A12BD1F40228009B45FDD8BC250.png",
+      "crop": [
+        532,
+        90,
+        848,
+        172
+      ],
+      "roi": [
+        469,
+        38,
+        891,
+        216
+      ]
+    },
+    "black_title": {
+      "file": "black_title.png",
+      "source": "2EA44A12BD1F40228009B45FDD8BC250.png",
+      "crop": [
+        116,
+        1204,
+        321,
+        1277
+      ],
+      "roi": [
+        75,
+        1144,
+        394,
+        1312
+      ]
+    },
+    "black_credit": {
+      "file": "black_credit.png",
+      "source": "2EA44A12BD1F40228009B45FDD8BC250.png",
+      "crop": [
+        703,
+        446,
+        947,
+        512
+      ],
+      "roi": [
+        628,
+        394,
+        1050,
+        544
+      ]
+    },
+    "black_claim": {
+      "file": "black_claim.png",
+      "source": "2EA44A12BD1F40228009B45FDD8BC250.png",
+      "crop": [
+        3459,
+        471,
+        3645,
+        574
+      ],
+      "roi": [
+        3394,
+        356,
+        3703,
+        1847
+      ]
+    },
+    "fund_title": {
+      "file": "fund_title.png",
+      "source": "679D85095D466177D93DE36E65B779FD.png",
+      "crop": [
+        330,
+        977,
+        677,
+        1116
+      ],
+      "roi": [
+        272,
+        919,
+        731,
+        1181
+      ]
+    },
+    "fund_claim": {
+      "file": "fund_claim.png",
+      "source": "679D85095D466177D93DE36E65B779FD.png",
+      "crop": [
+        388,
+        1436,
+        726,
+        1522
+      ],
+      "roi": [
+        300,
+        1312,
+        956,
+        1622
+      ]
+    },
+    "fund_done": {
+      "file": "fund_done.png",
+      "source": "流程.mp4 @ 100s",
+      "crop": [
+        379,
+        1395,
+        808,
+        1472
+      ],
+      "roi": [
+        309,
+        1294,
+        975,
+        1594
+      ]
+    },
+    "nav_title": {
+      "file": "nav_title.png",
+      "source": "4FB4338D6CED4A8D9BD39E4B8104FF55.png",
+      "crop": [
+        2895,
+        450,
+        3144,
+        518
+      ],
+      "roi": [
+        2831,
+        403,
+        3375,
+        544
+      ]
+    },
+    "nav_recommend": {
+      "file": "nav_recommend.png",
+      "source": "4FB4338D6CED4A8D9BD39E4B8104FF55.png",
+      "crop": [
+        1986,
+        452,
+        2242,
+        521
+      ],
+      "roi": [
+        1912,
+        403,
+        2475,
+        544
+      ]
+    },
+    "nav_gan": {
+      "file": "nav_gan.png",
+      "source": "4FB4338D6CED4A8D9BD39E4B8104FF55.png",
+      "crop": [
+        2902,
+        726,
+        3148,
+        789
+      ],
+      "roi": [
+        2850,
+        600,
+        3581,
+        1425
+      ]
+    },
+    "nav_hunt": {
+      "file": "nav_hunt.png",
+      "source": "4FB4338D6CED4A8D9BD39E4B8104FF55.png",
+      "crop": [
+        2902,
+        1007,
+        3158,
+        1074
+      ],
+      "roi": [
+        2850,
+        600,
+        3581,
+        1425
+      ]
+    },
+    "nav_fund": {
+      "file": "nav_fund.png",
+      "source": "4FB4338D6CED4A8D9BD39E4B8104FF55.png",
+      "crop": [
+        2340,
+        1896,
+        2422,
+        1986
+      ],
+      "roi": [
+        2231,
+        1856,
+        2512,
+        2025
+      ]
+    },
+    "dark_map": {
+      "file": "dark_map.png",
+      "source": "FD76E030B569C71701FF74E07C86ECB5.png",
+      "crop": [
+        2792,
+        1005,
+        2936,
+        1086
+      ],
+      "roi": [
+        100,
+        250,
+        3840,
+        1500
+      ]
+    },
+    "dark_map_aux": {
+      "file": "dark_map_aux.png",
+      "source": "FD76E030B569C71701FF74E07C86ECB5.png",
+      "crop": [
+        2728,
+        1676,
+        3004,
+        1755
+      ],
+      "roi": [
+        2662,
+        1612,
+        3112,
+        1791
+      ]
+    },
+    "dark_stage": {
+      "file": "dark_stage.png",
+      "source": "流程.mp4 @ 134s",
+      "crop": [
+        2578,
+        347,
+        2807,
+        459
+      ],
+      "roi": [
+        2531,
+        291,
+        3281,
+        525
+      ]
+    },
+    "dark_stage_aux": {
+      "file": "dark_stage_aux.png",
+      "source": "流程.mp4 @ 134s",
+      "crop": [
+        2578,
+        548,
+        2812,
+        615
+      ],
+      "roi": [
+        2512,
+        506,
+        2962,
+        656
+      ]
+    },
+    "dark_sweep": {
+      "file": "dark_sweep.png",
+      "source": "流程.mp4 @ 134s",
+      "crop": [
+        2747,
+        1901,
+        2888,
+        1982
+      ],
+      "roi": [
+        2569,
+        1856,
+        3075,
+        2025
+      ]
+    },
+    "dark_dialog": {
+      "file": "dark_dialog.png",
+      "source": "F238C22EB0B63DF230E02BF2E30E72C1.png",
+      "crop": [
+        1129,
+        613,
+        1491,
+        709
+      ],
+      "roi": [
+        1050,
+        534,
+        1594,
+        769
+      ]
+    },
+    "dark_start": {
+      "file": "dark_start.png",
+      "source": "F238C22EB0B63DF230E02BF2E30E72C1.png",
+      "crop": [
+        2325,
+        1451,
+        2661,
+        1526
+      ],
+      "roi": [
+        2175,
+        1388,
+        2719,
+        1575
+      ]
+    },
+    "gan_title": {
+      "file": "gan_title.png",
+      "source": "53FBABAA9A458F0012029449C074E0E2.png",
+      "crop": [
+        1774,
+        1905,
+        2072,
+        1986
+      ],
+      "roi": [
+        1706,
+        1856,
+        2138,
+        2025
+      ]
+    },
+    "gan_stage": {
+      "file": "gan_stage.png",
+      "source": "53FBABAA9A458F0012029449C074E0E2.png",
+      "crop": [
+        2752,
+        384,
+        3068,
+        525
+      ],
+      "roi": [
+        2709,
+        338,
+        3338,
+        553
+      ]
+    },
+    "gan_sweep": {
+      "file": "gan_sweep.png",
+      "source": "53FBABAA9A458F0012029449C074E0E2.png",
+      "crop": [
+        2799,
+        1905,
+        3082,
+        1984
+      ],
+      "roi": [
+        2738,
+        1856,
+        3141,
+        2025
+      ]
+    },
+    "hunt_title": {
+      "file": "hunt_title.png",
+      "source": "62FB051BB82ACBE62A92665CBF4A7F80.png",
+      "crop": [
+        1770,
+        1905,
+        2072,
+        1986
+      ],
+      "roi": [
+        1697,
+        1847,
+        2138,
+        2025
+      ]
+    },
+    "hunt_stage": {
+      "file": "hunt_stage.png",
+      "source": "62FB051BB82ACBE62A92665CBF4A7F80.png",
+      "crop": [
+        2752,
+        388,
+        3071,
+        521
+      ],
+      "roi": [
+        2700,
+        338,
+        3356,
+        562
+      ]
+    },
+    "hunt_sweep": {
+      "file": "hunt_sweep.png",
+      "source": "62FB051BB82ACBE62A92665CBF4A7F80.png",
+      "crop": [
+        2794,
+        1907,
+        3086,
+        1984
+      ],
+      "roi": [
+        2738,
+        1856,
+        3141,
+        2025
+      ]
+    },
+    "free_one": {
+      "file": "free_one.png",
+      "source": "53FBABAA9A458F0012029449C074E0E2.png",
+      "crop": [
+        3118,
+        1759,
+        3202,
+        1826
+      ],
+      "roi": [
+        3075,
+        1734,
+        3244,
+        1847
+      ]
+    },
+    "free_zero": {
+      "file": "free_zero.png",
+      "source": "流程.mp4 @ 206s",
+      "crop": [
+        3118,
+        1759,
+        3202,
+        1826
+      ],
+      "roi": [
+        3075,
+        1734,
+        3244,
+        1847
+      ]
+    },
+    "free_dialog": {
+      "file": "free_dialog.png",
+      "source": "流程.mp4 @ 202s",
+      "crop": [
+        1131,
+        553,
+        1487,
+        639
+      ],
+      "roi": [
+        1069,
+        497,
+        1556,
+        684
+      ]
+    },
+    "free_dialog_one": {
+      "file": "free_dialog_one.png",
+      "source": "流程.mp4 @ 202s",
+      "crop": [
+        2010,
+        1406,
+        2111,
+        1474
+      ],
+      "roi": [
+        1969,
+        1369,
+        2147,
+        1509
+      ]
+    },
+    "free_dialog_one_gan": {
+      "file": "free_dialog_one_gan.png",
+      "source": "流程.mp4 @ 186s",
+      "crop": [
+        2010,
+        1406,
+        2111,
+        1474
+      ],
+      "roi": [
+        1969,
+        1369,
+        2147,
+        1509
+      ]
+    },
+    "free_start": {
+      "file": "free_start.png",
+      "source": "流程.mp4 @ 202s",
+      "crop": [
+        2325,
+        1515,
+        2659,
+        1586
+      ],
+      "roi": [
+        2231,
+        1481,
+        2719,
+        1631
+      ]
+    },
+    "free_start_gan": {
+      "file": "free_start_gan.png",
+      "source": "流程.mp4 @ 186s",
+      "crop": [
+        2302,
+        1515,
+        2614,
+        1586
+      ],
+      "roi": [
+        2231,
+        1481,
+        2719,
+        1631
+      ]
+    },
+    "reward_title": {
+      "file": "reward_title.png",
+      "source": "52BE62A646195C58B18B5BD7F3844C24.png",
+      "crop": [
+        1566,
+        441,
+        2269,
+        555
+      ],
+      "roi": [
+        1462,
+        375,
+        2381,
+        600
+      ]
+    },
+    "reward_prompt": {
+      "file": "reward_prompt.png",
+      "source": "52BE62A646195C58B18B5BD7F3844C24.png",
+      "crop": [
+        1648,
+        1903,
+        2188,
+        1972
+      ],
+      "roi": [
+        1575,
+        1856,
+        2269,
+        2025
+      ]
+    },
+    "daily_title": {
+      "file": "daily_title.png",
+      "source": "4DC1BD4D0F56CCE2D421987CB8A7B7E4.png",
+      "crop": [
+        401,
+        384,
+        669,
+        459
+      ],
+      "roi": [
+        338,
+        328,
+        741,
+        488
+      ]
+    },
+    "daily_aux": {
+      "file": "daily_aux.png",
+      "source": "4DC1BD4D0F56CCE2D421987CB8A7B7E4.png",
+      "crop": [
+        274,
+        759,
+        668,
+        842
+      ],
+      "roi": [
+        216,
+        712,
+        741,
+        872
+      ]
+    },
+    "daily_claim": {
+      "file": "daily_claim.png",
+      "source": "4DC1BD4D0F56CCE2D421987CB8A7B7E4.png",
+      "crop": [
+        3403,
+        735,
+        3668,
+        818
+      ],
+      "roi": [
+        3356,
+        638,
+        3712,
+        1547
+      ]
+    },
+    "daily_all": {
+      "file": "daily_all.png",
+      "source": "BEF565BCDC247093D7F3D546E040A2CE.png",
+      "crop": [
+        2085,
+        1046,
+        2775,
+        1162
+      ],
+      "roi": [
+        2025,
+        975,
+        2869,
+        1238
+      ]
+    },
+    "gift": {
+      "file": "gift.png",
+      "source": "BEF565BCDC247093D7F3D546E040A2CE.png",
+      "crop": [
+        2049,
+        1671,
+        2113,
+        1734
+      ],
+      "roi": [
+        1819,
+        1631,
+        3712,
+        1781
+      ]
+    },
+    "reward_title_black": {
+      "file": "reward_title_black.png",
+      "source": "codex-clipboard-455aff43-4f74-4f0d-aa64-5aa0d91454f7.png",
+      "crop": [
+        1571,
+        441,
+        2269,
+        551
+      ],
+      "roi": [
+        1462,
+        375,
+        2381,
+        600
+      ]
+    },
+    "dark_hub_research": {
+      "file": "dark_hub_research.png",
+      "source": "codex-clipboard-3cdc2f28-1f8c-4211-b4d8-ac7bb6a15ad3.png",
+      "crop": [
+        2524,
+        1391,
+        2803,
+        1472
+      ],
+      "roi": [
+        2306,
+        1359,
+        2953,
+        1575
+      ]
+    },
+    "dark_hub_trial": {
+      "file": "dark_hub_trial.png",
+      "source": "codex-clipboard-3cdc2f28-1f8c-4211-b4d8-ac7bb6a15ad3.png",
+      "crop": [
+        3225,
+        1050,
+        3572,
+        1134
+      ],
+      "roi": [
+        3019,
+        1012,
+        3675,
+        1228
+      ]
+    },
+    "free_start_gan_current": {
+      "file": "free_start_gan_current.png",
+      "source": "codex-clipboard-eb37b8a8-b54e-41ee-88e5-a5956f26b43b.png",
+      "crop": [
+        2318,
+        1515,
+        2661,
+        1586
+      ],
+      "roi": [
+        2231,
+        1481,
+        2719,
+        1631
+      ]
+    },
+    "login_enter": {
+      "file": "login_enter.png",
+      "source": "codex-clipboard-499af17b-76d9-4b2e-b578-8c61a1d1ab65.png",
+      "crop": [
+        1706,
+        1594,
+        2138,
+        1667
+      ],
+      "roi": [
+        1594,
+        1500,
+        2250,
+        1772
+      ]
+    },
+    "login_settings": {
+      "file": "login_settings.png",
+      "source": "codex-clipboard-499af17b-76d9-4b2e-b578-8c61a1d1ab65.png",
+      "crop": [
+        3562,
+        1449,
+        3694,
+        1519
+      ],
+      "roi": [
+        3506,
+        1406,
+        3750,
+        1556
+      ]
+    },
+    "maintenance_text": {
+      "file": "maintenance_text.png",
+      "source": "codex-clipboard-ec49aee9-7bbb-4724-b32a-c402b48f55de.png",
+      "crop": [
+        982,
+        808,
+        1350,
+        885
+      ],
+      "roi": [
+        909,
+        744,
+        1462,
+        938
+      ]
+    },
+    "maintenance_confirm": {
+      "file": "maintenance_confirm.png",
+      "source": "codex-clipboard-ec49aee9-7bbb-4724-b32a-c402b48f55de.png",
+      "crop": [
+        3294,
+        1307,
+        3521,
+        1391
+      ],
+      "roi": [
+        2962,
+        1266,
+        3581,
+        1444
+      ]
+    },
+    "dispatch_title": {
+      "file": "dispatch_title.png",
+      "source": "codex-clipboard-6584e0a3-b153-44c7-af38-12108b07e35a.png",
+      "crop": [
+        2438,
+        366,
+        2709,
+        439
+      ],
+      "roi": [
+        2344,
+        338,
+        2794,
+        469
+      ]
+    },
+    "dispatch_reward": {
+      "file": "dispatch_reward.png",
+      "source": "codex-clipboard-6584e0a3-b153-44c7-af38-12108b07e35a.png",
+      "crop": [
+        615,
+        1146,
+        896,
+        1217
+      ],
+      "roi": [
+        562,
+        1106,
+        975,
+        1247
+      ]
+    },
+    "dispatch_ready": {
+      "file": "dispatch_ready.png",
+      "source": "codex-clipboard-6584e0a3-b153-44c7-af38-12108b07e35a.png",
+      "crop": [
+        3414,
+        1849,
+        3641,
+        1933
+      ],
+      "roi": [
+        3366,
+        1822,
+        3682,
+        1958
+      ]
+    },
+    "dispatch_green": {
+      "file": "dispatch_green.png",
+      "source": "codex-clipboard-6584e0a3-b153-44c7-af38-12108b07e35a.png",
+      "crop": [
+        2708,
+        592,
+        2773,
+        660
+      ],
+      "roi": [
+        2691,
+        459,
+        2784,
+        1331
+      ]
+    },
+    "dispatch_orange": {
+      "file": "dispatch_orange.png",
+      "source": "codex-clipboard-6584e0a3-b153-44c7-af38-12108b07e35a.png",
+      "crop": [
+        2700,
+        1500,
+        2777,
+        1575
+      ],
+      "roi": [
+        2678,
+        1472,
+        2794,
+        1594
+      ]
+    },
+    "dispatch_empty": {
+      "file": "dispatch_empty.png",
+      "source": "codex-clipboard-6584e0a3-b153-44c7-af38-12108b07e35a.png",
+      "crop": [
+        2542,
+        979,
+        2604,
+        1037
+      ],
+      "roi": [
+        2503,
+        459,
+        2634,
+        1594
+      ]
+    },
+    "dispatch_selected": {
+      "file": "dispatch_selected.png",
+      "source": "codex-clipboard-6584e0a3-b153-44c7-af38-12108b07e35a.png",
+      "crop": [
+        2925,
+        652,
+        3034,
+        739
+      ],
+      "roi": [
+        2841,
+        497,
+        3690,
+        891
+      ]
+    },
+    "dispatch_recall": {
+      "file": "dispatch_recall.png",
+      "source": "codex-clipboard-84068243-57c1-4078-99c1-a910fae6c676.png",
+      "crop": [
+        3418,
+        1852,
+        3636,
+        1931
+      ],
+      "roi": [
+        3366,
+        1824,
+        3686,
+        1959
+      ]
+    },
+    "dispatch_assigned": {
+      "file": "dispatch_assigned.png",
+      "source": "codex-clipboard-84068243-57c1-4078-99c1-a910fae6c676.png",
+      "crop": [
+        2477,
+        1688,
+        2578,
+        1727
+      ],
+      "roi": [
+        2194,
+        1669,
+        2794,
+        1762
+      ]
+    },
+    "black_arrow": {
+      "file": "black_arrow.png",
+      "source": "codex-clipboard-51d02874-9995-40a5-841f-512c66c2c998.png",
+      "crop": [
+        3519,
+        488,
+        3594,
+        557
+      ],
+      "roi": [
+        3450,
+        347,
+        3638,
+        1800
+      ]
+    },
+    "black_pending": {
+      "file": "black_pending.png",
+      "source": "codex-clipboard-f016b664-94fa-4de1-9e14-927304949d9b.png",
+      "crop": [
+        1614,
+        592,
+        1682,
+        658
+      ],
+      "roi": [
+        1594,
+        347,
+        1697,
+        1800
+      ]
+    },
+    "module_entry": {
+      "file": "module_entry.png",
+      "source": "codex-clipboard-3858e3a8-fdb1-417d-b098-a1f2e0a424b6.png",
+      "crop": [
+        3442,
+        1916,
+        3716,
+        2002
+      ],
+      "roi": [
+        3262,
+        1828,
+        3788,
+        2062
+      ]
+    },
+    "module_team": {
+      "file": "module_team.png",
+      "source": "codex-clipboard-266a3363-fad1-4926-b97c-24319bac0e7e.png",
+      "crop": [
+        2828,
+        388,
+        3116,
+        463
+      ],
+      "roi": [
+        2775,
+        347,
+        3225,
+        497
+      ]
+    },
+    "module_start_label": {
+      "file": "module_start_label.png",
+      "source": "codex-clipboard-70ef94f9-97aa-4020-8cd9-8e7871467902.png",
+      "crop": [
+        3356,
+        1881,
+        3671,
+        1967
+      ],
+      "roi": [
+        3262,
+        1809,
+        3750,
+        2025
+      ]
+    },
+    "module_choose": {
+      "file": "module_choose.png",
+      "source": "codex-clipboard-266a3363-fad1-4926-b97c-24319bac0e7e.png",
+      "crop": [
+        529,
+        1080,
+        825,
+        1162
+      ],
+      "roi": [
+        356,
+        1031,
+        1031,
+        1228
+      ]
+    },
+    "module_replace": {
+      "file": "module_replace.png",
+      "source": "codex-clipboard-70ef94f9-97aa-4020-8cd9-8e7871467902.png",
+      "crop": [
+        178,
+        381,
+        369,
+        450
+      ],
+      "roi": [
+        103,
+        338,
+        441,
+        488
+      ]
+    },
+    "module_plus": {
+      "file": "module_plus.png",
+      "source": "codex-clipboard-266a3363-fad1-4926-b97c-24319bac0e7e.png",
+      "crop": [
+        2914,
+        574,
+        3047,
+        712
+      ],
+      "roi": [
+        2850,
+        516,
+        3656,
+        1303
+      ]
+    },
+    "module_level": {
+      "file": "module_level.png",
+      "source": "codex-clipboard-70ef94f9-97aa-4020-8cd9-8e7871467902.png",
+      "crop": [
+        2959,
+        538,
+        3013,
+        585
+      ],
+      "roi": [
+        2850,
+        516,
+        3656,
+        1303
+      ]
+    },
+    "module_filter": {
+      "file": "module_filter.png",
+      "source": "codex-clipboard-fb95894f-b146-4a50-9ff4-d834e7b19482.png",
+      "crop": [
+        3212,
+        349,
+        3465,
+        424
+      ],
+      "roi": [
+        3094,
+        319,
+        3731,
+        459
+      ]
+    },
+    "module_eagle": {
+      "file": "module_eagle.png",
+      "source": "codex-clipboard-fb95894f-b146-4a50-9ff4-d834e7b19482.png",
+      "crop": [
+        1860,
+        902,
+        1933,
+        981
+      ],
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ]
+    },
+    "module_old_title": {
+      "file": "module_old_title.png",
+      "source": "codex-clipboard-fb95894f-b146-4a50-9ff4-d834e7b19482.png",
+      "crop": [
+        163,
+        375,
+        521,
+        459
+      ],
+      "roi": [
+        122,
+        338,
+        788,
+        497
+      ]
+    },
+    "module_confirm": {
+      "file": "module_confirm.png",
+      "source": "codex-clipboard-fb95894f-b146-4a50-9ff4-d834e7b19482.png",
+      "crop": [
+        3444,
+        1901,
+        3677,
+        1980
+      ],
+      "roi": [
+        2944,
+        1866,
+        3731,
+        2025
+      ]
+    },
+    "module_blue_choose": {
+      "file": "module_blue_choose.png",
+      "source": "codex-clipboard-266a3363-fad1-4926-b97c-24319bac0e7e.png",
+      "crop": [
+        1779,
+        1078,
+        2224,
+        1162
+      ],
+      "roi": [
+        1697,
+        1031,
+        2297,
+        1238
+      ]
+    },
+    "module_blue_filter": {
+      "file": "module_blue_filter.png",
+      "source": "codex-clipboard-4dce3b16-44f7-4575-a268-6e8e05a4bfad.png",
+      "crop": [
+        1406,
+        1905,
+        2278,
+        1984
+      ],
+      "roi": [
+        1312,
+        1828,
+        2362,
+        2062
+      ]
+    },
+    "module_blue_card": {
+      "file": "module_blue_card.png",
+      "source": "codex-clipboard-4dce3b16-44f7-4575-a268-6e8e05a4bfad.png",
+      "crop": [
+        1558,
+        611,
+        1710,
+        720
+      ],
+      "roi": [
+        1500,
+        544,
+        3544,
+        1688
+      ]
+    },
+    "module_blue_selected": {
+      "file": "module_blue_selected.png",
+      "source": "codex-clipboard-70ef94f9-97aa-4020-8cd9-8e7871467902.png",
+      "crop": [
+        1875,
+        334,
+        2147,
+        561
+      ],
+      "roi": [
+        1781,
+        309,
+        2250,
+        600
+      ]
+    },
+    "module_old_ready": {
+      "file": "module_old_ready.png",
+      "source": "codex-clipboard-70ef94f9-97aa-4020-8cd9-8e7871467902.png",
+      "crop": [
+        656,
+        808,
+        786,
+        988
+      ],
+      "roi": [
+        581,
+        741,
+        853,
+        1050
+      ]
+    },
+    "module_plus_partial": {
+      "file": "module_plus_partial.png",
+      "source": "codex-clipboard-50ddbf68-2bdd-41a3-93e3-c5bf21890bdd.png",
+      "crop": [
+        3184,
+        1110,
+        3315,
+        1243
+      ],
+      "roi": [
+        2850,
+        516,
+        3656,
+        1303
+      ]
+    },
+    "dark_map_landmark": {
+      "file": "dark_map_landmark.png",
+      "roi": [
+        60,
+        1400,
+        650,
+        1650
+      ]
+    }
+  }
+}

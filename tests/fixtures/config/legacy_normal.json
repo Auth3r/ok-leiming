@@ -1,0 +1,51 @@
+{
+  "settings.json": {
+    "window_title": "",
+    "game_exe": "ExampleGame.exe",
+    "resolution_width": 3840,
+    "resolution_height": 2160,
+    "match_threshold": 0.9,
+    "click_min_wait": 0.4,
+    "recognition_timeout": 15.0,
+    "max_retries": 2,
+    "dark_tide_sweep_count": 5,
+    "debug_mode": true,
+    "step_mode": false,
+    "cooperative_mode": true,
+    "cooperative_interval": 5,
+    "execute_black_shield": true,
+    "execute_black_dispatch": true,
+    "execute_fund": true,
+    "execute_dark_tide": true,
+    "execute_ganhuo": true,
+    "execute_hunt_gold": true,
+    "execute_daily_reward": true
+  },
+  "configs/DailyTask.json": {
+    "dark_tide_sweep_count": 4,
+    "execute_black_shield": true,
+    "execute_black_dispatch": true,
+    "execute_fund": true,
+    "execute_dark_tide": true,
+    "execute_ganhuo": true,
+    "execute_hunt_gold": true,
+    "execute_daily_reward": true
+  },
+  "configs/DarkTideTask.json": {
+    "dark_tide_sweep_count": 4
+  },
+  "configs/ModuleCraftTask.json": {
+    "制作配置": "旧地联合",
+    "制作数量": 1,
+    "属性刷新方式": "自动",
+    "属性刷新人数门槛": 4,
+    "优先火力攻击奖励任务": true
+  },
+  "configs/ModuleResumeTask.json": {
+    "制作配置": "旧地联合",
+    "制作数量": 1,
+    "属性刷新方式": "自动",
+    "属性刷新人数门槛": 4,
+    "优先火力攻击奖励任务": true
+  }
+}

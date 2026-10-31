@@ -1,0 +1,10 @@
+{
+  "configs/DailyTask.json": {
+    "recognition_timeout": 8.0
+  },
+  "configs/ModuleCraftTask.json": {
+    "制作配置": "旧地联合",
+    "制作数量": 2,
+    "属性刷新方式": "自动"
+  }
+}

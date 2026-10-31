@@ -1,0 +1,586 @@
+{
+  "resolution": [
+    1280,
+    720
+  ],
+  "templates": {
+    "module_icon_先攻": {
+      "file": "first_strike.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/first-strike-selected.png",
+      "source_roi_native": [
+        618,
+        236,
+        646,
+        267
+      ],
+      "identity": "Selected detail 先攻小组06; 信息采集/精准制导/极限功率; activation footer 先攻小组"
+    },
+    "module_filter": {
+      "file": "list_sort.png",
+      "roi": [
+        1300,
+        300,
+        2100,
+        465
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/consistency-selected.png",
+      "source_roi_native": [
+        439,
+        113,
+        665,
+        146
+      ],
+      "identity": "Observed native module list sort controls 品阶 / 效能"
+    },
+    "module_icon_一致": {
+      "file": "consistency.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/consistency-selected.png",
+      "source_roi_native": [
+        618,
+        186,
+        646,
+        215
+      ],
+      "identity": "Selected detail 一致战线06; 战术共鸣/公平交易/黄金法则; activation footer 一致战线"
+    },
+    "module_icon_军工": {
+      "file": "military.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/military-selected.png",
+      "source_roi_native": [
+        618,
+        518,
+        646,
+        547
+      ],
+      "identity": "Selected detail 军工武装06; 精准加持/全面武装/集体荣光; activation footer 军工武装"
+    },
+    "module_team_level_60": {
+      "file": "team_level_60.png",
+      "roi": [
+        2850,
+        506,
+        3656,
+        1303
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/team-selected.png",
+      "source_roi_native": [
+        1076,
+        268,
+        1122,
+        284
+      ],
+      "level_text": "LV.60",
+      "identity": "Actual positive LV.60 glyph over white-haired portrait; requires slot portrait and own level-strip binding"
+    },
+    "module_team_level_60_pink": {
+      "target": "module_team_level_60",
+      "file": "team_level_60_pink.png",
+      "roi": [2850, 506, 3656, 1303],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/team-pink-prepared-720p.png",
+      "source_roi_native": [1164, 356, 1210, 372],
+      "level_text": "LV.60",
+      "identity": "Actual complete LV.60 text on pink-haired portrait; only own level-strip matching plus portrait texture may prove occupancy. Original white-haired text variant is retained."
+    },
+    "module_team_level_60_dark": {
+      "target": "module_team_level_60",
+      "file": "team_level_60_dark.png",
+      "roi": [2850, 506, 3656, 1303],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/prepared-unity-720p.png",
+      "source_roi_native": [1164, 178, 1210, 194],
+      "level_text": "LV.60",
+      "identity": "Actual complete positive LV.60 text on dark-haired first-row third portrait after confirmed consistency embryo; requires textured portrait and matching within that slot's own level strip. Existing white and pink portrait glyphs remain."
+    },
+    "module_team_level_60_support": {
+      "target": "module_team_level_60",
+      "file": "team_level_60_support.png",
+      "roi": [2850, 506, 3656, 1303],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/prepared-unity-720p.png",
+      "source_roi_native": [986, 356, 1032, 372],
+      "level_text": "LV.60",
+      "identity": "Actual complete positive LV.60 text on third-row first support portrait after confirmed consistency embryo; requires textured portrait and matching within the same slot's own level strip. No LVGO character substitution."
+    },
+    "module_icon_consistency_unselected": {
+      "target": "module_icon_一致",
+      "file": "consistency_unselected.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/consistency-selected.png",
+      "source_roi_native": [
+        807,
+        186,
+        835,
+        215
+      ],
+      "identity": "Unselected 一致战线06 icon; same captured list as selected card with 一致战线06 detail and 战术共鸣/公平交易/黄金法则. Original selected icon is retained."
+    },
+    "module_ready_一致_brand": {
+      "file": "unity_brand.png",
+      "roi": [540, 630, 960, 1110],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/prepared-unity-720p.png",
+      "source_roi_native": [220, 278, 276, 338],
+      "identity": "Specific consistency pillar glyph with inner divisions on native preparation page, bound to actual 一致战线06 selected-detail and non-probe embryo-confirmation events. Name OCR remains preferred; only native MODULE_RESEARCH may use this glyph."
+    },
+    "module_ready_军工_brand": {
+      "file": "military_brand.png",
+      "roi": [540, 630, 960, 1110],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/prepared-military-blueprint-selected-720p.png",
+      "source_roi_native": [220, 272, 274, 332],
+      "identity": "Specific military helmet glyph with inner cutouts on native preparation page, bound to actual 军工武装06 selected-detail and embryo-confirmation events. Name OCR remains preferred; only native MODULE_RESEARCH may use this glyph."
+    },
+    "module_ready_先攻_brand": {
+      "file": "first_strike_brand.png",
+      "roi": [
+        540,
+        630,
+        960,
+        1110
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/prepared-first-strike-720p.png",
+      "source_roi_native": [
+        222,
+        260,
+        273,
+        320
+      ],
+      "identity": "Gold three-fold glyph on verified 先攻小组06 preparation module. Name OCR remains preferred; only native 720P MODULE_RESEARCH may use this glyph. Military/consistency preparation exclusions have not been live verified."
+    },
+    "module_ready_first_strike_brand_confirm": {
+      "file": "first_strike_brand_confirm.png",
+      "roi": [
+        540,
+        630,
+        960,
+        1110
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/prepared-first-strike-confirm-720p.png",
+      "source_roi_native": [
+        221,
+        244,
+        272,
+        304
+      ],
+      "identity": "Gold three-fold glyph on verified 先攻小组06 preparation module. Name OCR remains preferred; only native 720P MODULE_RESEARCH may use this glyph. Military/consistency preparation exclusions have not been live verified.",
+      "target": "module_ready_先攻_brand"
+    },
+    "module_icon_first_strike_unselected_1": {
+      "target": "module_icon_先攻",
+      "file": "first_strike_unselected_1.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-icon-unselected/first-strike-failure.png",
+      "source_roi_native": [
+        997,
+        236,
+        1025,
+        267
+      ],
+      "identity": "Unselected first-strike glyph from the original 20261013-220741-919485 failure; identical glyph pixels independently exist in first-strike-selected.png, whose detail says 先攻小组06. Native raster variants across columns/rows; search the entire list, never the source coordinates."
+    },
+    "module_icon_first_strike_unselected_2": {
+      "target": "module_icon_先攻",
+      "file": "first_strike_unselected_2.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-icon-unselected/first-strike-failure.png",
+      "source_roi_native": [
+        1186,
+        236,
+        1214,
+        267
+      ],
+      "identity": "Unselected first-strike glyph from the original 20261013-220741-919485 failure; identical glyph pixels independently exist in first-strike-selected.png, whose detail says 先攻小组06. Native raster variants across columns/rows; search the entire list, never the source coordinates."
+    },
+    "module_icon_first_strike_unselected_3": {
+      "target": "module_icon_先攻",
+      "file": "first_strike_unselected_3.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-icon-unselected/first-strike-failure.png",
+      "source_roi_native": [
+        618,
+        353,
+        646,
+        384
+      ],
+      "identity": "Unselected first-strike glyph from the original 20261013-220741-919485 failure; identical glyph pixels independently exist in first-strike-selected.png, whose detail says 先攻小组06. Native raster variants across columns/rows; search the entire list, never the source coordinates."
+    },
+    "module_icon_first_strike_unselected_4": {
+      "target": "module_icon_先攻",
+      "file": "first_strike_unselected_4.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-icon-unselected/first-strike-failure.png",
+      "source_roi_native": [
+        807,
+        353,
+        835,
+        384
+      ],
+      "identity": "Unselected first-strike glyph from the original 20261013-220741-919485 failure; identical glyph pixels independently exist in first-strike-selected.png, whose detail says 先攻小组06. Native raster variants across columns/rows; search the entire list, never the source coordinates."
+    },
+    "module_icon_first_strike_unselected_5": {
+      "target": "module_icon_先攻",
+      "file": "first_strike_unselected_5.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-icon-unselected/first-strike-failure.png",
+      "source_roi_native": [
+        997,
+        353,
+        1025,
+        384
+      ],
+      "identity": "Unselected first-strike glyph from the original 20261013-220741-919485 failure; identical glyph pixels independently exist in first-strike-selected.png, whose detail says 先攻小组06. Native raster variants across columns/rows; search the entire list, never the source coordinates."
+    },
+    "module_icon_first_strike_unselected_6": {
+      "target": "module_icon_先攻",
+      "file": "first_strike_unselected_6.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-icon-unselected/first-strike-failure.png",
+      "source_roi_native": [
+        1186,
+        353,
+        1214,
+        384
+      ],
+      "identity": "Unselected first-strike glyph from the original 20261013-220741-919485 failure; identical glyph pixels independently exist in first-strike-selected.png, whose detail says 先攻小组06. Native raster variants across columns/rows; search the entire list, never the source coordinates."
+    },
+    "module_icon_military_unselected_1": {
+      "target": "module_icon_军工",
+      "file": "military_unselected_1.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-icon-unselected/first-strike-failure.png",
+      "source_roi_native": [
+        807,
+        237,
+        835,
+        266
+      ],
+      "identity": "Unselected military helmet glyph on the real failure list; original selected identity is established by military-selected.png / 军工武装06. Separate unselected raster/background variants; identity still requires selected-detail OCR before confirmation."
+    },
+    "module_icon_military_unselected_2": {
+      "target": "module_icon_军工",
+      "file": "military_unselected_2.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-icon-unselected/first-strike-failure.png",
+      "source_roi_native": [
+        807,
+        471,
+        835,
+        500
+      ],
+      "identity": "Unselected military helmet glyph on the real failure list; original selected identity is established by military-selected.png / 军工武装06. Separate unselected raster/background variants; identity still requires selected-detail OCR before confirmation."
+    },
+    "module_icon_first_strike_unselected_7": {
+      "target": "module_icon_先攻",
+      "file": "first_strike_unselected_7.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/first-strike-selected.png",
+      "source_roi_native": [
+        807,
+        236,
+        835,
+        267
+      ],
+      "identity": "Additional observed unselected glyph raster/background on an identity-verified 先攻 capture. Full-list search only; source coordinates are provenance, not a runtime restriction. Held-out live and scroll captures validate independence."
+    },
+    "module_icon_first_strike_unselected_8": {
+      "target": "module_icon_先攻",
+      "file": "first_strike_unselected_8.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/first-strike-selected.png",
+      "source_roi_native": [
+        997,
+        471,
+        1025,
+        502
+      ],
+      "identity": "Additional observed unselected glyph raster/background on an identity-verified 先攻 capture. Full-list search only; source coordinates are provenance, not a runtime restriction. Held-out live and scroll captures validate independence."
+    },
+    "module_icon_military_unselected_3": {
+      "target": "module_icon_军工",
+      "file": "military_unselected_3.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/military-selected.png",
+      "source_roi_native": [
+        997,
+        518,
+        1025,
+        547
+      ],
+      "identity": "Additional observed unselected glyph raster/background on an identity-verified 军工 capture. Full-list search only; source coordinates are provenance, not a runtime restriction. Held-out live and scroll captures validate independence."
+    },
+    "module_icon_military_unselected_4": {
+      "target": "module_icon_军工",
+      "file": "military_unselected_4.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/military-selected.png",
+      "source_roi_native": [
+        1186,
+        518,
+        1214,
+        547
+      ],
+      "identity": "Additional observed unselected glyph raster/background on an identity-verified 军工 capture. Full-list search only; source coordinates are provenance, not a runtime restriction. Held-out live and scroll captures validate independence."
+    },
+    "module_icon_consistency_unselected_2": {
+      "target": "module_icon_一致",
+      "file": "consistency_unselected_2.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/consistency-selected.png",
+      "source_roi_native": [
+        997,
+        186,
+        1025,
+        215
+      ],
+      "identity": "Additional observed unselected glyph raster/background on an identity-verified 一致 capture. Full-list search only; source coordinates are provenance, not a runtime restriction. Held-out live and scroll captures validate independence."
+    },
+    "module_icon_consistency_unselected_3": {
+      "target": "module_icon_一致",
+      "file": "consistency_unselected_3.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/consistency-selected.png",
+      "source_roi_native": [
+        1186,
+        186,
+        1214,
+        215
+      ],
+      "identity": "Additional observed unselected glyph raster/background on an identity-verified 一致 capture. Full-list search only; source coordinates are provenance, not a runtime restriction. Held-out live and scroll captures validate independence."
+    },
+    "module_team_level_60_round_1_3": {
+      "target": "module_team_level_60",
+      "file": "module_team_level_60_round_1_3.png",
+      "roi": [
+        2850,
+        506,
+        3656,
+        1303
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/astra-ten-720p/team-level-missed.png",
+      "source_roi_native": [
+        1164,
+        178,
+        1210,
+        194
+      ],
+      "level_text": "LV.60",
+      "identity": "Complete LV.60 glyph from the actual first-round 720P failure. Requires textured portrait and matching only within the current slot level strip at unchanged 0.97; independent live revalidation required."
+    },
+    "module_team_level_60_round_2_2": {
+      "target": "module_team_level_60",
+      "file": "module_team_level_60_round_2_2.png",
+      "roi": [
+        2850,
+        506,
+        3656,
+        1303
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/astra-ten-720p/team-level-missed.png",
+      "source_roi_native": [
+        1075,
+        267,
+        1121,
+        283
+      ],
+      "level_text": "LV.60",
+      "identity": "Complete LV.60 glyph from the actual first-round 720P failure. Requires textured portrait and matching only within the current slot level strip at unchanged 0.97; independent live revalidation required."
+    },
+    "module_team_level_60_round_3_1": {
+      "target": "module_team_level_60",
+      "file": "module_team_level_60_round_3_1.png",
+      "roi": [
+        2850,
+        506,
+        3656,
+        1303
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/astra-ten-720p/team-level-missed.png",
+      "source_roi_native": [
+        986,
+        356,
+        1032,
+        372
+      ],
+      "level_text": "LV.60",
+      "identity": "Complete LV.60 glyph from the actual first-round 720P failure. Requires textured portrait and matching only within the current slot level strip at unchanged 0.97; independent live revalidation required."
+    },
+    "module_team_level_60_round_3_3": {
+      "target": "module_team_level_60",
+      "file": "module_team_level_60_round_3_3.png",
+      "roi": [
+        2850,
+        506,
+        3656,
+        1303
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/astra-ten-720p/team-level-missed.png",
+      "source_roi_native": [
+        1164,
+        356,
+        1210,
+        372
+      ],
+      "level_text": "LV.60",
+      "identity": "Complete LV.60 glyph from the actual first-round 720P failure. Requires textured portrait and matching only within the current slot level strip at unchanged 0.97; independent live revalidation required."
+    },
+    "module_icon_consistency_desktop": {
+      "file": "unity_unselected_desktop.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/unity-desktop-unselected-720p.png",
+      "source_roi_native": [
+        807,
+        186,
+        835,
+        215
+      ],
+      "source_sha256": "f753a70426013f43159b35ddf8d29369e5a387231b0a230183c3896ded8215d4",
+      "target": "module_icon_一致",
+      "identity": "Native desktop unselected consistency pillar, positively bound to exact 一致战线06 selected detail and embryo confirmation. Threshold .97 and final title guard are retained. Provenance: tests/fixtures/module-season/unity-desktop-provenance.json"
+    },
+    "module_icon_military_desktop": {
+      "target": "module_icon_军工",
+      "file": "military_desktop.png",
+      "roi": [
+        1369,
+        506,
+        3656,
+        1725
+      ],
+      "threshold": 0.97,
+      "source": "tests/fixtures/module-season/military-desktop-unselected-720p.png",
+      "source_roi_native": [
+        997,
+        182,
+        1025,
+        211
+      ],
+      "identity": "Native candidate preview independently confirms 军工武装07 and 无词条效果; no embryo confirmation or material consumption in calibration"
+    }
+  }
+}

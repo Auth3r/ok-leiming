@@ -1,0 +1,11 @@
+{
+  "settings.json": {
+    "dark_tide_sweep_count": 5
+  },
+  "configs/DailyTask.json": {
+    "dark_tide_sweep_count": 4
+  },
+  "configs/DarkTideTask.json": {
+    "dark_tide_sweep_count": 4
+  }
+}

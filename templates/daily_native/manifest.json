@@ -1,0 +1,1921 @@
+{
+  "templates": {
+    "seasonal_activity_anchor": {
+      "file": "seasonal_activity_anchor.png",
+      "roi": [
+        2400,
+        870,
+        3000,
+        990
+      ],
+      "threshold": 0.97,
+      "source_crop": [
+        917,
+        299,
+        984,
+        320
+      ],
+      "source_sha256": "8bacd3970bec846c7c9f648533bd8c9f32ca2c383500dd957934f960f2c684a5",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 1,
+        "session_id": "d358bb9c-e14a-40ad-8746-52a7c889000d",
+        "request_qpc": 1049849212107,
+        "system_relative_time": 1049849423784,
+        "acquired_at": 1791679644.9199896,
+        "owner_thread_id": 26340,
+        "owner_apartment": 1,
+        "callback_thread_id": 7628,
+        "callback_apartment": 1,
+        "window": {
+          "connected": true,
+          "hwnd": 592728,
+          "pid": 28816,
+          "exe": "Warp Knights.exe",
+          "title": "镭明闪击",
+          "resolution": [
+            1280,
+            720
+          ],
+          "client_origin": [
+            290,
+            242
+          ],
+          "dpi": 144,
+          "minimized": false,
+          "visible": true
+        }
+      }
+    },
+    "home": {
+      "file": "home.png",
+      "roi": [
+        469,
+        38,
+        891,
+        216
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        179,
+        29,
+        285,
+        58
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "6f777cfa145a021e90bdacbb3e90bd7243ac932fb9ec1102efec985a480bf1ba",
+      "source": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 1,
+        "session_id": "61613b21-0cfb-491d-89e3-dcfbc8503dd8",
+        "request_qpc": 1056511922321,
+        "system_relative_time": 1056512235827,
+        "acquired_at": 1791680311.2010922,
+        "owner_thread_id": 28320,
+        "owner_apartment": 1,
+        "callback_thread_id": 25980,
+        "callback_apartment": 1,
+        "window": {
+          "connected": true,
+          "hwnd": 592728,
+          "pid": 28816,
+          "exe": "Warp Knights.exe",
+          "title": "镭明闪击",
+          "resolution": [
+            1280,
+            720
+          ],
+          "client_origin": [
+            290,
+            242
+          ],
+          "dpi": 144,
+          "minimized": false,
+          "visible": true
+        }
+      }
+    },
+    "back": {
+      "file": "back.png",
+      "roi": [
+        75,
+        47,
+        412,
+        206
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        37,
+        29,
+        120,
+        58
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "6f777cfa145a021e90bdacbb3e90bd7243ac932fb9ec1102efec985a480bf1ba",
+      "source": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 1,
+        "session_id": "61613b21-0cfb-491d-89e3-dcfbc8503dd8",
+        "request_qpc": 1056511922321,
+        "system_relative_time": 1056512235827,
+        "acquired_at": 1791680311.2010922,
+        "owner_thread_id": 28320,
+        "owner_apartment": 1,
+        "callback_thread_id": 25980,
+        "callback_apartment": 1,
+        "window": {
+          "connected": true,
+          "hwnd": 592728,
+          "pid": 28816,
+          "exe": "Warp Knights.exe",
+          "title": "镭明闪击",
+          "resolution": [
+            1280,
+            720
+          ],
+          "client_origin": [
+            290,
+            242
+          ],
+          "dpi": 144,
+          "minimized": false,
+          "visible": true
+        }
+      }
+    },
+    "black_title": {
+      "file": "black_title.png",
+      "roi": [
+        75,
+        1144,
+        394,
+        1312
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        37,
+        397,
+        108,
+        425
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "0fea3278b0f9cb1770f4a9cd719c9b6b9a0f5294b6806fbdd62574a2401c2a46",
+      "source": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 1,
+        "session_id": "279caf2b-2a73-4b51-b0bc-b04a41ed7134",
+        "request_qpc": 1057998718422,
+        "system_relative_time": 1057998990188,
+        "acquired_at": 1791680459.8758254,
+        "owner_thread_id": 10464,
+        "owner_apartment": 1,
+        "callback_thread_id": 17540,
+        "callback_apartment": 1,
+        "window": {
+          "connected": true,
+          "hwnd": 592728,
+          "pid": 28816,
+          "exe": "Warp Knights.exe",
+          "title": "镭明闪击",
+          "resolution": [
+            1280,
+            720
+          ],
+          "client_origin": [
+            290,
+            242
+          ],
+          "dpi": 144,
+          "minimized": false,
+          "visible": true
+        }
+      }
+    },
+    "black_credit": {
+      "file": "black_credit.png",
+      "roi": [
+        628,
+        394,
+        1050,
+        544
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        232,
+        143,
+        315,
+        169
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "0fea3278b0f9cb1770f4a9cd719c9b6b9a0f5294b6806fbdd62574a2401c2a46",
+      "source": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 1,
+        "session_id": "279caf2b-2a73-4b51-b0bc-b04a41ed7134",
+        "request_qpc": 1057998718422,
+        "system_relative_time": 1057998990188,
+        "acquired_at": 1791680459.8758254,
+        "owner_thread_id": 10464,
+        "owner_apartment": 1,
+        "callback_thread_id": 17540,
+        "callback_apartment": 1,
+        "window": {
+          "connected": true,
+          "hwnd": 592728,
+          "pid": 28816,
+          "exe": "Warp Knights.exe",
+          "title": "镭明闪击",
+          "resolution": [
+            1280,
+            720
+          ],
+          "client_origin": [
+            290,
+            242
+          ],
+          "dpi": 144,
+          "minimized": false,
+          "visible": true
+        }
+      }
+    },
+    "black_claim": {
+      "file": "black_claim.png",
+      "roi": [
+        3394,
+        356,
+        3703,
+        1847
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        1157,
+        160,
+        1217,
+        188
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "0fea3278b0f9cb1770f4a9cd719c9b6b9a0f5294b6806fbdd62574a2401c2a46",
+      "source": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 1,
+        "session_id": "279caf2b-2a73-4b51-b0bc-b04a41ed7134",
+        "request_qpc": 1057998718422,
+        "system_relative_time": 1057998990188,
+        "acquired_at": 1791680459.8758254,
+        "owner_thread_id": 10464,
+        "owner_apartment": 1,
+        "callback_thread_id": 17540,
+        "callback_apartment": 1,
+        "window": {
+          "connected": true,
+          "hwnd": 592728,
+          "pid": 28816,
+          "exe": "Warp Knights.exe",
+          "title": "镭明闪击",
+          "resolution": [
+            1280,
+            720
+          ],
+          "client_origin": [
+            290,
+            242
+          ],
+          "dpi": 144,
+          "minimized": false,
+          "visible": true
+        }
+      }
+    },
+    "reward_title_black": {
+      "file": "reward_title_black.png",
+      "roi": [
+        1462,
+        375,
+        2381,
+        600
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        518,
+        139,
+        761,
+        188
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "e50b27cdd725bb93ab69ac0b1c9306277974bc65fc1977933e609968cc20ae5b",
+      "source": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 1,
+        "session_id": "8199cfeb-493e-4bde-9a34-68907c133adb",
+        "request_qpc": 1059146847729,
+        "system_relative_time": 1059147095874,
+        "acquired_at": 1791680574.686927,
+        "owner_thread_id": 8728,
+        "owner_apartment": 1,
+        "callback_thread_id": 4976,
+        "callback_apartment": 1,
+        "window": {
+          "connected": true,
+          "hwnd": 592728,
+          "pid": 28816,
+          "exe": "Warp Knights.exe",
+          "title": "镭明闪击",
+          "resolution": [
+            1280,
+            720
+          ],
+          "client_origin": [
+            290,
+            242
+          ],
+          "dpi": 144,
+          "minimized": false,
+          "visible": true
+        }
+      }
+    },
+    "reward_prompt": {
+      "file": "reward_prompt.png",
+      "roi": [
+        1575,
+        1856,
+        2269,
+        2025
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        547,
+        631,
+        734,
+        659
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "e50b27cdd725bb93ab69ac0b1c9306277974bc65fc1977933e609968cc20ae5b",
+      "source": {
+        "hwnd": 592728,
+        "pid": 28816,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 1,
+        "session_id": "8199cfeb-493e-4bde-9a34-68907c133adb",
+        "request_qpc": 1059146847729,
+        "system_relative_time": 1059147095874,
+        "acquired_at": 1791680574.686927,
+        "owner_thread_id": 8728,
+        "owner_apartment": 1,
+        "callback_thread_id": 4976,
+        "callback_apartment": 1,
+        "window": {
+          "connected": true,
+          "hwnd": 592728,
+          "pid": 28816,
+          "exe": "Warp Knights.exe",
+          "title": "镭明闪击",
+          "resolution": [
+            1280,
+            720
+          ],
+          "client_origin": [
+            290,
+            242
+          ],
+          "dpi": 144,
+          "minimized": false,
+          "visible": true
+        }
+      }
+    },
+    "dispatch_leave_prompt": {
+      "file": "dispatch_leave_prompt.png",
+      "roi": [
+        957,
+        789,
+        1920,
+        1020
+      ],
+      "threshold": 0.97,
+      "source_crop": [
+        327,
+        271,
+        632,
+        332
+      ],
+      "source_sha256": "c34b77e602d4de932630f4eb3dcc974b1901340ae2762057b5251c938bc204b2",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "20261011-100217-475050/0045_MAIN_MENU_FAILED.png (private WGC, unsent partial team)"
+    },
+    "dispatch_leave_confirm": {
+      "file": "dispatch_leave_confirm.png",
+      "roi": [
+        2442,
+        1275,
+        2958,
+        1431
+      ],
+      "threshold": 0.97,
+      "source_crop": [
+        822,
+        433,
+        978,
+        469
+      ],
+      "source_sha256": "c34b77e602d4de932630f4eb3dcc974b1901340ae2762057b5251c938bc204b2",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "20261011-100217-475050/0045_MAIN_MENU_FAILED.png (private WGC, unsent partial team)"
+    },
+    "dispatch_assigned": {
+      "file": "dispatch_assigned.png",
+      "roi": [
+        2194,
+        1669,
+        2794,
+        1762
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        823,
+        562,
+        863,
+        577
+      ],
+      "source_sha256": "0260b3e70803af7ed91da11a655231c1127b460252bfea628182fc33911eca93",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "20261011-100952-453664/0045_MAIN_MENU_FAILED.png (private WGC after one verified submit, actual assigned state)"
+    },
+    "dispatch_recall": {
+      "file": "dispatch_recall.png",
+      "roi": [
+        3366,
+        1824,
+        3686,
+        1959
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        1135,
+        613,
+        1220,
+        648
+      ],
+      "source_sha256": "0260b3e70803af7ed91da11a655231c1127b460252bfea628182fc33911eca93",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "20261011-100952-453664/0045_MAIN_MENU_FAILED.png (private WGC after one verified submit, actual assigned state)"
+    },
+    "seasonal_research_anchor": {
+      "file": "seasonal_research_anchor.png",
+      "roi": [
+        2460,
+        1440,
+        3000,
+        1860
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        875,
+        525,
+        935,
+        580
+      ],
+      "source_sha256": "baff97c6bf304ac4f46367a78c32a934aa9521a7036f334a2f1c1cb4c19cc1f8",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": {
+        "file": "tests/fixtures/daily-season/hub-720p.png",
+        "backend": "WGC"
+      },
+      "calibration_reason": "Moving glow measured 0.967219 on the same real hub; home, trial icon and matching progress remain mandatory."
+    },
+    "seasonal_trial_anchor": {
+      "file": "seasonal_trial_anchor.png",
+      "roi": [
+        2400,
+        330,
+        3000,
+        750
+      ],
+      "threshold": 0.97,
+      "source_crop": [
+        854,
+        150,
+        918,
+        208
+      ],
+      "source_sha256": "baff97c6bf304ac4f46367a78c32a934aa9521a7036f334a2f1c1cb4c19cc1f8",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": {
+        "file": "tests/fixtures/daily-season/hub-720p.png",
+        "captured_from": "logs/20261011-103122-928011/0006_MAIN_MENU_FAILED.png",
+        "backend": "WGC"
+      }
+    },
+    "dark_map_landmark": {
+      "file": "dark_map_landmark.png",
+      "roi": [
+        60,
+        1398,
+        648,
+        1650
+      ],
+      "threshold": 0.97,
+      "source_crop": [
+        47,
+        495,
+        162,
+        529
+      ],
+      "source_sha256": "2728f2af502c11293387de51105a70c069a8c0ecc5bb6f456dfdbaa6133fc776",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": {
+        "file": "tests/fixtures/daily-season/map-720p.png",
+        "backend": "WGC"
+      }
+    },
+    "module_entry": {
+      "file": "module_entry.png",
+      "roi": [
+        3261,
+        1827,
+        3786,
+        2061
+      ],
+      "threshold": 0.97,
+      "source_crop": [
+        1152,
+        635,
+        1245,
+        672
+      ],
+      "source_sha256": "2728f2af502c11293387de51105a70c069a8c0ecc5bb6f456dfdbaa6133fc776",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": {
+        "file": "tests/fixtures/daily-season/map-720p.png",
+        "backend": "WGC"
+      }
+    },
+    "module_team": {
+      "file": "module_team.png",
+      "roi": [
+        2775,
+        348,
+        3225,
+        498
+      ],
+      "threshold": 0.97,
+      "source_crop": [
+        944,
+        130,
+        1039,
+        155
+      ],
+      "source_sha256": "9b015dd710b6497dabd711f3ef70c19795909fe9c0a066d3bbbc1e6f7373f21c",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": {
+        "file": "tests\\fixtures\\daily-season\\module-720p.png",
+        "backend": "WGC"
+      }
+    },
+    "module_start_label": {
+      "file": "module_start_label.png",
+      "roi": [
+        3261,
+        1809,
+        3750,
+        2025
+      ],
+      "threshold": 0.97,
+      "source_crop": [
+        1122,
+        623,
+        1234,
+        657
+      ],
+      "source_sha256": "9b015dd710b6497dabd711f3ef70c19795909fe9c0a066d3bbbc1e6f7373f21c",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": {
+        "file": "tests\\fixtures\\daily-season\\module-720p.png",
+        "backend": "WGC"
+      }
+    },
+    "nav_fund": {
+      "file": "nav_fund.png",
+      "roi": [
+        1980,
+        1845,
+        2250,
+        2040
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        687,
+        631,
+        720,
+        664
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\initial.png",
+      "source_sha256": "aa5b4db931adcd26a69860805df204d1fc80f8ca24c85726a796ef750eb5cb29"
+    },
+    "nav_gan": {
+      "file": "nav_gan.png",
+      "roi": [
+        2850,
+        630,
+        3600,
+        1410
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        960,
+        335,
+        1051,
+        362
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\initial.png",
+      "source_sha256": "aa5b4db931adcd26a69860805df204d1fc80f8ca24c85726a796ef750eb5cb29"
+    },
+    "nav_hunt": {
+      "file": "nav_hunt.png",
+      "roi": [
+        2850,
+        630,
+        3600,
+        1410
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        960,
+        428,
+        1053,
+        456
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\initial.png",
+      "source_sha256": "aa5b4db931adcd26a69860805df204d1fc80f8ca24c85726a796ef750eb5cb29"
+    },
+    "fund_claim": {
+      "file": "fund_claim.png",
+      "roi": [
+        300,
+        1320,
+        885,
+        1605
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        122,
+        477,
+        246,
+        507
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\fund-ready.png",
+      "source_sha256": "253e6bf7c51f2dc937fa9c2ee61e85701af0cf1c5f1e4068c421294ad74759b1"
+    },
+    "fund_title": {
+      "file": "fund_title.png",
+      "roi": [
+        270,
+        900,
+        810,
+        1170
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        105,
+        324,
+        232,
+        375
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\fund-ready.png",
+      "source_sha256": "253e6bf7c51f2dc937fa9c2ee61e85701af0cf1c5f1e4068c421294ad74759b1"
+    },
+    "seasonal_activity_anchor_done": {
+      "file": "seasonal_activity_anchor_done.png",
+      "roi": [
+        2400,
+        870,
+        3000,
+        990
+      ],
+      "threshold": 0.97,
+      "source_crop": [
+        827,
+        302,
+        896,
+        321
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\fund-done.png",
+      "source_sha256": "1c5214ce4881a06a6e4df7e651706a9e279033629d8f63c6a5ab9027c3b292b8",
+      "target": "seasonal_activity_anchor"
+    },
+    "notice_title": {
+      "file": "notice_title.png",
+      "roi": [
+        1563,
+        900,
+        2271,
+        1101
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        546,
+        318,
+        732,
+        349
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\gan-page.png",
+      "source_sha256": "5f152df49bbf34052d9f29220a0a5c0f3982e40e0c94207e0b901d127e98254c"
+    },
+    "notice_prompt": {
+      "file": "notice_prompt.png",
+      "roi": [
+        1620,
+        1839,
+        2217,
+        2031
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        565,
+        631,
+        714,
+        659
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\gan-page.png",
+      "source_sha256": "5f152df49bbf34052d9f29220a0a5c0f3982e40e0c94207e0b901d127e98254c"
+    },
+    "free_one": {
+      "file": "free_one.png",
+      "roi": [
+        3030,
+        1725,
+        3255,
+        1845
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        1038,
+        586,
+        1070,
+        607
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-113623-058360\\0010_GANHUO_timeout.png",
+      "source_sha256": "ce610070236e41bab473f6a15d996f389982fc7c64abc8ab458d2b52209ac457"
+    },
+    "dark_stage": {
+      "file": "dark_stage.png",
+      "roi": [
+        2520,
+        300,
+        3360,
+        525
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        855,
+        112,
+        952,
+        156
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\dark-next.png",
+      "source_sha256": "c88411a60f1c26f39c9c7473c6ec42c5f41a0a1d75b738f554a91d9aa5500c23"
+    },
+    "dark_stage_aux": {
+      "file": "dark_stage_aux.png",
+      "roi": [
+        2490,
+        486,
+        2895,
+        678
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        855,
+        180,
+        940,
+        208
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\dark-next.png",
+      "source_sha256": "c88411a60f1c26f39c9c7473c6ec42c5f41a0a1d75b738f554a91d9aa5500c23"
+    },
+    "dark_sweep": {
+      "file": "dark_sweep.png",
+      "roi": [
+        2655,
+        1830,
+        2979,
+        2049
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        910,
+        628,
+        968,
+        665
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\dark-next.png",
+      "source_sha256": "c88411a60f1c26f39c9c7473c6ec42c5f41a0a1d75b738f554a91d9aa5500c23"
+    },
+    "reward_title_sweep": {
+      "file": "reward_title_sweep.png",
+      "roi": [
+        1440,
+        330,
+        2400,
+        600
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        518,
+        126,
+        761,
+        174
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\dark-dialog.png",
+      "source_sha256": "c902b972f08afd237620cedeac94f35896daed274067cafe6c06a86d8ccb94b1",
+      "target": "reward_title_black"
+    },
+    "free_dialog": {
+      "file": "free_dialog.png",
+      "roi": [
+        1053,
+        492,
+        1578,
+        696
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        376,
+        182,
+        501,
+        214
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\gan-dialog-ready.png",
+      "source_sha256": "a7f082286e45486abfff6222d81bccf618df23f293ba301f6d8c9cfbb75008d4"
+    },
+    "free_dialog_one_gan": {
+      "file": "free_dialog_one_gan.png",
+      "roi": [
+        1950,
+        1350,
+        2160,
+        1500
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        667,
+        467,
+        701,
+        490
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\gan-dialog-ready.png",
+      "source_sha256": "a7f082286e45486abfff6222d81bccf618df23f293ba301f6d8c9cfbb75008d4"
+    },
+    "free_start_gan_current": {
+      "file": "free_start_gan_current.png",
+      "roi": [
+        2238,
+        1452,
+        2742,
+        1644
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        771,
+        502,
+        889,
+        530
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\gan-dialog-ready.png",
+      "source_sha256": "a7f082286e45486abfff6222d81bccf618df23f293ba301f6d8c9cfbb75008d4"
+    },
+    "gan_stage": {
+      "file": "gan_stage.png",
+      "roi": [
+        2700,
+        315,
+        3360,
+        570
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        920,
+        130,
+        1015,
+        169
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-113623-058360\\0010_GANHUO_timeout.png",
+      "source_sha256": "ce610070236e41bab473f6a15d996f389982fc7c64abc8ab458d2b52209ac457"
+    },
+    "gan_stage_dimmed": {
+      "target": "gan_stage",
+      "file": "gan_stage_dimmed.png",
+      "roi": [
+        2700,
+        315,
+        3360,
+        570
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        920,
+        130,
+        1015,
+        169
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\gan-dialog-ready.png",
+      "source_sha256": "a7f082286e45486abfff6222d81bccf618df23f293ba301f6d8c9cfbb75008d4"
+    },
+    "free_zero": {
+      "file": "free_zero.png",
+      "roi": [
+        3030,
+        1725,
+        3255,
+        1845
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        1038,
+        586,
+        1075,
+        608
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-114800-767364\\0010_GANHUO_timeout.png",
+      "source_sha256": "cbb417a8d8dbbb555318180713c21073277074e988613a63e9ab8c43aa216680"
+    },
+    "hunt_sweep": {
+      "file": "hunt_sweep.png",
+      "roi": [
+        2730,
+        1854,
+        3135,
+        2025
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        933,
+        633,
+        1030,
+        660
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-114853-675140\\0013_HUNT_GOLD_timeout.png",
+      "source_sha256": "a02c848ad27e791d0c1ffa51ccc736ecb22a4e86b2211f4f5680f5936890f4c7"
+    },
+    "daily_title": {
+      "file": "daily_title.png",
+      "roi": [
+        270,
+        315,
+        840,
+        504
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        133,
+        125,
+        231,
+        154
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\daily-current.png",
+      "source_sha256": "19c0aee59bcac2bdf2f89f07283afe9191a1d8fed1e465082147c73a38ee2802"
+    },
+    "daily_aux": {
+      "file": "daily_aux.png",
+      "roi": [
+        225,
+        885,
+        810,
+        1050
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        94,
+        310,
+        238,
+        338
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\daily-current.png",
+      "source_sha256": "19c0aee59bcac2bdf2f89f07283afe9191a1d8fed1e465082147c73a38ee2802"
+    },
+    "daily_claim": {
+      "file": "daily_claim.png",
+      "roi": [
+        3360,
+        645,
+        3720,
+        1545
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        1140,
+        238,
+        1230,
+        280
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\daily-current.png",
+      "source_sha256": "19c0aee59bcac2bdf2f89f07283afe9191a1d8fed1e465082147c73a38ee2802"
+    },
+    "gift": {
+      "file": "gift.png",
+      "roi": [
+        1770,
+        1605,
+        3720,
+        1785
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        682,
+        555,
+        706,
+        581
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\daily-after-claim.png",
+      "source_sha256": "54727818ff20e3ae52f5d2bd7acd0a45a77edcde1f682bb6f7f1b1f69ce404c1"
+    },
+    "daily_obtained": {
+      "file": "daily_obtained.png",
+      "roi": [
+        1425,
+        1635,
+        3705,
+        1950
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        637,
+        589,
+        694,
+        616
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-115217-772229\\0012_DAILY_REWARD_daily_stages_after_claim.png",
+      "source_sha256": "f2d71390c60f5dcef8447df80511083bd6d2093a5538a452a3ee193d450df138"
+    },
+    "daily_obtained_partial": {
+      "file": "daily_obtained_partial.png",
+      "roi": [
+        1425,
+        1635,
+        1665,
+        1950
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        489,
+        591,
+        530,
+        615
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-115217-772229\\0012_DAILY_REWARD_daily_stages_after_claim.png",
+      "source_sha256": "f2d71390c60f5dcef8447df80511083bd6d2093a5538a452a3ee193d450df138"
+    },
+    "daily_row_claimed": {
+      "file": "daily_row_claimed.png",
+      "roi": [
+        3360,
+        645,
+        3720,
+        1545
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        1160,
+        447,
+        1205,
+        491
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\daily-bottom.png",
+      "source_sha256": "da9fb9bbdac82a09f5e42946dfc695653550505c9599ab89199cb180314186d5"
+    },
+    "nav_resources": {
+      "file": "nav_resources.png",
+      "roi": [
+        1095,
+        1851,
+        1296,
+        2034
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        382,
+        630,
+        414,
+        663
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\initial.png",
+      "source_sha256": "aa5b4db931adcd26a69860805df204d1fc80f8ca24c85726a796ef750eb5cb29"
+    },
+    "daily_row_claimed_dim": {
+      "target": "daily_row_claimed",
+      "file": "daily_row_claimed_dim.png",
+      "roi": [
+        3360,
+        645,
+        3720,
+        1545
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        1160,
+        272,
+        1205,
+        315
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-115605-733084\\0017_DAILY_REWARD_FAILED.png",
+      "source_sha256": "4135d6702fbffd919330896e41e9b686ed65e6cfb50941c5d23db040dc60f78c"
+    },
+    "resource_title": {
+      "file": "resource_title.png",
+      "roi": [
+        1080,
+        1860,
+        1620,
+        2040
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        398,
+        633,
+        518,
+        662
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-115636-197343\\0015_MAIN_MENU_resource_hub_observed.png",
+      "source_sha256": "f4be812a425d6ae4d69040fa2027a37b976de03810cc210b2f78b1dbbaa46ce0"
+    },
+    "resource_aux": {
+      "file": "resource_aux.png",
+      "roi": [
+        1860,
+        450,
+        2595,
+        765
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        672,
+        190,
+        760,
+        219
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-115636-197343\\0015_MAIN_MENU_resource_hub_observed.png",
+      "source_sha256": "f4be812a425d6ae4d69040fa2027a37b976de03810cc210b2f78b1dbbaa46ce0"
+    },
+    "resource_gan": {
+      "file": "resource_gan.png",
+      "roi": [
+        2100,
+        990,
+        2715,
+        1215
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        749,
+        350,
+        835,
+        376
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-115636-197343\\0015_MAIN_MENU_resource_hub_observed.png",
+      "source_sha256": "f4be812a425d6ae4d69040fa2027a37b976de03810cc210b2f78b1dbbaa46ce0"
+    },
+    "resource_hunt": {
+      "file": "resource_hunt.png",
+      "roi": [
+        1170,
+        750,
+        1890,
+        990
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        469,
+        272,
+        556,
+        300
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-115636-197343\\0015_MAIN_MENU_resource_hub_observed.png",
+      "source_sha256": "f4be812a425d6ae4d69040fa2027a37b976de03810cc210b2f78b1dbbaa46ce0"
+    },
+    "daily_obtained_gold": {
+      "target": "daily_obtained",
+      "file": "daily_obtained_gold.png",
+      "roi": [
+        1425,
+        1635,
+        3705,
+        1950
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        811,
+        589,
+        870,
+        617
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-115217-772229\\0012_DAILY_REWARD_daily_stages_after_claim.png",
+      "source_sha256": "f2d71390c60f5dcef8447df80511083bd6d2093a5538a452a3ee193d450df138"
+    },
+    "daily_gift_core": {
+      "target": "gift",
+      "file": "daily_gift_core.png",
+      "roi": [
+        1770,
+        1605,
+        3720,
+        1785
+      ],
+      "threshold": 0.97,
+      "source_crop": [
+        860,
+        558,
+        878,
+        578
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\rework\\daily-after-claim.png",
+      "source_sha256": "54727818ff20e3ae52f5d2bd7acd0a45a77edcde1f682bb6f7f1b1f69ce404c1"
+    },
+    "module_capacity_prompt": {
+      "file": "module_capacity_prompt.png",
+      "roi": [
+        915,
+        735,
+        3240,
+        954
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        327,
+        269,
+        1019,
+        297
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-120422-500972\\0092_DARK_TIDE_FAILED.png",
+      "source_sha256": "44971c23d514968a46b7b8c709708d3306cece09cb729e9d361595ab4c87134b"
+    },
+    "module_capacity_cancel": {
+      "file": "module_capacity_cancel.png",
+      "roi": [
+        2388,
+        1254,
+        2970,
+        1440
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        894,
+        435,
+        976,
+        464
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-120422-500972\\0092_DARK_TIDE_FAILED.png",
+      "source_sha256": "44971c23d514968a46b7b8c709708d3306cece09cb729e9d361595ab4c87134b"
+    },
+    "module_capacity_title": {
+      "file": "module_capacity_title.png",
+      "roi": [
+        288,
+        1242,
+        780,
+        1440
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        127,
+        431,
+        228,
+        465
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-120422-500972\\0092_DARK_TIDE_FAILED.png",
+      "source_sha256": "44971c23d514968a46b7b8c709708d3306cece09cb729e9d361595ab4c87134b"
+    },
+    "daily_activity_icon": {
+      "file": "daily_activity_icon.png",
+      "roi": [
+        1059,
+        1653,
+        1398,
+        1890
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        382,
+        571,
+        440,
+        623
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-121121-115295\\0204_DAILY_REWARD_timeout.png",
+      "source_sha256": "bad5d8cca2c2af028f4bd4a2574e17f0d3bca94d7ff8c62b2eb3bd8d4aac4f79"
+    },
+    "daily_gift_800": {
+      "file": "daily_gift_800.png",
+      "roi": [
+        1350,
+        1635,
+        3735,
+        1971
+      ],
+      "threshold": 0.97,
+      "source_crop": [
+        1041,
+        558,
+        1059,
+        578
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-121121-115295\\0204_DAILY_REWARD_timeout.png",
+      "source_sha256": "bad5d8cca2c2af028f4bd4a2574e17f0d3bca94d7ff8c62b2eb3bd8d4aac4f79",
+      "target": "gift"
+    },
+    "daily_tab": {
+      "file": "daily_tab.png",
+      "roi": [
+        285,
+        330,
+        729,
+        501
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        134,
+        130,
+        224,
+        151
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-121530-504254\\0004_DAILY_REWARD_FAILED.png",
+      "source_sha256": "62495b1272b8ecf2f446d2e8df581da856eff97473ab639cf029262f23fe1672"
+    },
+    "daily_plan_active": {
+      "file": "daily_plan_active.png",
+      "roi": [
+        300,
+        870,
+        732,
+        1071
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        126,
+        310,
+        232,
+        336
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-121530-504254\\0004_DAILY_REWARD_FAILED.png",
+      "source_sha256": "62495b1272b8ecf2f446d2e8df581da856eff97473ab639cf029262f23fe1672"
+    },
+    "daily_weekly_tab": {
+      "file": "daily_weekly_tab.png",
+      "roi": [
+        270,
+        516,
+        735,
+        702
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        134,
+        191,
+        223,
+        213
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-121530-504254\\0004_DAILY_REWARD_FAILED.png",
+      "source_sha256": "62495b1272b8ecf2f446d2e8df581da856eff97473ab639cf029262f23fe1672"
+    },
+    "daily_obtained_800": {
+      "file": "daily_obtained_800.png",
+      "roi": [
+        1380,
+        1662,
+        3726,
+        1956
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        986,
+        590,
+        1047,
+        614
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-121640-663367\\0024_DAILY_REWARD_FAILED.png",
+      "source_sha256": "d0251f4468334c4bf1e1cdbffbcc85d9c561cdb5c0771e38ef523f28e8ba6f44",
+      "target": "daily_obtained"
+    },
+    "daily_obtained_1000": {
+      "file": "daily_obtained_1000.png",
+      "roi": [
+        1380,
+        1662,
+        3726,
+        1956
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        1161,
+        590,
+        1222,
+        614
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261011-121640-663367\\0024_DAILY_REWARD_FAILED.png",
+      "source_sha256": "d0251f4468334c4bf1e1cdbffbcc85d9c561cdb5c0771e38ef523f28e8ba6f44",
+      "target": "daily_obtained"
+    },
+    "module_blue_choose": {
+      "file": "module_blue_choose.png",
+      "roi": [
+        1697,
+        1031,
+        2297,
+        1238
+      ],
+      "threshold": 0.9,
+      "source_crop": [
+        591,
+        358,
+        745,
+        390
+      ],
+      "source_sha256": "4440fd51ce0fad5798404895d45b29416efca5d8495a919aee9c4d6c48348bcb",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": {
+        "hwnd": 462568,
+        "pid": 24188,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 80,
+        "session_id": "1a0d79e1-eb7e-44c2-b69c-4db37208b335",
+        "request_qpc": 1362746188627,
+        "system_relative_time": 1362746392799,
+        "acquired_at": 1791710932.0685472,
+        "owner_thread_id": 5724,
+        "owner_apartment": 1,
+        "callback_thread_id": 24232,
+        "callback_apartment": 1
+      },
+      "source_fixture": "tests/fixtures/module-season/prepared-first-strike-720p.png"
+    },
+    "module_blue_filter": {
+      "file": "module_blue_filter.png",
+      "roi": [
+        1312,
+        1828,
+        2362,
+        2062
+      ],
+      "threshold": 0.9,
+      "source_crop": [
+        465,
+        633,
+        709,
+        660
+      ],
+      "source_sha256": "bb3fea20295679a68c09c400b9a9fd4523f9411a8f3487578bdf03bbd8a5d27c",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": {
+        "hwnd": 462568,
+        "pid": 24188,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 93,
+        "session_id": "ed773603-4bb1-49e0-ad03-dbd821227410",
+        "request_qpc": 1378450830347,
+        "system_relative_time": 1378451057253,
+        "acquired_at": 1791712502.5352004,
+        "owner_thread_id": 23720,
+        "owner_apartment": 1,
+        "callback_thread_id": 3536,
+        "callback_apartment": 1
+      },
+      "source_fixture": "tests/fixtures/module-season/blueprint-selector-720p.png",
+      "identity": "Complete fixed phrase 仅显示与模组配对的蓝图; excludes the profile-dependent emblem"
+    },
+    "module_blue_grade": {
+      "file": "module_blue_grade.png",
+      "roi": [
+        1300,
+        300,
+        1710,
+        465
+      ],
+      "threshold": 0.9,
+      "source_crop": [
+        441,
+        117,
+        553,
+        148
+      ],
+      "source_sha256": "bb3fea20295679a68c09c400b9a9fd4523f9411a8f3487578bdf03bbd8a5d27c",
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": {
+        "hwnd": 462568,
+        "pid": 24188,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 93,
+        "session_id": "ed773603-4bb1-49e0-ad03-dbd821227410",
+        "request_qpc": 1378450830347,
+        "system_relative_time": 1378451057253,
+        "acquired_at": 1791712502.5352004,
+        "owner_thread_id": 23720,
+        "owner_apartment": 1,
+        "callback_thread_id": 3536,
+        "callback_apartment": 1
+      },
+      "source_fixture": "tests/fixtures/module-season/blueprint-selector-720p.png",
+      "identity": "Native 品阶 sort control and border; used with paired-blueprint footer and home anchors"
+    },
+    "module_blue_selected": {
+      "file": "module_blue_selected.png",
+      "roi": [
+        1920,
+        330,
+        2115,
+        2031
+      ],
+      "threshold": 0.9,
+      "source_crop": [
+        650,
+        630,
+        687,
+        669
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "191ed5f0efd992e62aa78e46b27f4bd1c2e39eeb32eac0b6ae359252961eaaa0",
+      "source": {
+        "hwnd": 462568,
+        "pid": 24188,
+        "backend": "WGC",
+        "pixel_format": "BGR",
+        "sequence": 67,
+        "session_id": "635764f4-ad8e-4587-9a07-71ab3b070fed",
+        "request_qpc": 1383512701000,
+        "system_relative_time": 1383513121362,
+        "acquired_at": 1791713012.546277,
+        "owner_thread_id": 8864,
+        "owner_apartment": 1,
+        "callback_thread_id": 19948,
+        "callback_apartment": 1
+      },
+      "source_fixture": "tests/fixtures/module-season/prepared-blueprint-selected-720p.png",
+      "identity": "Observed neutral terminal connector of the selected blueprint route; excludes stage-specific glyphs and text. Paired with MODULE_RESEARCH and module identity guards; central blueprint replace control is visible in the source."
+    },
+    "daily_claim_core": {
+      "file": "daily_claim_core.png",
+      "roi": [
+        3360,
+        645,
+        3720,
+        1545
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        1147,
+        250,
+        1224,
+        269
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261013-074149-263803\\0011_DAILY_REWARD_FAILED.png",
+      "source_sha256": "ebbc4e8f10a3247b7a6c00b2226a4b7a81da3fb24e8c68d1615ef40c8eb5a0ed",
+      "target": "daily_claim"
+    },
+    "daily_gift_600_current": {
+      "target": "gift",
+      "file": "daily_gift_600_current.png",
+      "roi": [
+        1770,
+        1605,
+        3720,
+        1785
+      ],
+      "threshold": 0.97,
+      "source_crop": [
+        865,
+        558,
+        883,
+        578
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261013-084043-986907\\0091_DAILY_REWARD_skip_recognition.png",
+      "source_sha256": "5d6f5dd6a60bf1644644762373985c8446131470c32af720a6e77ccf9d3ef443"
+    },
+    "main_daily_airship_current": {
+      "file": "main_daily_airship_current.png",
+      "target": "main_daily",
+      "roi": [
+        3450,
+        272,
+        3788,
+        431
+      ],
+      "threshold": 0.95,
+      "source_crop": [
+        1189,
+        107,
+        1244,
+        131
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source_sha256": "d336f690176e35cb43c7ea8f21ccccd02ba01d6038a6a8e339b058231f7fbc54",
+      "source": {
+        "path": "logs\\20261015-184716-932329\\0003_FUND_no_progress_3s.png",
+        "acceptance": "real native WGC screenshot, recognition replay only"
+      }
+    },
+    "seasonal_activity_anchor_lit": {
+      "file": "seasonal_activity_anchor_lit.png",
+      "target": "seasonal_activity_anchor",
+      "roi": [
+        2400,
+        870,
+        3000,
+        990
+      ],
+      "threshold": 0.97,
+      "source_crop": [
+        828,
+        302,
+        897,
+        321
+      ],
+      "source_size": [
+        1280,
+        720
+      ],
+      "source": "logs\\20261018-122711-761312\\0090_DARK_TIDE_timeout.png",
+      "source_sha256": "ef11c497bee4daf0b75d360a6f286fc1e88d5b9b1edc53bf4cde4f6dd0b14af3"
+    }
+  }
+}

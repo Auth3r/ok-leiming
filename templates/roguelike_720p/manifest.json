@@ -1,0 +1,420 @@
+{
+  "client_size": [
+    1280,
+    720
+  ],
+  "scope": "Read-only first START preparation page; no challenge input",
+  "templates": {
+    "start_title": {
+      "file": "start_title.png",
+      "native_client_size": [
+        1280,
+        720
+      ],
+      "reference_size": [
+        3840,
+        2087
+      ],
+      "reference_roi": [
+        3136,
+        237,
+        3720,
+        583
+      ],
+      "score_mode": "pixel_difference",
+      "threshold": 0.97,
+      "label": "断层防线",
+      "source": {
+        "image": "phase2c1-diagnostics/live-entry/entry_button-20.png",
+        "image_sha256": "393e0f11fe125b0bd32f943252cf5949795d50f45dde681aafda28f20d295095",
+        "client_size": [
+          1280,
+          720
+        ],
+        "backend": "WGC",
+        "crop": [
+          1060,
+          116,
+          1230,
+          172
+        ],
+        "page": "START idle / 断层防线 II-特种模式",
+        "frame_provenance": {
+          "hwnd": 1117564,
+          "pid": 10116,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 22,
+          "session_id": "ff595442-1662-4f98-aafb-78894958dd4e",
+          "request_qpc": 1933722790605,
+          "system_relative_time": 1933723014315,
+          "acquired_at": 1791474080.0244226,
+          "owner_thread_id": 17992,
+          "owner_apartment": 1,
+          "callback_thread_id": 2464,
+          "callback_apartment": 1
+        },
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "d2d58e713bf5cca84e3a3e291033b3755f51b623",
+          "dirty": true
+        }
+      },
+      "calibration": {
+        "status": "PASS on recorded idle START and historical negative pages",
+        "positive_count": 20,
+        "positive_score_range": [
+          0.9999999447257508,
+          0.9999999447257508
+        ],
+        "negative_count": 340,
+        "negative_score_max": 0.7134783267974854,
+        "evidence": "phase2c1-diagnostics/feature-replay.json",
+        "limitation": "One observed idle difficulty/page; no real ongoing, other difficulty or arbitrary-popup coverage"
+      }
+    },
+    "prep_difficulty_label": {
+      "file": "prep_difficulty_label.png",
+      "native_client_size": [
+        1280,
+        720
+      ],
+      "reference_size": [
+        1280,
+        720
+      ],
+      "reference_roi": [
+        1080,
+        215,
+        1240,
+        285
+      ],
+      "score_mode": "pixel_difference",
+      "threshold": 0.98,
+      "label": "当前难度",
+      "source": {
+        "image": "phase2c1-diagnostics/live-entry/entry_button-20.png",
+        "image_sha256": "393e0f11fe125b0bd32f943252cf5949795d50f45dde681aafda28f20d295095",
+        "client_size": [
+          1280,
+          720
+        ],
+        "backend": "WGC",
+        "crop": [
+          1113,
+          230,
+          1211,
+          264
+        ],
+        "page": "START idle / 断层防线 II-特种模式",
+        "frame_provenance": {
+          "hwnd": 1117564,
+          "pid": 10116,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 22,
+          "session_id": "ff595442-1662-4f98-aafb-78894958dd4e",
+          "request_qpc": 1933722790605,
+          "system_relative_time": 1933723014315,
+          "acquired_at": 1791474080.0244226,
+          "owner_thread_id": 17992,
+          "owner_apartment": 1,
+          "callback_thread_id": 2464,
+          "callback_apartment": 1
+        },
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "d2d58e713bf5cca84e3a3e291033b3755f51b623",
+          "dirty": true
+        }
+      },
+      "calibration": {
+        "status": "PASS on recorded idle START and historical negative pages",
+        "positive_count": 20,
+        "positive_score_range": [
+          1.0,
+          1.0
+        ],
+        "negative_count": 340,
+        "negative_score_max": 0.8560545295476913,
+        "evidence": "phase2c1-diagnostics/feature-replay.json",
+        "limitation": "One observed idle difficulty/page; no real ongoing, other difficulty or arbitrary-popup coverage"
+      }
+    },
+    "prep_mode": {
+      "file": "prep_mode.png",
+      "native_client_size": [
+        1280,
+        720
+      ],
+      "reference_size": [
+        1280,
+        720
+      ],
+      "reference_roi": [
+        995,
+        290,
+        1210,
+        380
+      ],
+      "score_mode": "pixel_difference",
+      "threshold": 0.98,
+      "label": "II-特种模式",
+      "source": {
+        "image": "phase2c1-diagnostics/live-entry/entry_button-20.png",
+        "image_sha256": "393e0f11fe125b0bd32f943252cf5949795d50f45dde681aafda28f20d295095",
+        "client_size": [
+          1280,
+          720
+        ],
+        "backend": "WGC",
+        "crop": [
+          1034,
+          305,
+          1198,
+          343
+        ],
+        "page": "START idle / 断层防线 II-特种模式",
+        "frame_provenance": {
+          "hwnd": 1117564,
+          "pid": 10116,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 22,
+          "session_id": "ff595442-1662-4f98-aafb-78894958dd4e",
+          "request_qpc": 1933722790605,
+          "system_relative_time": 1933723014315,
+          "acquired_at": 1791474080.0244226,
+          "owner_thread_id": 17992,
+          "owner_apartment": 1,
+          "callback_thread_id": 2464,
+          "callback_apartment": 1
+        },
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "d2d58e713bf5cca84e3a3e291033b3755f51b623",
+          "dirty": true
+        }
+      },
+      "calibration": {
+        "status": "PASS on recorded idle START and historical negative pages",
+        "positive_count": 20,
+        "positive_score_range": [
+          1.0,
+          1.0
+        ],
+        "negative_count": 340,
+        "negative_score_max": 0.8505321592092514,
+        "evidence": "phase2c1-diagnostics/feature-replay.json",
+        "limitation": "One observed idle difficulty/page; no real ongoing, other difficulty or arbitrary-popup coverage"
+      }
+    },
+    "prep_change_difficulty": {
+      "file": "prep_change_difficulty.png",
+      "native_client_size": [
+        1280,
+        720
+      ],
+      "reference_size": [
+        1280,
+        720
+      ],
+      "reference_roi": [
+        940,
+        435,
+        1140,
+        550
+      ],
+      "score_mode": "pixel_difference",
+      "threshold": 0.97,
+      "label": "点击切换难度",
+      "source": {
+        "image": "phase2c1-diagnostics/live-entry/entry_button-20.png",
+        "image_sha256": "393e0f11fe125b0bd32f943252cf5949795d50f45dde681aafda28f20d295095",
+        "client_size": [
+          1280,
+          720
+        ],
+        "backend": "WGC",
+        "crop": [
+          968,
+          455,
+          1110,
+          486
+        ],
+        "page": "START idle / 断层防线 II-特种模式",
+        "frame_provenance": {
+          "hwnd": 1117564,
+          "pid": 10116,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 22,
+          "session_id": "ff595442-1662-4f98-aafb-78894958dd4e",
+          "request_qpc": 1933722790605,
+          "system_relative_time": 1933723014315,
+          "acquired_at": 1791474080.0244226,
+          "owner_thread_id": 17992,
+          "owner_apartment": 1,
+          "callback_thread_id": 2464,
+          "callback_apartment": 1
+        },
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "d2d58e713bf5cca84e3a3e291033b3755f51b623",
+          "dirty": true
+        }
+      },
+      "calibration": {
+        "status": "PASS on recorded idle START and historical negative pages",
+        "positive_count": 20,
+        "positive_score_range": [
+          1.0,
+          1.0
+        ],
+        "negative_count": 340,
+        "negative_score_max": 0.8291607797145844,
+        "evidence": "phase2c1-diagnostics/feature-replay.json",
+        "limitation": "One observed idle difficulty/page; no real ongoing, other difficulty or arbitrary-popup coverage"
+      },
+      "normal_mode_roi_evidence": {
+        "image": "tests/fixtures/runtime-720p/start-normal.png",
+        "bbox": [
+          968,
+          491,
+          1110,
+          522
+        ],
+        "score": 0.9886023281142116,
+        "threshold_unchanged": 0.97,
+        "negative_replay": "docs/validation/roguelike-p0-20261015/preparation-replay.json"
+      }
+    },
+    "prep_start_label": {
+      "file": "prep_start_label.png",
+      "native_client_size": [
+        1280,
+        720
+      ],
+      "reference_size": [
+        1280,
+        720
+      ],
+      "reference_roi": [
+        850,
+        590,
+        1250,
+        695
+      ],
+      "score_mode": "pixel_difference",
+      "threshold": 0.99,
+      "label": "开始挑战",
+      "source": {
+        "image": "phase2c1-diagnostics/live-entry/entry_button-20.png",
+        "image_sha256": "393e0f11fe125b0bd32f943252cf5949795d50f45dde681aafda28f20d295095",
+        "client_size": [
+          1280,
+          720
+        ],
+        "backend": "WGC",
+        "crop": [
+          1109,
+          620,
+          1232,
+          662
+        ],
+        "page": "START idle / 断层防线 II-特种模式",
+        "frame_provenance": {
+          "hwnd": 1117564,
+          "pid": 10116,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 22,
+          "session_id": "ff595442-1662-4f98-aafb-78894958dd4e",
+          "request_qpc": 1933722790605,
+          "system_relative_time": 1933723014315,
+          "acquired_at": 1791474080.0244226,
+          "owner_thread_id": 17992,
+          "owner_apartment": 1,
+          "callback_thread_id": 2464,
+          "callback_apartment": 1
+        },
+        "version": {
+          "branch": "codex/roguelike-loop",
+          "head": "d2d58e713bf5cca84e3a3e291033b3755f51b623",
+          "dirty": true
+        }
+      },
+      "calibration": {
+        "status": "PASS on recorded idle START and historical negative pages",
+        "positive_count": 20,
+        "positive_score_range": [
+          0.9999998193951853,
+          0.9999998193951853
+        ],
+        "negative_count": 340,
+        "negative_score_max": 0.8691478669643402,
+        "evidence": "phase2c1-diagnostics/feature-replay.json",
+        "limitation": "One observed idle difficulty/page; no real ongoing, other difficulty or arbitrary-popup coverage"
+      }
+    },
+    "prep_normal_mode": {
+      "file": "prep_normal_mode.png",
+      "native_client_size": [
+        1280,
+        720
+      ],
+      "reference_size": [
+        1280,
+        720
+      ],
+      "reference_roi": [
+        995,
+        290,
+        1210,
+        380
+      ],
+      "score_mode": "pixel_difference",
+      "threshold": 0.99,
+      "label": "I-普通模式",
+      "source": {
+        "image": "logs\\roguelike-720p\\20261015-140153-866211\\005-suspended.png",
+        "image_sha256": "b789bf1c62cc490b2abe91312c7a764e942d3d6e5fb552bf18613dee300fbe7e",
+        "crop": [
+          1034,
+          305,
+          1198,
+          343
+        ],
+        "page": "START idle / 断层防线 I-普通模式",
+        "client_size": [
+          1280,
+          720
+        ],
+        "backend": "WGC",
+        "frame_provenance": {
+          "hwnd": 462186,
+          "pid": 7804,
+          "backend": "WGC",
+          "pixel_format": "BGR",
+          "sequence": 102,
+          "session_id": "2ad716c8-afed-4349-8765-cae29fd0f68d",
+          "request_qpc": 563171760775,
+          "system_relative_time": 563171956102,
+          "acquired_at": 1792044140.3805864,
+          "owner_thread_id": 27668,
+          "owner_apartment": 1,
+          "callback_thread_id": 25796,
+          "callback_apartment": 1
+        }
+      },
+      "calibration": {
+        "positive_count": 1,
+        "positive_score": 1.0,
+        "negative_count": 84,
+        "false_positive": 0,
+        "evidence": "docs/validation/roguelike-p0-20261015/preparation-replay.json",
+        "limitation": "Recorded normal-mode START only; mode chooser requires separate live evidence."
+      }
+    }
+  }
+}
