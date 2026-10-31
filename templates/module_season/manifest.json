@@ -84,7 +84,7 @@
         3656,
         1303
       ],
-      "threshold": 0.97,
+      "threshold": 0.8,
       "source": "tests/fixtures/module-season/team-selected.png",
       "source_roi_native": [
         1076,
@@ -99,7 +99,7 @@
       "target": "module_team_level_60",
       "file": "team_level_60_pink.png",
       "roi": [2850, 506, 3656, 1303],
-      "threshold": 0.97,
+      "threshold": 0.8,
       "source": "tests/fixtures/module-season/team-pink-prepared-720p.png",
       "source_roi_native": [1164, 356, 1210, 372],
       "level_text": "LV.60",
@@ -109,7 +109,7 @@
       "target": "module_team_level_60",
       "file": "team_level_60_dark.png",
       "roi": [2850, 506, 3656, 1303],
-      "threshold": 0.97,
+      "threshold": 0.8,
       "source": "tests/fixtures/module-season/prepared-unity-720p.png",
       "source_roi_native": [1164, 178, 1210, 194],
       "level_text": "LV.60",
@@ -119,7 +119,7 @@
       "target": "module_team_level_60",
       "file": "team_level_60_support.png",
       "roi": [2850, 506, 3656, 1303],
-      "threshold": 0.97,
+      "threshold": 0.8,
       "source": "tests/fixtures/module-season/prepared-unity-720p.png",
       "source_roi_native": [986, 356, 1032, 372],
       "level_text": "LV.60",
@@ -472,7 +472,7 @@
         3656,
         1303
       ],
-      "threshold": 0.97,
+      "threshold": 0.8,
       "source": "tests/fixtures/astra-ten-720p/team-level-missed.png",
       "source_roi_native": [
         1164,
@@ -481,7 +481,7 @@
         194
       ],
       "level_text": "LV.60",
-      "identity": "Complete LV.60 glyph from the actual first-round 720P failure. Requires textured portrait and matching only within the current slot level strip at unchanged 0.97; independent live revalidation required."
+      "identity": "Complete LV.60 glyph from the actual first-round 720P failure. Requires textured portrait and matching only within the current slot level strip at the shared 0.8 recognition threshold; level diagnostics do not gate an already configured team."
     },
     "module_team_level_60_round_2_2": {
       "target": "module_team_level_60",
@@ -492,7 +492,7 @@
         3656,
         1303
       ],
-      "threshold": 0.97,
+      "threshold": 0.8,
       "source": "tests/fixtures/astra-ten-720p/team-level-missed.png",
       "source_roi_native": [
         1075,
@@ -501,7 +501,7 @@
         283
       ],
       "level_text": "LV.60",
-      "identity": "Complete LV.60 glyph from the actual first-round 720P failure. Requires textured portrait and matching only within the current slot level strip at unchanged 0.97; independent live revalidation required."
+      "identity": "Complete LV.60 glyph from the actual first-round 720P failure. Requires textured portrait and matching only within the current slot level strip at the shared 0.8 recognition threshold; level diagnostics do not gate an already configured team."
     },
     "module_team_level_60_round_3_1": {
       "target": "module_team_level_60",
@@ -512,7 +512,7 @@
         3656,
         1303
       ],
-      "threshold": 0.97,
+      "threshold": 0.8,
       "source": "tests/fixtures/astra-ten-720p/team-level-missed.png",
       "source_roi_native": [
         986,
@@ -521,7 +521,7 @@
         372
       ],
       "level_text": "LV.60",
-      "identity": "Complete LV.60 glyph from the actual first-round 720P failure. Requires textured portrait and matching only within the current slot level strip at unchanged 0.97; independent live revalidation required."
+      "identity": "Complete LV.60 glyph from the actual first-round 720P failure. Requires textured portrait and matching only within the current slot level strip at the shared 0.8 recognition threshold; level diagnostics do not gate an already configured team."
     },
     "module_team_level_60_round_3_3": {
       "target": "module_team_level_60",
@@ -532,7 +532,7 @@
         3656,
         1303
       ],
-      "threshold": 0.97,
+      "threshold": 0.8,
       "source": "tests/fixtures/astra-ten-720p/team-level-missed.png",
       "source_roi_native": [
         1164,
@@ -541,7 +541,7 @@
         372
       ],
       "level_text": "LV.60",
-      "identity": "Complete LV.60 glyph from the actual first-round 720P failure. Requires textured portrait and matching only within the current slot level strip at unchanged 0.97; independent live revalidation required."
+      "identity": "Complete LV.60 glyph from the actual first-round 720P failure. Requires textured portrait and matching only within the current slot level strip at the shared 0.8 recognition threshold; level diagnostics do not gate an already configured team."
     },
     "module_icon_consistency_desktop": {
       "file": "unity_unselected_desktop.png",

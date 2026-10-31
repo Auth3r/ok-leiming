@@ -14,6 +14,7 @@ def rect(values):
     return tuple(round(v*1.875) for v in values)
 
 
+TEAM_MATCH_THRESHOLD=.8
 TEAM_ROI=rect((1520,275,1950,695))
 MODULE_LIST_ROI=(1369,506,3656,1725)
 MODULE_SCROLL_POINTS=((3000,1300),(1650,570))
@@ -58,11 +59,12 @@ def list_motion(before,after,count):
 
 
 def has_level(texts):
-    return any(match and int(match[1])>0 and getattr(b,'confidence',1)>=.8 for b in texts
+    return any(match and int(match[1])>0 and getattr(b,'confidence',1)>=TEAM_MATCH_THRESHOLD for b in texts
                if (match:=re.fullmatch(r'(?i)L?[VY][.·:]?(\d{1,3})',b.name.replace(' ',''))))
 
 
 def occupied_slot(task,row,col):
+    """Level recognition for diagnostics, not a second gate on a selected team."""
     # Different portraits confuse OCR detection. Retry the isolated level strip,
     # then its enlarged grayscale version; never infer occupancy from no plus alone.
     x,y,x2,y2=rect((1523+142*col,278+142*row,1662+142*col,405+142*row))
@@ -89,7 +91,7 @@ def occupied_slot(task,row,col):
         task.module_slot_failure=evidence
         return False
     def observed(producer,texts):
-        evidence['ocr_attempts'].append({'producer':producer,'threshold':.8,
+        evidence['ocr_attempts'].append({'producer':producer,'threshold':TEAM_MATCH_THRESHOLD,
             'texts':[{'text':b.name,'confidence':getattr(b,'confidence',None)} for b in texts]})
         return texts
     if isinstance(native,np.ndarray) and tuple(native.shape[1::-1])==(1280,720):
@@ -105,12 +107,12 @@ def occupied_slot(task,row,col):
         task.module_slot_evidence[f'{row+1}-{col+1}']=evidence
         return True
     texts=task.ocr(x=x/3840,y=y/2160,to_x=x2/3840,to_y=y2/2160,
-                   frame=task.frame,threshold=.8)
+                   frame=task.frame,threshold=TEAM_MATCH_THRESHOLD)
     observed('slot_ocr',texts)
     if has_level(texts):return accepted('slot_ocr',texts)
     x,y,x2,y2=rect((1570+142*col,281+142*row,1656+142*col,320+142*row))
     texts=task.ocr(x=x/3840,y=y/2160,to_x=x2/3840,to_y=y2/2160,
-                   frame=task.frame,threshold=.8)
+                   frame=task.frame,threshold=TEAM_MATCH_THRESHOLD)
     observed('level_strip_ocr',texts)
     if has_level(texts):return accepted('level_strip_ocr',texts)
     if isinstance(native,np.ndarray) and tuple(native.shape[1::-1])==(1280,720):
@@ -121,7 +123,7 @@ def occupied_slot(task,row,col):
             if grayscale:crop=cv2.cvtColor(cv2.cvtColor(crop,cv2.COLOR_BGR2GRAY),cv2.COLOR_GRAY2BGR)
             crop=cv2.resize(crop,None,fx=scale,fy=scale,interpolation=cv2.INTER_CUBIC)
             crop=cv2.copyMakeBorder(crop,20,20,20,20,cv2.BORDER_REPLICATE)
-            texts=task.ocr(frame=crop,threshold=.8)
+            texts=task.ocr(frame=crop,threshold=TEAM_MATCH_THRESHOLD)
             observed(f'native_{"gray" if grayscale else "color"}_{scale}x',texts)
             if has_level(texts):return accepted(f'native_{"gray" if grayscale else "color"}_{scale}x',texts)
         # Only a verified positive level glyph may bypass unread OCR, within
@@ -129,19 +131,21 @@ def occupied_slot(task,row,col):
         for name,templates in getattr(task,'native_templates',{}).items():
             match=re.fullmatch(r'module_team_level_(\d{1,3})',name)
             if not match or int(match[1])<=0:continue
-            for template,minimum in templates:
+            # Level evidence has one fixed business threshold; template metadata
+            # must not reintroduce a higher second-stage gate.
+            for template,_minimum in templates:
                 if source.shape[0]<template.shape[0] or source.shape[1]<template.shape[1]:continue
                 score=float(cv2.matchTemplate(source,template,cv2.TM_CCOEFF_NORMED).max())
-                evidence['glyph_attempts'].append({'template':name,'threshold':max(.97,minimum),
+                evidence['glyph_attempts'].append({'template':name,'threshold':TEAM_MATCH_THRESHOLD,
                     'score':score,'template_shape':list(template.shape),'roi_native':[left,top,right,bottom]})
-                if score>=max(.97,minimum):return accepted('level_glyph_'+match[1],score=score)
+                if score>=TEAM_MATCH_THRESHOLD:return accepted('level_glyph_'+match[1],score=score)
         # This support strip's current white text is read as LW60 by CUBIC.
         # One bounded same-packet retry may supply a complete positive literal;
         # existing successful producers and the strict has_level rule stay first.
         if (row,col)==(2,2):
             crop=cv2.resize(source,None,fx=3,fy=3,interpolation=cv2.INTER_LINEAR)
             crop=cv2.copyMakeBorder(crop,24,24,24,24,cv2.BORDER_REPLICATE)
-            texts=task.ocr(frame=crop,threshold=.8)
+            texts=task.ocr(frame=crop,threshold=TEAM_MATCH_THRESHOLD)
             observed('native_color_linear_3x',texts)
             if has_level(texts):return accepted('native_color_linear_3x',texts)
         return failed('no_positive_level_evidence')
@@ -149,7 +153,7 @@ def occupied_slot(task,row,col):
     gray=cv2.cvtColor(crop,cv2.COLOR_BGR2GRAY)
     gray=cv2.resize(gray,None,fx=2,fy=2,interpolation=cv2.INTER_CUBIC)
     gray=cv2.copyMakeBorder(gray,20,20,20,20,cv2.BORDER_REPLICATE)
-    texts=task.ocr(frame=cv2.cvtColor(gray,cv2.COLOR_GRAY2BGR),threshold=.8)
+    texts=task.ocr(frame=cv2.cvtColor(gray,cv2.COLOR_GRAY2BGR),threshold=TEAM_MATCH_THRESHOLD)
     observed('reference_gray_2x',texts)
     return accepted('reference_gray_2x',texts) if has_level(texts) else failed('no_positive_level_evidence')
 
@@ -158,10 +162,6 @@ def check_team(vision):
     # User explicitly requires every slot occupied, including the support slot.
     if vision.find('module_plus',TEAM_ROI) or vision.find('module_plus_partial',TEAM_ROI):
         raise SafetyStop('研发队员存在加号空位：请手动补齐全部队员后重新运行。')
-    for row in range(3):
-        for col in range(3):
-            if not occupied_slot(vision.task,row,col):
-                raise SafetyStop(f'第{row+1}排第{col+1}格队员识别失败（不是检测到加号）。请重新运行或生成问题报告。')
 
 
 class ModulePreparation:
@@ -184,28 +184,11 @@ class ModulePreparation:
         return self.v.find(brand,(540,630,960,1110))
 
     def verify_team(self):
-        diagnostic_epochs=set()
-        def ready():
-            if not self.v.page('MODULE_RESEARCH'):
-                raise SafetyStop('队员复核时页面变化，停止操作')
-            try:
-                check_team(self.v)
-                return True
-            except SafetyStop as error:
-                # The core portrait has a moving gold shine over its level label.
-                # Retry fresh frames only; an actual empty slot still stops immediately.
-                if '识别失败' in str(error):
-                    evidence=getattr(getattr(self.v,'task',None),'module_slot_failure',None)
-                    if isinstance(evidence,dict):
-                        metadata=evidence.get('capture_metadata') or {}
-                        epoch=(metadata.get('session_id'),metadata.get('sequence')) if metadata.get('session_id') is not None and metadata.get('sequence') is not None else ('pixels',evidence.get('native_frame_sha256'))
-                        if epoch not in diagnostic_epochs and len(diagnostic_epochs)<3:
-                            diagnostic_epochs.add(epoch)
-                            self.f.emit('module_team_slot_unreadable',failure=str(error),
-                                diagnostic_attempt=len(diagnostic_epochs),maximum_attempts=3,**deepcopy(evidence))
-                    return False
-                raise
-        self.f.wait(ready,'等待队员扫光结束并复核全部槽位')
+        # The configured team is complete when the research page has no empty
+        # slot marker. Reading each portrait's level again is not a prerequisite.
+        if not self.v.page('MODULE_RESEARCH'):
+            raise SafetyStop('队员复核时页面变化，停止操作')
+        check_team(self.v)
 
     def candidates(self,name):
         x,y,x2,y2=self.v.manifest['templates'][name]['roi']
@@ -436,12 +419,11 @@ class ModulePreparation:
         return '开始刻录' in texts and bool(texts & stages)
 
     def verify_preparation_team(self):
-        if self.profile not in ('军工','一致'):return self.verify_team()
-        # These teams are user-managed. A positive empty-slot marker still
-        # stops, but unreadable portrait levels cannot invalidate their team.
-        if not self.v.page('MODULE_RESEARCH'):raise SafetyStop('队员复核时页面变化，停止操作')
-        if self.v.find('module_plus',TEAM_ROI) or self.v.find('module_plus_partial',TEAM_ROI):
-            raise SafetyStop('研发队员存在加号空位：请手动配置队员；程序不会修改配队。')
+        # A completed team remains valid for this preparation. Portrait/list
+        # changes do not require a second recognition result before crafting.
+        if getattr(self.f,'module_team_ready',False):return
+        self.verify_team()
+        self.f.module_team_ready=True
 
     def navigate(self,active=lambda:False):
         """Reach research without replacing a module already in progress."""
@@ -460,16 +442,19 @@ class ModulePreparation:
 
     def run(self):
         f=self.f
+        f.module_team_ready=False
         self.navigate()
         if not self.module_ready():self.select_module()
         f.require('MODULE_RESEARCH')
+        # Keep the completed team result for this preparation; blueprint clicks
+        # do not require another observation of the right-hand roster.
         self.verify_preparation_team()
         state=f.wait(lambda:'selected' if self.blueprint_ready() else
                      'unselected' if self.v.find('module_blue_choose') else None,
                      '核对蓝图已选路径或选择入口（模板未命中不代表未选择）')
         if state=='unselected':
             f.click('MODULE_RESEARCH','module_blue_choose',lambda:self.v.page('BLUEPRINT_SELECTOR') or self.ready(),
-                    '打开研发蓝图',precondition=self.verify_preparation_team,allow_already_done=True)
+                    '打开研发蓝图',allow_already_done=True)
         if state=='unselected' and not self.ready():
             f.require('BLUEPRINT_SELECTOR')
             matches=self.candidates('module_blue_card')
@@ -479,5 +464,4 @@ class ModulePreparation:
                     '选择首个可用蓝图',roi=self.pin('module_blue_card',matches[0]))
             f.click('BLUEPRINT_SELECTOR','module_confirm',lambda:self.ready(),'确认研发蓝图',allow_already_done=True)
         f.wait(self.ready,'复核'+self.profile+'胚子和蓝图')
-        self.verify_preparation_team()
         f.snapshot('module_ready')

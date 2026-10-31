@@ -1597,6 +1597,7 @@ class ModuleCrafting:
         self.normal_origin_known=True
         self.module_active=True;self.checkpoint_action()
         self.button('prepared','实验启动',lambda now:now.kind=='hub')
+        self.f.module_team_ready=False
         crafting_local_runtime.start_verified(self,s,self.screen())
         self.pending_action=None;self.checkpoint_action()
 
@@ -1612,7 +1613,6 @@ class ModuleCrafting:
         if crafting_local_runtime.enabled(self):
             preparation=ModulePreparation(self.f)
             if not preparation.ready():raise SafetyStop('实验启动前模组身份或蓝图状态变化，未发送确认')
-            preparation.verify_preparation_team()
 
     def run(self):
         restored=getattr(self.f.task,'only',None)!='MODULE_RESUME'

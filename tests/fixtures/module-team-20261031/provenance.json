@@ -1,0 +1,15 @@
+{
+  "source_archive": "镭明问题报告-20261031-210226-244868.zip",
+  "source_commit": "9a06c5512b3773c89d4a7dcf387016a88b2ef61f",
+  "scope": "Unmodified 1280x720 WGC incident screenshots. Offline replay only.",
+  "files": {
+    "prepare.png": {
+      "sha256": "cd695e6e90416208787421f59c068e626459f646b9797551780776a1759a25dc",
+      "source": "evidence\\module-fix-20261031\\report\\logs\\20261031-210008-981897\\0016_MODULE_PREPARE_FAILED.png"
+    },
+    "craft.png": {
+      "sha256": "9018b3d27ce6973196ba301311bceb9bfb3e87358c7ec920e09114e5c36e66dc",
+      "source": "evidence\\module-fix-20261031\\report\\logs\\20261031-205828-811303\\0016_MODULE_CRAFT_FAILED.png"
+    }
+  }
+}
