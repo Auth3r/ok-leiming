@@ -129,16 +129,20 @@ def app():
     return QApplication.instance() or QApplication([])
 
 
-def test_actual_version_card_labels_prerelease_as_prerelease(app):
+@pytest.mark.parametrize('version,channel', [
+    ('v1.0.0-beta.8', '预发布'),
+    ('v1.0.0', '正式版'),
+])
+def test_actual_version_card_labels_release_channel(app, monkeypatch, version, channel):
     from types import SimpleNamespace
     from PySide6.QtGui import QIcon
     from ok.ui.qt.about.VersionCard import VersionCard
-    from src.version import APP_VERSION
-    card = UpdateCard(APP_VERSION, UpdateApi(client([])))
-    identity = VersionCard({}, QIcon(), 'App', APP_VERSION, False)
+    monkeypatch.setattr('src.update_api.APP_VERSION', version)
+    card = UpdateCard(version, UpdateApi(client([]), version))
+    identity = VersionCard({}, QIcon(), 'App', version, False)
     try:
         install_update_api(SimpleNamespace(about_tab=SimpleNamespace(update_card=card, version_card=identity)))
-        assert identity.contentLabel.text() == f'{APP_VERSION} · 预发布'
+        assert identity.contentLabel.text() == f'{version} · {channel}'
     finally:
         card.deleteLater()
         identity.deleteLater()
